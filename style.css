@@ -6,7 +6,8 @@ body{
 }
 
 div.container{
-	min-height: 1658px;
+	min-height: 1558px;
+	padding: 50px 0;
 	background-image: url('./images/indexback.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
