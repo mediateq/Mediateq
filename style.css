@@ -1,3 +1,7 @@
+nav,*,div,header,footer{
+	outline: 1px dashed red;
+}
+
 body{
 	min-height: 1658px;
 	background-image: url('./images/pat.png');
@@ -11,4 +15,8 @@ div.container{
 	background-image: url('./images/indexback.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
+}
+
+header{
+	min-height: 200px;
 }

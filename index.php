@@ -7,6 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 <body>
-	<div class="container"></div>
+	<div class="container">
+		<header>
+			
+		</header>
+	</div>
 </body>
 </html>
