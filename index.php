@@ -7,13 +7,16 @@
 	<link rel="stylesheet" type="text/css" href="./style.css" />
 </head>
 <body>
-	<div class="container">
+	<div class="contain">
+		<div class="container">
 		<header>
 			<div class="log-so">
 				<div class="logo"></div>
-				<div class="so"></div>
+				<div class="social-con"></div>
+				<div class="badboy"></div>
 			</div>
 		</header>
+	</div>
 	</div>
 </body>
 </html>

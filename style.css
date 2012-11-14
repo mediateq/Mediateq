@@ -9,10 +9,13 @@ body{
 	background-position: center;
 }
 
-div.container{
-	min-height: 1558px;
-	padding: 50px 0;
-	background-image: url('./images/indexback.jpg');
+div.contain{
+	width: 950px;
+	min-height: 1235px;
+	margin: 50px auto 0;
+	padding: 0 40px 0;
+	background-color: #fff;
+	background-image: url('./images/indexback2.jpg');
 	background-repeat: no-repeat;
 	background-position: top center;
 }
@@ -23,12 +26,19 @@ header{
 
 header .log-so{
 	min-height: 130px;
+	padding-top: 1px;
 }
 
 header .log-so .logo{
-	width: 315px;
+	width: 340px;
 	float: left;
 	min-height: 70px;
-	margin-left: 45px;
 	margin-top: 40px;
+}
+
+header .log-so .social-con{
+	width: 290px;
+	min-height: 95px;
+	margin-left: 660px;
+	margin-top: 32px;
 }
