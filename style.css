@@ -20,3 +20,15 @@ div.container{
 header{
 	min-height: 200px;
 }
+
+header .log-so{
+	min-height: 130px;
+}
+
+header .log-so .logo{
+	width: 315px;
+	float: left;
+	min-height: 70px;
+	margin-left: 45px;
+	margin-top: 40px;
+}
