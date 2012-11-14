@@ -20,6 +20,9 @@
 				<nav class="menu"></nav>
 			</div>
 		</header>
+		<section class="banner">
+			<div class="slideshow"></div>
+		</section>
 	</div>
 	</div>
 </body>
