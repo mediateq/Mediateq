@@ -35,6 +35,14 @@
 				<div class="forth"></div>
 				<div class="badboy"></div>
 			</div>
+			<div class="partner">
+				<div class="first"></div>
+				<div class="second"></div>
+				<div class="third"></div>
+				<div class="forth"></div>
+				<div class="fifth"></div>
+				<div class="badboy"></div>
+			</div>
 		</section>
 	</div>
 	</div>

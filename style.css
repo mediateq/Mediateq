@@ -78,3 +78,13 @@ section.banner .recent .forth{
 	width: 237px;
 	min-height: 290px;
 }
+
+section.banner .partner .first,
+section.banner .partner .second,
+section.banner .partner .third,
+section.banner .partner .forth,
+section.banner .partner .fifth{
+	float: right;
+	width: 190px;
+	min-height: 155px;
+}
