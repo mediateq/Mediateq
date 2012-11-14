@@ -1,5 +1,8 @@
 body{
 	min-height: 1658px;
+	background-image: url('./images/pat.png');
+	background-repeat: repeat-x repeat-y;
+	background-position: center;
 }
 
 div.container{
