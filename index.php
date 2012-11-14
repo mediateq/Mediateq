@@ -22,6 +22,12 @@
 		</header>
 		<section class="banner">
 			<div class="slideshow"></div>
+			<div class="welcome">
+				<div class="first"></div>
+				<div class="second"></div>
+				<div class="third"></div>
+				<div class="badboy"></div>
+			</div>
 		</section>
 	</div>
 	</div>

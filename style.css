@@ -3,6 +3,7 @@ nav,*,div,header,footer{
 }
 
 body{
+	direction: rtl;
 	min-height: 1658px;
 	background-image: url('./images/pat.png');
 	background-repeat: repeat-x repeat-y;
@@ -59,4 +60,12 @@ header.header .menu{
 
 section.banner .slideshow{
 	min-height: 415px;
+}
+
+section.banner .welcome .first,
+section.banner .welcome .second,
+section.banner .welcome .third{
+	float: right;
+	width: 316px;
+	min-height: 150px;
 }
