@@ -11,7 +11,10 @@
 		<div class="container">
 			<header class="header">
 				<div class="log-so">
-					<div class="logo"></div>
+					<div class="logo">
+						<a href="#"><img src="./images/logo.png" alt="logo" /></a>
+						<div class="text"><p>نوشته مورد نظر!</p></div>
+					</div>
 					<div class="social-con">
 						<div class="socialicon"></div>
 						<div class="contact"></div>
