@@ -1,7 +1,10 @@
 body{
-
+	min-height: 1658px;
 }
 
 div.container{
-	
+	min-height: 1658px;
+	background-image: url('./images/indexback.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
 }
