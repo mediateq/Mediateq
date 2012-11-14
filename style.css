@@ -4,7 +4,6 @@ nav,*,div,header,footer{
 
 body{
 	direction: rtl;
-	min-height: 1658px;
 	background-image: url('./images/pat.png');
 	background-repeat: repeat-x repeat-y;
 	background-position: center;
@@ -87,4 +86,28 @@ section.banner .partner .fifth{
 	float: right;
 	width: 190px;
 	min-height: 155px;
+}
+
+footer.contain{
+	width: 950px;
+	min-height: 323px;
+	margin: 0px auto 50px;
+	padding: 0 40px 0;
+	background-color: #303030;
+	background-image: url('./images/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+footer.contain .container{
+	min-height: 323px;
+}
+
+footer.contain .container .first,
+footer.contain .container .second,
+footer.contain .container .third,
+footer.contain .container .forth{
+	float: right;
+	width: 237px;
+	min-height: 323px;
 }
