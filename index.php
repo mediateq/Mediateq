@@ -18,14 +18,25 @@
 					<div class="social-con">
 						<div class="socialicon">
 							<ul>
-								<li><a href="#" class="facebook">Facebook</a></li>
-								<li><a href="#" class="twitter">Twitter</a></li>
-								<li><a href="#" class="dribbble">Dribbble</a></li>
-								<li><a href="#" class="linkedin">Linkedin</a></li>
-								<li><a href="#" class="pintrest">Pintrest</a></li>								
+								<li><a href="#" class="facebook"></a></li>
+								<li><a href="#" class="twitter"></a></li>
+								<li><a href="#" class="dribbble"></a></li>
+								<li><a href="#" class="linkedin"></a></li>
+								<li><a href="#" class="pintrest"></a></li>								
 							</ul>
 						</div>
-						<div class="contact"></div>
+						<div class="contact">
+							<ul>
+								<li>
+									<span class="postzip"></span>
+									<a href="#">info@amjadi.com</a>
+								</li>
+								<li>
+									<span class="tel"></span>
+									+98(936) 814 8833 
+								</li>
+							</ul>
+						</div>
 					</div>
 					<div class="badboy"></div>
 					<nav class="menu"></nav>
