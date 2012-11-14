@@ -15,9 +15,6 @@ div.contain{
 	margin: 50px auto 0;
 	padding: 0 40px 0;
 	background-color: #fff;
-	background-image: url('./images/indexback2.jpg');
-	background-repeat: no-repeat;
-	background-position: top center;
 }
 
 header.header{
@@ -45,6 +42,7 @@ header.header .log-so .social-con{
 
 header.header .log-so .social-con .socialicon{
 	min-height: 40px;
+	margin-left: 125px;
 }
 
 header.header .log-so .social-con .contact{
@@ -94,9 +92,6 @@ footer.contain{
 	margin: 0px auto 50px;
 	padding: 0 40px 0;
 	background-color: #303030;
-	background-image: url('./images/footer.jpg');
-	background-repeat: no-repeat;
-	background-position: top center;
 }
 
 footer.contain .container{
