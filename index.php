@@ -16,7 +16,15 @@
 						<div class="text"><p>نوشته مورد نظر!</p></div>
 					</div>
 					<div class="social-con">
-						<div class="socialicon"></div>
+						<div class="socialicon">
+							<ul>
+								<li><a href="#" class="facebook">Facebook</a></li>
+								<li><a href="#" class="twitter">Twitter</a></li>
+								<li><a href="#" class="dribbble">Dribbble</a></li>
+								<li><a href="#" class="linkedin">Linkedin</a></li>
+								<li><a href="#" class="pintrest">Pintrest</a></li>								
+							</ul>
+						</div>
 						<div class="contact"></div>
 					</div>
 					<div class="badboy"></div>
