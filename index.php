@@ -9,10 +9,13 @@
 <body>
 	<div class="contain">
 		<div class="container">
-		<header>
+		<header class="header">
 			<div class="log-so">
 				<div class="logo"></div>
-				<div class="social-con"></div>
+				<div class="social-con">
+					<div class="socialicon"></div>
+					<div class="contact"></div>
+				</div>
 				<div class="badboy"></div>
 			</div>
 		</header>

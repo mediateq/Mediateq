@@ -20,25 +20,34 @@ div.contain{
 	background-position: top center;
 }
 
-header{
+header.header{
 	min-height: 200px;
 }
 
-header .log-so{
+header.header .log-so{
 	min-height: 130px;
 	padding-top: 1px;
 }
 
-header .log-so .logo{
+header.header .log-so .logo{
 	width: 340px;
 	float: left;
 	min-height: 70px;
 	margin-top: 40px;
 }
 
-header .log-so .social-con{
+header.header .log-so .social-con{
 	width: 290px;
 	min-height: 95px;
 	margin-left: 660px;
 	margin-top: 32px;
+}
+
+header.header .log-so .social-con .socialicon{
+	min-height: 40px;
+}
+
+header.header .log-so .social-con .contact{
+	min-height: 25px;
+	margin-top: 30px;
 }
