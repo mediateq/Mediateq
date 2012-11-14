@@ -51,3 +51,8 @@ header.header .log-so .social-con .contact{
 	min-height: 25px;
 	margin-top: 30px;
 }
+
+header.header .menu{
+	min-height: 50px;
+	padding: 11px 0;
+}

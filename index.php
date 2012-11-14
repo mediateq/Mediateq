@@ -17,6 +17,7 @@
 					<div class="contact"></div>
 				</div>
 				<div class="badboy"></div>
+				<nav class="menu"></nav>
 			</div>
 		</header>
 	</div>
