@@ -69,3 +69,12 @@ section.banner .welcome .third{
 	width: 316px;
 	min-height: 150px;
 }
+
+section.banner .recent .first,
+section.banner .recent .second,
+section.banner .recent .third,
+section.banner .recent .forth{
+	float: right;
+	width: 237px;
+	min-height: 290px;
+}

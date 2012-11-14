@@ -28,6 +28,13 @@
 				<div class="third"></div>
 				<div class="badboy"></div>
 			</div>
+			<div class="recent">
+				<div class="first"></div>
+				<div class="second"></div>
+				<div class="third"></div>
+				<div class="forth"></div>
+				<div class="badboy"></div>
+			</div>
 		</section>
 	</div>
 	</div>
