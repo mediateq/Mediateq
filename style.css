@@ -26,6 +26,7 @@ div.contain{
 	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
+/* ---------------------------------Header----------------------------- */
 header.header{
 	min-height: 200px;
 }
@@ -206,11 +207,34 @@ header.header .log-so .social-con .contact .tel{
 	background-position: -168px 0px;
 }
 
-header.header .menu{
+/*////////////////////Menu///////////////////*/
+header.header nav{
 	min-height: 50px;
 	padding: 11px 0;
 }
 
+header.header nav menu{
+	min-height: 50px;
+	background-color: #303030;
+}
+
+header.header menu li{
+	float: right;
+	background-image: url('./images/menuline.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+header.header menu li:first-child{
+	background-image: none;
+}
+
+header.header menu li a{
+	display: block;
+	padding: 15px 10px;
+}
+
+/* ---------------------------------Banner----------------------------- */
 section.banner .slideshow{
 	min-height: 415px;
 }
@@ -242,6 +266,7 @@ section.banner .partner .fifth{
 	min-height: 155px;
 }
 
+/* ---------------------------------Footer----------------------------- */
 footer.contain{
 	width: 950px;
 	min-height: 323px;
