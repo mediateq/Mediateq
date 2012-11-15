@@ -1,6 +1,6 @@
-nav,*,div,header,footer{
+/*nav,*,div,header,footer{
 	outline: 1px dashed red;
-}
+}*/
 
 body{
 	direction: rtl;
@@ -55,7 +55,7 @@ header.header .log-so .logo .text{
 
 header.header .log-so .social-con{
 	width: 500px;
-	min-height: 95px;
+	min-height: 60px;
 	margin-right: 450px;
 	margin-top: 32px;
 }
@@ -207,7 +207,7 @@ header.header .log-so .social-con .contact .tel{
 	background-position: -168px 0px;
 }
 
-/*////////////////////Menu///////////////////*/
+/*//////////////////////////////////////Menu//////////////////////////////////*/
 header.header nav{
 	min-height: 50px;
 	padding: 11px 0;
@@ -231,7 +231,12 @@ header.header menu li:first-child{
 
 header.header menu li a{
 	display: block;
-	padding: 15px 10px;
+	padding: 17px 25px;
+	color: #fff;
+}
+
+header.header menu li a:hover{
+	background: #5ca20d;
 }
 
 /* ---------------------------------Banner----------------------------- */
