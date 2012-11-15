@@ -236,12 +236,33 @@ header.header menu li a{
 	color: #fff;
 }
 
-header.header menu li a:hover{
+header.header menu li:hover{
 	background: #5ca20d;
 }
 
+header.header menu li:hover li{
+	display: block;
+}
+
+/*///////submenu////////*/
 header.header menu li menu{
 	position: absolute;
+	z-index: 10;
+}
+
+header.header menu li menu li{
+	float: none;
+	border-top: 1px solid #404040;
+	text-align: right;
+	display: none;
+}
+
+header.header menu li menu li:first-child{
+	border-top: 0 none;
+}
+
+header.header menu li menu li a{
+	padding: 15px 20px;
 }
 
 /* ---------------------------------Banner----------------------------- */

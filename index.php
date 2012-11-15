@@ -44,15 +44,28 @@
 							<li><a href="#">خانه</a></li>	
 							<li><a href="#">پروژه ها</a>
 								<menu>
-									<li><a href="#">پروژه یک</a></li>
+									<li><a href="#"> در دست احداث پروژه یک</a></li>
 									<li><a href="#">پروژه دو</a></li>
 									<li><a href="#">پروژه سه</a></li>
 									<li><a href="#">پروژه چهار</a></li>
 								</menu>
 							</li>
-							<li><a href="#">گالری</a></li>
+							<li><a href="#">گالری</a>
+							<menu>
+									<li><a href="#"> در دست احداث پروژه یک</a></li>
+									<li><a href="#">پروژه دو</a></li>
+									<li><a href="#">پروژه سه</a></li>
+									<li><a href="#">پروژه چهار</a></li>
+								</menu></li>
 							<li><a href="#">تماس با ما</a></li>
-							<li><a href="#">درباره ما</a></li>
+							<li><a href="#">درباره ما</a>
+
+							<menu>
+									<li><a href="#"> در دست احداث پروژه یک</a></li>
+									<li><a href="#">یلتاتبلتابلتنبلتنلبنلبنوبفنبلانلنلبنلبنلبنلبنبلپروژه دو</a></li>
+									<li><a href="#">پروژه سه</a></li>
+									<li><a href="#">پروژه چهار</a></li>
+								</menu></li>
 						</menu>							
 					</nav>
 					<div class="badboy"></div>
