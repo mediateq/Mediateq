@@ -39,37 +39,49 @@
 						</div>
 					</div>
 					<div class="badboy"></div>
-					<nav>
-						<menu>
-							<li><a href="#">خانه</a></li>	
-							<li><a href="#">پروژه ها</a>
-								<menu>
-									<li><a href="#"> در دست احداث پروژه یک</a></li>
-									<li><a href="#">پروژه دو</a></li>
-									<li><a href="#">پروژه سه</a></li>
-									<li><a href="#">پروژه چهار</a></li>
-								</menu>
-							</li>
-							<li><a href="#">گالری</a>
-							<menu>
-									<li><a href="#"> در دست احداث پروژه یک</a></li>
-									<li><a href="#">پروژه دو</a></li>
-									<li><a href="#">پروژه سه</a></li>
-									<li><a href="#">پروژه چهار</a></li>
-								</menu></li>
-							<li><a href="#">تماس با ما</a></li>
-							<li><a href="#">درباره ما</a>
-
-							<menu>
-									<li><a href="#"> در دست احداث پروژه یک</a></li>
-									<li><a href="#">یلتاتبلتابلتنبلتنلبنلبنوبفنبلانلنلبنلبنلبنلبنبلپروژه دو</a></li>
-									<li><a href="#">پروژه سه</a></li>
-									<li><a href="#">پروژه چهار</a></li>
-								</menu></li>
-						</menu>							
-					</nav>
-					<div class="badboy"></div>
 				</div>
+				<div class="menu-part">
+					<div class="menu">
+						<nav>
+							<menu>
+								<li><a href="#">خانه</a></li>	
+								<li><a href="#">پروژه ها</a>
+									<menu>
+										<li><a href="#"> در دست احداث پروژه یک</a></li>
+										<li><a href="#">پروژه دو</a></li>
+										<li><a href="#">پروژه سه</a></li>
+										<li><a href="#">پروژه چهار</a></li>
+									</menu>
+								</li>
+								<li><a href="#">گالری</a>
+									<menu>
+										<li><a href="#"> در دست احداث پروژه یک</a></li>
+										<li><a href="#">پروژه دو</a></li>
+										<li><a href="#">پروژه سه</a></li>
+										<li><a href="#">پروژه چهار</a></li>
+									</menu>
+								</li>
+								<li><a href="#">تماس با ما</a></li>
+								<li><a href="#">درباره ما</a>
+									<menu>
+										<li><a href="#"> در دست احداث پروژه یک</a></li>
+										<li><a href="#">یلتاتبلتابلتنبلتنلبنلبنوبفنبلانلنلبنلبنلبنلبنبلپروژه دو</a></li>
+										<li><a href="#">پروژه سه</a></li>
+										<li><a href="#">پروژه چهار</a></li>
+									</menu>
+								</li>
+							</menu>							
+						</nav>
+						<div class="searchbox">
+							<form action="http://www.google.com/search" method="get" accept-charset="utf-8">
+								<input type="hidden" />
+								<input type="text" />
+							</form>
+						</div>
+					</div>
+					
+				</div>	
+
 			</header>
 			<section class="banner">
 				<div class="slideshow"></div>

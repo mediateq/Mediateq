@@ -1,6 +1,6 @@
-/*nav,*,div,header,footer{
+nav,*,div,header,footer{
 	outline: 1px dashed red;
-}*/
+}
 
 body{
 	direction: rtl;
@@ -32,7 +32,7 @@ header.header{
 }
 
 header.header .log-so{
-	min-height: 130px;
+	min-height: 90px;
 	padding-top: 1px;
 }
 
@@ -208,61 +208,72 @@ header.header .log-so .social-con .contact .tel{
 }
 
 /*//////////////////////////////////////Menu//////////////////////////////////*/
-header.header nav{
-	min-height: 50px;
-	padding: 11px 0;
+header.header div.menu-part{
+	padding: 10px 0;
 }
 
-header.header nav menu{
-	min-height: 50px;
+header.header div.menu-part .menu{
 	background-color: #303030;
+	min-height: 50px;	
+}
+
+header.header div.menu-part .menu nav{
+	min-height: 50px;
+	float: right;
+}
+
+header.header div.menu-part .menu nav menu{
+	min-height: 50px;
 	position: relative;
 }
 
-header.header menu li{
+header.header div.menu-part .menu menu li{
 	float: right;
 	background-image: url('./images/menuline.png');
 	background-repeat: no-repeat;
 	background-position: right center;
 }
 
-header.header menu li:first-child{
+header.header div.menu-part .menu menu li:first-child{
 	background-image: none;
 }
 
-header.header menu li a{
+header.header div.menu-part .menu menu li a{
 	display: block;
 	padding: 17px 25px;
 	color: #fff;
 }
 
-header.header menu li:hover{
+header.header div.menu-part .menu menu li:hover{
 	background: #5ca20d;
 }
 
-header.header menu li:hover li{
+header.header div.menu-part .menu menu li:hover li{
 	display: block;
 }
 
 /*///////submenu////////*/
-header.header menu li menu{
+header.header div.menu-part .menu menu li menu{
 	position: absolute;
 	z-index: 10;
+	background-color: #303030;
 }
 
-header.header menu li menu li{
+header.header div.menu-part .menu menu li menu li{
 	float: none;
 	border-top: 1px solid #404040;
 	text-align: right;
 	display: none;
+	background-image: none;
 }
 
-header.header menu li menu li:first-child{
+header.header div.menu-part .menu menu li menu li:first-child{
 	border-top: 0 none;
 }
 
-header.header menu li menu li a{
+header.header div.menu-part .menu menu li menu li a{
 	padding: 15px 20px;
+	white-space: nowrap;
 }
 
 /* ---------------------------------Banner----------------------------- */
