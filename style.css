@@ -247,10 +247,7 @@ header.header div.menu-part .menu menu li a{
 
 header.header div.menu-part .menu menu li:hover{
 	background: #5ca20d;
-}
-
-header.header div.menu-part .menu menu li:hover li{
-	display: block;
+	-webkit-transition: background 1s;
 }
 
 /*///////submenu////////*/
@@ -258,18 +255,22 @@ header.header div.menu-part .menu menu li menu{
 	position: absolute;
 	z-index: 10;
 	background-color: #303030;
+	display: none;
 }
 
 header.header div.menu-part .menu menu li menu li{
 	float: none;
 	border-top: 1px solid #404040;
 	text-align: right;
-	display: none;
 	background-image: none;
 }
 
 header.header div.menu-part .menu menu li menu li:first-child{
 	border-top: 0 none;
+}
+
+header.header div.menu-part .menu menu li:hover menu{
+	display: block;
 }
 
 header.header div.menu-part .menu menu li menu li a{
@@ -299,28 +300,28 @@ section.banner .slideshow{
 	margin: 0 auto;
 }
 
-section.banner .slideshow #gallery {
+section.banner .slideshow #gallery{
     position:relative;
     height:400px
 }
 
-section.banner .slideshow #gallery a {
+section.banner .slideshow #gallery a{
     float:left;
     position:absolute;
     left: 0;
 }
  
-section.banner .slideshow #gallery a img {
+section.banner .slideshow #gallery a img{
     border:none;
     width: 950px;
     height: 400px;
 }
  
-section.banner .slideshow #gallery a.show {
+section.banner .slideshow #gallery a.show{
     z-index:5;
 }
 
-section.banner .slideshow #gallery .caption {
+section.banner .slideshow #gallery .caption{
     z-index:600; 
     background-color:#000; 
     color:#ffffff; 
@@ -330,11 +331,11 @@ section.banner .slideshow #gallery .caption {
     bottom:0;
 }
 
-section.banner .slideshow #gallery .caption .content {
+section.banner .slideshow #gallery .caption .content{
     margin:5px
 }
  
-section.banner .slideshow #gallery .caption .content h3 {
+section.banner .slideshow #gallery .caption .content h3{
     margin:0;
     padding:0;
     color:#1DCCEF;
