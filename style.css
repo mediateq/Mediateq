@@ -216,6 +216,7 @@ header.header nav{
 header.header nav menu{
 	min-height: 50px;
 	background-color: #303030;
+	position: relative;
 }
 
 header.header menu li{
@@ -237,6 +238,10 @@ header.header menu li a{
 
 header.header menu li a:hover{
 	background: #5ca20d;
+}
+
+header.header menu li menu{
+	position: absolute;
 }
 
 /* ---------------------------------Banner----------------------------- */
