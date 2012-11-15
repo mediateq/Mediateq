@@ -136,6 +136,10 @@
 					<div class="badboy"></div>
 				</div>
 				<div class="recent">
+					<div class="hline">
+						<p>آخرین کارها</p>
+					</div>
+					<div class="badboy"></div>
 					<div class="first"></div>
 					<div class="second"></div>
 					<div class="third"></div>
