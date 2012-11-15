@@ -73,11 +73,12 @@
 							</menu>							
 						</nav>
 						<div class="searchbox">
-							<form action="http://www.google.com/search" method="get" accept-charset="utf-8">
-								<input type="hidden" />
-								<input type="text" />
+							<form action="http://www.google.com/search" method="get" target="_blank" accept-charset="utf-8">
+								<input type="hidden" name="sitesearch" value="www.mediateq.pro" />
+								<input type="text" class="search" name="as_q" autocomplete="off" />
 							</form>
 						</div>
+						<div class="badboy"></div>
 					</div>
 					
 				</div>	

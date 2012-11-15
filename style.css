@@ -1,6 +1,6 @@
-nav,*,div,header,footer{
+/*nav,*,div,header,footer{
 	outline: 1px dashed red;
-}
+}*/
 
 body{
 	direction: rtl;
@@ -210,6 +210,7 @@ header.header .log-so .social-con .contact .tel{
 /*//////////////////////////////////////Menu//////////////////////////////////*/
 header.header div.menu-part{
 	padding: 10px 0;
+	position: relative;
 }
 
 header.header div.menu-part .menu{
@@ -224,7 +225,7 @@ header.header div.menu-part .menu nav{
 
 header.header div.menu-part .menu nav menu{
 	min-height: 50px;
-	position: relative;
+
 }
 
 header.header div.menu-part .menu menu li{
@@ -274,6 +275,22 @@ header.header div.menu-part .menu menu li menu li:first-child{
 header.header div.menu-part .menu menu li menu li a{
 	padding: 15px 20px;
 	white-space: nowrap;
+}
+
+/*///////serach box////////*/
+header.header div.menu-part .searchbox input.search{ 
+	position: absolute;
+	left: 0px;
+	width: 104px;
+	padding: 0 40px 0 15px;
+	background-color: #303030;
+	border: none;
+	margin-top: 15px;
+	background-image: url('./images/search-ico.png');
+	background-repeat: no-repeat;
+	background-position: right center;
+	outline: 0 none;
+	color: #fff;
 }
 
 /* ---------------------------------Banner----------------------------- */
