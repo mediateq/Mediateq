@@ -317,7 +317,7 @@ section.banner .slideshow #gallery a img {
 }
  
 section.banner .slideshow #gallery a.show {
-    z-index:500
+    z-index:5;
 }
 
 section.banner .slideshow #gallery .caption {
