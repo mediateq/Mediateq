@@ -1,6 +1,6 @@
-/*nav,*,div,header,footer{
+nav,*,div,header,footer{
 	outline: 1px dashed red;
-}*/
+}
 
 body{
 	direction: rtl;
@@ -248,6 +248,10 @@ header.header div.menu-part .menu menu li a{
 header.header div.menu-part .menu menu li:hover{
 	background: #5ca20d;
 	-webkit-transition: background 1s;
+	-moz-transition: background 1s;
+	-ms-transition: background 1s;
+	-o-transition: background 1s;
+	transition: background 1s;
 }
 
 /*///////submenu////////*/
@@ -295,6 +299,7 @@ header.header div.menu-part .searchbox input.search{
 }
 
 /* ---------------------------------Banner----------------------------- */
+/*///////slideshow////////*/
 section.banner .slideshow{
 	min-height: 415px;
 	margin: 0 auto;
@@ -341,14 +346,22 @@ section.banner .slideshow #gallery .caption .content h3{
     color:#1DCCEF;
 }
 
+/*///////welcome////////*/
 section.banner .welcome .first,
 section.banner .welcome .second,
 section.banner .welcome .third{
 	float: right;
-	width: 316px;
+	width: 290px;
 	min-height: 150px;
+	margin: 22px 13px;
 }
 
+section.banner .welcome .tit{
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+/*///////Recent////////*/
 section.banner .recent .first,
 section.banner .recent .second,
 section.banner .recent .third,
@@ -358,6 +371,7 @@ section.banner .recent .forth{
 	min-height: 290px;
 }
 
+/*///////Partner////////*/
 section.banner .partner .first,
 section.banner .partner .second,
 section.banner .partner .third,
