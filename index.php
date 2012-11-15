@@ -5,6 +5,8 @@
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="./1styles.css" />
 	<link rel="stylesheet" type="text/css" href="./style.css" />
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
 </head>
 <body>
 	<div class="contain">
@@ -85,7 +87,24 @@
 
 			</header>
 			<section class="banner">
-				<div class="slideshow"></div>
+				<div class="slideshow">
+					<div id="gallery">
+					    <a class="show">
+						    <img src="images/others/slid1.jpg" alt="Flowing Rock" rel="<h3>Flowing Rock</h3>You can put html element 
+						    inside the REL attribute."/>
+						</a>  
+					    <a>
+					        <img src="images/others/slid2.jpg" alt="Grass Blades" rel="<h3>Grass Blades</h3>description"/>
+					    </a>
+					    <a>
+					        <img src="images/others/slid3.jpg" alt="Grass Blades" rel="<h3>Ghello</h3>word"/>
+					    </a>
+					    <div class="caption">
+					    	<div class="content"></div>
+					    </div>
+					</div>
+					<div class="badboy"></div>
+				</div>
 				<div class="welcome">
 					<div class="first"></div>
 					<div class="second"></div>
