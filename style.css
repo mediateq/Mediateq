@@ -402,14 +402,12 @@ section.banner .recent .tit{
 }
 
 /*///////Partner////////*/
-section.banner .partner .first,
-section.banner .partner .second,
-section.banner .partner .third,
-section.banner .partner .forth,
-section.banner .partner .fifth{
+section.banner .partner ul li{
 	float: right;
 	width: 190px;
-	min-height: 155px;
+	min-height: 100px;
+	outline: 1px solid #e5e5e5;
+	margin-bottom: 25px;
 }
 
 /* ---------------------------------Footer----------------------------- */
