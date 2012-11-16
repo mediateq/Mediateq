@@ -390,9 +390,9 @@ section.banner .recent .second,
 section.banner .recent .third,
 section.banner .recent .forth{
 	float: right;
-	width: 210px;
+	width: 222px;
 	min-height: 290px;
-	margin-right: 36px;
+	margin-right: 20px;
 	margin-bottom: 25px;
 }
 
@@ -401,7 +401,7 @@ section.banner .recent .first{
 }
 
 section.banner .recent .pic img{
-	width: 210px;
+	width: 222px;
 	height: 150px;
 }
 
@@ -436,9 +436,9 @@ footer.contain .container .second,
 footer.contain .container .third,
 footer.contain .container .forth{
 	float: right;
-	width: 218px;
+	width: 222px;
 	min-height: 298px;	
-	margin-right: 25px;
+	margin-right: 20px;
 }
 
 footer.contain .container .first{
