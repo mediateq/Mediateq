@@ -26,6 +26,13 @@ div.contain{
 	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
+.hline{
+	height: 15px;
+	background-image: url('./images/headline-bg.png');
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
 /* ---------------------------------Header----------------------------- */
 header.header{
 	min-height: 200px;
@@ -362,18 +369,6 @@ section.banner .welcome .tit{
 }
 
 /*///////Recent////////*/
-section.banner .recent .hline{
-	background-image: url('./images/headline-bg.png');
-	background-repeat: repeat-x;
-	background-position: center;
-}
-
-section.banner .recent .hline p{
-	background-color: #fff;
-	width: 100px;
-	font-size: 20px;
-}
-
 section.banner .recent .first,
 section.banner .recent .second,
 section.banner .recent .third,
