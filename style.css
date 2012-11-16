@@ -41,6 +41,14 @@ div.contain{
 	background-position: center;
 }
 
+.hlinefoot{
+	height: 15px;
+	background-image: url('./images/headline-footer-bg.png');
+	background-repeat: repeat-x;
+	background-position: center;
+	margin-bottom: 25px;
+}
+
 /* ---------------------------------Header----------------------------- */
 header.header{
 	min-height: 200px;
@@ -428,6 +436,35 @@ footer.contain .container .second,
 footer.contain .container .third,
 footer.contain .container .forth{
 	float: right;
-	width: 237px;
-	min-height: 323px;
+	width: 218px;
+	min-height: 298px;	
+	margin-right: 25px;
+}
+
+footer.contain .container .first{
+	margin-right: 0;
+}
+
+footer.contain .container p{
+	color: #fff;
+	background-color: #303030;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 25px;
+}
+
+footer.contain .container .first p{
+	width: 70px;
+}
+
+footer.contain .container .second p{
+	width: 95px;
+}
+
+footer.contain .container .third p{
+	width: 65px;
+}
+
+footer.contain .container .forth p{
+	width: 60px;
 }

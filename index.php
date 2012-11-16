@@ -221,10 +221,25 @@
 	</div>
 	<footer class="contain">
 		<div class="container">
-			<div class="first"></div>
-			<div class="second"></div>
-			<div class="third"></div>
-			<div class="forth"></div>
+			<div class="first">
+				<div class="hlinefoot">
+					<p>تماس با ما</p>
+				</div>
+			</div>
+			<div class="second">
+				<div class="hlinefoot">
+					<p>لینک های مفید</p>
+				</div>
+			</div>
+			<div class="third">
+				<div class="hlinefoot">
+					<p>کارهای ما</p>
+				</div>
+			</div>
+			<div class="forth">
+				<div class="hlinefoot">
+					<p>درباره ما</p>
+				</div>
 			<div class="badboy"></div>
 		</div>
 	</footer>
