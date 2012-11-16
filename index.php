@@ -137,10 +137,26 @@
 				</div>
 				<div class="recent">
 					<div class="hline"></div>
-					<div class="first"></div>
-					<div class="second"></div>
-					<div class="third"></div>
-					<div class="forth"></div>
+					<div class="first">
+						<div class="pic">
+							<img src="./images/others/3.jpg" alt="" />
+						</div>
+					</div>
+					<div class="second">
+						<div class="pic">
+							<img src="./images/others/4.jpg" alt="" />
+						</div>
+					</div>
+					<div class="third">
+						<div class="pic">
+							<img src="./images/others/2.jpg" alt="" />
+						</div>
+					</div>
+					<div class="forth">
+						<div class="pic">
+							<img src="./images/others/1.jpg" alt="" />
+						</div>
+					</div>
 					<div class="badboy"></div>
 				</div>
 				<div class="partner">

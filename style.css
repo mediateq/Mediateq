@@ -31,6 +31,7 @@ div.contain{
 	background-image: url('./images/headline-bg.png');
 	background-repeat: repeat-x;
 	background-position: center;
+	margin-bottom: 25px;
 }
 
 /* ---------------------------------Header----------------------------- */
@@ -374,8 +375,19 @@ section.banner .recent .second,
 section.banner .recent .third,
 section.banner .recent .forth{
 	float: right;
-	width: 237px;
+	width: 210px;
 	min-height: 290px;
+	margin-right: 36px;
+	margin-bottom: 25px;
+}
+
+section.banner .recent .first{
+	margin-right: 0;
+}
+
+section.banner .recent .pic img{
+	width: 210px;
+	height: 150px;
 }
 
 /*///////Partner////////*/
