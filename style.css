@@ -34,6 +34,13 @@ div.contain{
 	margin-bottom: 25px;
 }
 
+.hlines{
+	height: 15px;
+	background-image: url('./images/headline-bg.png');
+	background-repeat: repeat-x;
+	background-position: center;
+}
+
 /* ---------------------------------Header----------------------------- */
 header.header{
 	min-height: 200px;
@@ -388,6 +395,10 @@ section.banner .recent .first{
 section.banner .recent .pic img{
 	width: 210px;
 	height: 150px;
+}
+
+section.banner .recent .tit{
+	margin-top: 10px;
 }
 
 /*///////Partner////////*/
