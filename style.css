@@ -291,6 +291,10 @@ header.header div.menu-part .menu nav{
 	float: right;
 }
 
+header.header div.menu-part .menu nav p{
+	font-size: 20px;
+}
+
 header.header div.menu-part .menu nav menu{
 	min-height: 50px;
 
@@ -328,6 +332,8 @@ header.header div.menu-part .menu menu li menu{
 	z-index: 10;
 	background-color: #303030;
 	display: none;
+	min-width: 100%;
+	min-width: 180px;
 }
 
 header.header div.menu-part .menu menu li menu li{
@@ -335,6 +341,7 @@ header.header div.menu-part .menu menu li menu li{
 	border-top: 1px solid #404040;
 	text-align: right;
 	background-image: none;
+
 }
 
 header.header div.menu-part .menu menu li menu li:first-child{
