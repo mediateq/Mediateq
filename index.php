@@ -232,6 +232,7 @@
 					<textarea name="message" id="message" cols="25" rows="5" placeholder="پیام"></textarea>
 					<input type="submit" class="button" id="submit" name="submit" value="ارسال" />
 				</form>
+				<div class="badboy"></div>
 				</div>
 			</div>
 			<div class="second">
