@@ -527,7 +527,7 @@ footer.contain .container .hfoot{
 }
 
 footer.contain .container .copy p{
-	margin-top: 0;
+	margin-top: 5px;
 	font-size: 15px;
 	color: #aaa;
 }
@@ -543,4 +543,18 @@ footer.contain .container .anchor a{
 	background-image: url('./images/scroll-top.png');
 	background-position: center;
 	background-repeat: no-repeat;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+
+footer.contain .container .anchor a:hover{
+	background-color: #aaa;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
 }
