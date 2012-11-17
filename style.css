@@ -275,6 +275,22 @@ header.header .log-so .social-con .contact .tel{
 	background-position: -168px 0px;
 }
 
+header.header .log-so .social-con .contact li p{
+	white-space: nowrap;
+	margin-left: 18px;
+	font-size: 15px;
+}
+
+header.header .log-so .social-con .contact li h5{
+	margin-left: 15px;
+	color: #111;
+	font-size: 15px;
+}
+
+header.header .log-so .social-con .contact li h5 a{
+	color: #666;
+}
+
 /*//////////////////////////////////////Menu//////////////////////////////////*/
 header.header div.menu-part{
 	padding: 10px 0;
@@ -292,7 +308,7 @@ header.header div.menu-part .menu nav{
 }
 
 header.header div.menu-part .menu nav p{
-	font-size: 20px;
+	font-size: 19px;
 }
 
 header.header div.menu-part .menu nav menu{

@@ -36,13 +36,14 @@
 							<ul>
 								<li>
 									<span class="postzip"></span>
-									<a href="#">info@amjadi.com</a>
+									<h5><a href="#">info@tibasystem.com</a></h5>
 								</li>
 								<li>
 									<span class="tel"></span>
-									+98(936) 814 8833 
+									<p>3388 814 (936) 98+</p> 
 								</li>
 							</ul>
+							<div class="badboy"></div>
 						</div>
 					</div>
 					<div class="badboy"></div>
