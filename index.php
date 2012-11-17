@@ -91,14 +91,13 @@
 				<div class="slideshow">
 					<div id="gallery">
 					    <a class="show">
-						    <img src="images/others/slid1.jpg" alt="Flowing Rock" rel="<h3>Flowing Rock</h3>You can put html element 
-						    inside the REL attribute."/>
+						    <img src="images/others/slid1.jpg" alt="Flowing Rock" rel="<h3>سربرگ عکس اول</h3><p>متن عکس اول.</p>"/>
 						</a>  
 					    <a>
-					        <img src="images/others/slid2.jpg" alt="Grass Blades" rel="<h3>Grass Blades</h3>description"/>
+					        <img src="images/others/slid2.jpg" alt="Grass Blades" rel="<h3>سربرگ عکس دوم</h3><p>متن عکس دوم.</p>"/>
 					    </a>
 					    <a>
-					        <img src="images/others/slid3.jpg" alt="Grass Blades" rel="<h3>Ghello</h3>word"/>
+					        <img src="images/others/slid3.jpg" alt="Grass Blades" rel="<h3>سربرگ عکس سوم</h3><p>متن عکس سوم.</p>"/>
 					    </a>
 					    <div class="caption">
 					    	<div class="content"></div>

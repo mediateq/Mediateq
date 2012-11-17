@@ -380,6 +380,8 @@ section.banner .slideshow #gallery .caption .content h3{
     margin:0;
     padding:0;
     color:#1DCCEF;
+    text-align: right;
+    margin-bottom: 15px;
 }
 
 /*///////welcome////////*/
