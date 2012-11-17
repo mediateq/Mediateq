@@ -1,12 +1,19 @@
-nav,*,div,header,footer{
+/*nav,*,div,header,footer{
 	outline: 1px dashed red;
-}
+}*/
 
 body{
 	direction: rtl;
 	background-image: url('./images/pat.png');
 	background-repeat: repeat-x repeat-y;
 	background-position: center;
+}
+
+a:active,
+a:visited,
+a:link { 
+    border: none;
+    outline: none;
 }
 
 a{
@@ -524,10 +531,11 @@ footer.contain .container .forth .hlinefoot p{
 
 footer.contain .container .hfoot{
 	margin-bottom: 0;
+	height: 2px;
 }
 
 footer.contain .container .copy p{
-	margin-top: 5px;
+	margin-top: 13px;
 	font-size: 15px;
 	color: #aaa;
 }
