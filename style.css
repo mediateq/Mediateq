@@ -49,6 +49,14 @@ div.contain{
 	margin-bottom: 25px;
 }
 
+.ok {
+	outline : 1px solid #9f9;
+}
+
+.err {
+	outline : 1px solid #f99;
+}
+
 /* ---------------------------------Header----------------------------- */
 header.header{
 	min-height: 200px;
