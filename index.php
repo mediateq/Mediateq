@@ -238,12 +238,18 @@
 			</div>
 			<div class="second">
 				<div class="hlinefoot">
-					<p>لینک های مفید</p>
+					<p>ارتباط با ما</p>
 				</div>
 			</div>
 			<div class="third">
 				<div class="hlinefoot">
-					<p>ارتباط با ما</p>
+					<p>لینک های مفید</p>
+				</div>
+				<div class="link">
+					<h5><a href="#">لینک 1</a></h5>
+					<h5><a href="#">لینک 2</a></h5>
+					<h5><a href="#">لینک 3</a></h5>
+					<h5><a href="#">لینک 4</a></h5>
 				</div>
 			</div>
 			<div class="forth">

@@ -10,7 +10,12 @@ body{
 }
 
 a{
+	text-align: right;
 	text-decoration: none;
+}
+
+h5{
+	text-align: right;
 }
 
 p{
@@ -484,6 +489,14 @@ footer.contain .container .first .contact form .button:hover{
 	transition: all .7s;
 }
 
+footer.contain .container .third a{
+	color: #aaa;
+}
+
+footer.contain .container .third h5{
+	margin-bottom: 15px;
+}
+
 footer.contain .container p{
 	color: #fff;
 	background-color: #303030;
@@ -497,11 +510,11 @@ footer.contain .container .first p{
 }
 
 footer.contain .container .second p{
-	width: 95px;
+	width: 72px;
 }
 
 footer.contain .container .third p{
-	width: 72px;
+	width: 95px;
 }
 
 footer.contain .container .forth p{
