@@ -26,17 +26,32 @@ a:link {
     outline: none;
 }
 
-a{
+a,
+h5 a,
+a p{
 	text-align: right;
 	text-decoration: none;
+	-webkit-transition: color 1s;
+	-ms-transition: color 1s;
+	-moz-transition: color 1s;
+	-o-transition: color 1s;
+	transition: color 1s;
 }
 
-h5{
-	text-align: right;
+a:hover,
+h5 a:hover,
+a:hover p{
+	color: #5CA20D;
+	-webkit-transition: color 500ms;
+	-ms-transition: color 500ms;
+	-moz-transition: color 500ms;
+	-o-transition: color 500ms;
+	transition: color 500ms;
 }
 
-p{
+h5,p{
 	text-align: right;
+	font-family: 'bmitra';
 }
 
 div.contain{
@@ -518,8 +533,7 @@ footer.contain .container .third h5{
 footer.contain .container p{
 	color: #fff;
 	background-color: #303030;
-	font-weight: bold;
-	font-size: 17px;
+	font-size: 19px;
 	margin-top: 25px;
 }
 
