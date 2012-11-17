@@ -454,6 +454,7 @@ section.banner .recent .pic img{
 
 section.banner .recent .tit{
 	margin-top: 10px;
+	font-size: 20px;
 }
 
 /*///////Partner////////*/
@@ -522,8 +523,21 @@ footer.contain .container .first .contact form .button:hover{
 	transition: all .7s;
 }
 
+footer.contain .container .second .text p,
+footer.contain .container .forth .text p{
+	font-size: 18px;
+	color: #eee;
+	line-height: 1.5;
+}
+
 footer.contain .container .third a{
 	color: #aaa;
+	font-size: 18px;
+}
+
+	
+footer.contain .container .third a:hover{
+	color: #5CA20D;
 }
 
 footer.contain .container .third h5{
