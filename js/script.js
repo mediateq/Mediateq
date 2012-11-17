@@ -97,11 +97,8 @@ function validateEmail(str){
     });
 })(Zepto);
 
-// Anchor
-$(document).ready(function() {
-    $("a.anchorLink").anchorAnimate()
-});
 
+// Anchor link for scroll
 jQuery.fn.anchorAnimate = function(settings) {
 
     settings = jQuery.extend({
@@ -123,3 +120,7 @@ jQuery.fn.anchorAnimate = function(settings) {
         })
     })
 }
+
+$(document).ready(function() {
+    $("a.anchorLink").anchorAnimate()
+});

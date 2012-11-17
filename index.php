@@ -6,11 +6,11 @@
 	<link rel="stylesheet" type="text/css" href="./1styles.css" />
 	<link rel="stylesheet" type="text/css" href="./style.css" />
 	<script type="text/javascript" src="./js/zepto.min.js"></script>
-	<script type="text/javascript" src="./js/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/jquery.js"></script>
 	<script type="text/javascript" src="./js/script.js"></script>
 </head>
 <body>
-	<a name="anchorTarget" id="anchorTarget" ></a>
+	<a name="myAnchor" id="myAnchor"></a>
 	<div class="contain">
 		<div class="container">
 			<header class="header">
@@ -267,7 +267,7 @@
 			<div class="badboy"></div>
 			<div class="hlinefoot hfoot"></div>
 			<div class="anchor">
-				<a href="#anchorTarget" class="anchorLink"></a>
+				<a href="#myAnchor" rel="" id="anchor1" class="anchorLink"></a>
 			</div>
 			<div class="copy">
 				<p>کپی رایت 1391-تمامی حقوق این سایت متعلق به شرکت..</p>
