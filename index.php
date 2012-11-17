@@ -243,7 +243,7 @@
 			</div>
 			<div class="third">
 				<div class="hlinefoot">
-					<p>کارهای ما</p>
+					<p>ارتباط با ما</p>
 				</div>
 			</div>
 			<div class="forth">
