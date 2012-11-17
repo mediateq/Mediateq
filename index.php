@@ -10,6 +10,7 @@
 	<script type="text/javascript" src="./js/script.js"></script>
 </head>
 <body>
+	<span id="top"></span>
 	<div class="contain">
 		<div class="container">
 			<header class="header">
@@ -262,6 +263,14 @@
 				<div class="text">
 					<p>شرکت مامنیمبقامیناب یمنتب منیت یمنتل میلنت</p>
 				</div>
+			</div>
+			<div class="badboy"></div>
+			<div class="hlinefoot hfoot"></div>
+			<div class="anchor">
+				<a href="#top"></a>
+			</div>
+			<div class="copy">
+				<p>کپی رایت 1391-تمامی حقوق این سایت متعلق به شرکت..</p>
 			</div>
 			<div class="badboy"></div>
 		</div>
