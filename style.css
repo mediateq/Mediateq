@@ -445,6 +445,26 @@ footer.contain .container .first{
 	margin-right: 0;
 }
 
+footer.contain .container .first .contact form input,
+footer.contain .container .first .contact form textarea{
+	background-color: #303030;
+	border: 1px solid #404040;
+	margin: 5px 0;
+	float: right;
+	color: #fff;
+	outline: 0 none;
+}
+
+footer.contain .container .first .contact form .button{
+	background-color: #404040;
+	color: #fff;
+}
+
+footer.contain .container .first .contact form .button:hover{
+	background-color: #5ca20d;
+	color: #404040;
+}
+
 footer.contain .container p{
 	color: #fff;
 	background-color: #303030;

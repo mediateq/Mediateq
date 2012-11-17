@@ -225,12 +225,14 @@
 				<div class="hlinefoot">
 					<p>تماس با ما</p>
 				</div>
-				<form action="mail.php" id="contact" method="post" target="_blank">
+				<div class="contact">
+					<form action="mail.php" id="contact" method="post" target="_blank">
 					<input type="text"  class="text" name="name" id="name" placeholder="نام" />
 					<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
-					<textarea name="message" id="message" cols="65" rows="16" placeholder="پیام"></textarea>
+					<textarea name="message" id="message" cols="25" rows="5" placeholder="پیام"></textarea>
 					<input type="submit" class="button" id="submit" name="submit" value="ارسال" />
 				</form>
+				</div>
 			</div>
 			<div class="second">
 				<div class="hlinefoot">
