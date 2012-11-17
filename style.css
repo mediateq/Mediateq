@@ -454,8 +454,35 @@ footer.contain .container .forth{
 	margin-right: 20px;
 }
 
+
 footer.contain .container .first{
 	margin-right: 0;
+}
+
+
+footer.contain .container p{
+	color: #fff;
+	background-color: #303030;
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 25px;
+	line-height: 1.5;
+}
+
+footer.contain .container .first .hlinefoot p{
+	width: 70px;
+}
+
+footer.contain .container .hlinefoot .second p{
+	width: 72px;
+}
+
+footer.contain .container .hlinefoot .third p{
+	width: 95px;
+}
+
+footer.contain .container .hlinefoot .forth p{
+	width: 60px;
 }
 
 footer.contain .container .first .contact form input,
@@ -495,28 +522,4 @@ footer.contain .container .third a{
 
 footer.contain .container .third h5{
 	margin-bottom: 15px;
-}
-
-footer.contain .container p{
-	color: #fff;
-	background-color: #303030;
-	font-weight: bold;
-	font-size: 17px;
-	margin-top: 25px;
-}
-
-footer.contain .container .first p{
-	width: 70px;
-}
-
-footer.contain .container .second p{
-	width: 72px;
-}
-
-footer.contain .container .third p{
-	width: 95px;
-}
-
-footer.contain .container .forth p{
-	width: 60px;
 }
