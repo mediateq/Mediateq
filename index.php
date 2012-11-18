@@ -222,8 +222,8 @@
 				</div>
 				<div class="contact">
 					<form action="mail.php" id="contact" method="post" target="_blank">
-						<input type="text"  class="text" name="name" id="name" placeholder="نام" />
-						<input type="text" class="text" name="email" id="email" placeholder="ایمیل" />
+						<input type="text"  class="text" name="name" id="name" placeholder="نام" autocomplete="off" />
+						<input type="text" class="text" name="email" id="email" placeholder="ایمیل" autocomplete="off" />
 						<textarea name="message" id="message" cols="25" rows="5" placeholder="پیام"></textarea>
 						<input type="submit" class="button" id="submit" name="submit" value="ارسال" />
 					</form>
