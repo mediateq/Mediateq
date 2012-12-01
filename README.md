@@ -1,14 +1,14 @@
 ## website
 
-A web site for a company of Internet activity
+A web site for Mediateq company
 -----------------------
 ###Contributing
 
-* Check our project's website and report any bugs or ideas in [issues](https://github.com/mediateq/VOIP-Co/issues)
+* Check our project's website and report any bugs or ideas in [issues](https://github.com/mediateq/Mediateq/issues)
 
 * Check our project's source with
 ```
-  git clone https://github.com/mediateq/VOIP-Co.git
+  git clone https://github.com/mediateq/Mediateq.git
 ```
 
 * [HTML5](http://en.wikipedia.org/wiki/Html5)
@@ -22,6 +22,6 @@ A web site for a company of Internet activity
 
 
 ### All rights reserved ###
-The []() code and website is released under a MIT License.
+The [Mediateq](http://www.mediateq.ir) code and website is released under a MIT License.
 
 Produced by Cubatic (Autumn 2012)
