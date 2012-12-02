@@ -1,6 +1,6 @@
 ## website
 
-A web site for Mediateq company
+Web site for Mediateq company
 -----------------------
 ###Contributing
 
