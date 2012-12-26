@@ -17,7 +17,7 @@
 			<p>فرم تماس</p>
 		</div>
 		<div class="contact-page">
-			<form action="mail.php" id="contact" methPwod="post" target="_blank">
+			<form action="mail.php" id="contact" method="post" target="_blank">
 				<p><span>*</span> نام:</p>
 				<input type="text"  class="text" name="name" id="name" autocomplete="off" />
 				<p><span>*</span> ایمیل:</p>
@@ -30,8 +30,23 @@
 		</div>
 	</div>
 	<div class="left">
-		<div class="hline">
-			<p>مکان ما</p>
+		<div class="top">
+			<div class="hline">
+				<p>مکان ما</p>
+			</div>
+			<div class="map"></div>
+		</div>
+		<div class="bot">
+			<div class="hline">
+				<p>پیگیری ما</p>
+			</div>
+			<div id="social" class="tooltips">
+				<a href="#" class="facebook" title="Facebook"></a>
+				<a href="#" class="evernote" title="Evernote"></a>
+				<a href="#" class="linkedln" title="Linkedln"></a>
+				<a href="#" class="google" title="Google plus"></a>
+				<a href="#" class="vimeo" title="Vimeo"></a>
+			</div>
 		</div>
 	</div>
 	<div class="badboy"></div>

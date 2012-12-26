@@ -680,6 +680,48 @@ div.contact-content .hline p{
     width: 65px;
 }
 
+div.contact-content .left .top .map{
+    min-height: 280px;
+}
+
+div.contact-content .left .bot .tooltips{
+    margin-top: 20px;
+}
+
+div.contact-content .left .bot .tooltips .facebook,
+div.contact-content .left .bot .tooltips .evernote,
+div.contact-content .left .bot .tooltips .linkedln,
+div.contact-content .left .bot .tooltips .google,
+div.contact-content .left .bot .tooltips .vimeo{
+    float: right;
+    width: 28px;
+    height: 28px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-left: 10px;
+}
+
+div.contact-content .left .bot .tooltips .facebook{
+    background-image: url('./images/facebook.png');
+}
+
+div.contact-content .left .bot .tooltips .evernote{
+    background-image: url('./images/evernote.png');
+}
+
+div.contact-content .left .bot .tooltips .linkedln{
+    background-image: url('./images/linkedin.png');
+}
+
+div.contact-content .left .bot .tooltips .google{
+    background-image: url('./images/googleplus.png');
+}
+
+div.contact-content .left .bot .tooltips .vimeo{
+    background-image: url('./images/vimeo.png');
+}
+
 .contact-content .right .contact-page{
     margin: 35px 0;
 }

@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="./1styles.css" />
 	<link rel="stylesheet" type="text/css" href="./style.css" />
 	<script type="text/javascript" src="./js/zepto.min.js"></script>
-	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/script.js"></script>
 	<!--[if lt IE 9]>
 		<script src="./js/html5shiv.js"></script>
