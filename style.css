@@ -70,10 +70,6 @@ div.contain{
 	background-position: center;
 }
 
-.hline{
-	margin-bottom: 25px;
-}
-
 .boldline{
     width: 100px;
     height: 3px;
@@ -453,6 +449,10 @@ section.banner .welcome .tit{
 }
 
 /*///////Recent////////*/
+section.banner .recent{
+    margin-top: 25px;
+}
+
 section.banner .recent .first,
 section.banner .recent .second,
 section.banner .recent .third,
@@ -474,11 +474,19 @@ section.banner .recent .pic img{
 }
 
 section.banner .recent .tit{
-	margin-top: 10px;
+	margin: 10px 0;
 	font-size: 20px;
 }
 
+section.banner .recent .text{
+    margin-top: 10px;
+}
+
 /*///////Partner////////*/
+section.banner .partner{
+    margin-top: 25px;
+}
+
 section.banner .partner ul li{
 	float: right;
 	width: 190px;

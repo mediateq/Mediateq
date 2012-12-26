@@ -46,8 +46,8 @@
 					</div>
 					<div class="badboy"></div>
 				</div>
+				<div class="hline"></div>
 				<div class="recent">
-					<div class="hline"></div>
 					<div class="first">
 						<div class="pic">
 							<img src="./images/others/3.jpg" alt="" />
@@ -106,8 +106,8 @@
 					</div>
 					<div class="badboy"></div>
 				</div>
+				<div class="hline"></div>
 				<div class="partner">
-					<div class="hline"></div>
 					<ul>
 						<li>
 							<img src="./images/others/logo-05.png" alt="" />
