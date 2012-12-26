@@ -638,11 +638,44 @@ div.contact-content{
     min-height: 500px;
 }
 
+div.contact-content .tit{
+    padding: 15px 0;
+}
+
+div.contact-content .tit p{
+    font-family: 'bmitra';
+    font-size: 25px;
+}
+
 div.contact-content .text{
-    margin: 15px 0;
+    padding: 20px 0;
 }
 
 div.contact-content .text p{
     font-family: 'bmitra';
-    font-size: 25px;
+    font-size: 19px;
+}
+
+div.contact-content .right{
+    float: right;
+    width: 550px;
+    min-height: 360px;
+}
+
+div.contact-content .left{
+    float: left;
+    width: 350px;
+    min-height: 360px;
+}
+
+div.contact-content .right .hline,
+div.contact-content .left .hline{
+    height: 20px;
+}
+
+div.contact-content .hline p{
+    font-family: 'bmitra';
+    font-size: 18px;
+    background-color: white;
+    width: 65px;
 }
