@@ -2,7 +2,7 @@
 	include('./inc/header.php')
 ?>
 
-<div class="content-contact">
+<div class="contact-content">
 	<div class="text">
 		<p>تماس با ما</p>
 	</div>

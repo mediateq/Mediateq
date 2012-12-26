@@ -626,15 +626,15 @@ footer.contain .container .anchor a:hover{
 	transition: all .3s;
 }
 /************************Contact Page******************************/
-div.content-contact{
+div.contact-content{
     min-height: 500px;
 }
 
-div.content-contact .text{
+div.contact-content .text{
     margin: 15px 0;
 }
 
-div.content-contact .text p{
+div.contact-content .text p{
     font-family: 'bmitra';
     font-size: 25px;
 }
