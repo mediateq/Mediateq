@@ -647,18 +647,18 @@ div.contact-content .tit p{
     font-size: 25px;
 }
 
-div.contact-content .text{
+div.contact-content .txt{
     padding: 20px 0;
 }
 
-div.contact-content .text p{
+div.contact-content .txt p{
     font-family: 'bmitra';
     font-size: 19px;
 }
 
 div.contact-content .right{
     float: right;
-    width: 550px;
+    width: 570px;
     min-height: 360px;
 }
 
@@ -680,19 +680,41 @@ div.contact-content .hline p{
     width: 65px;
 }
 
-.contact-content .right form input,
-.contact-content .right form textarea{
-    background-color: #303030;
-    border: 1px solid #404040;
-    margin: 5px 0;
-    float: right;
-    color: #fff;
+.contact-content .right .contact-page{
+    margin: 35px 0;
 }
 
-.contact-content .right form .button{
-    background-color: #404040;
+.contact-content .right .contact-page form p{
+    margin-bottom: 5px;
+}
+
+.contact-content .right .contact-page form span{
+    color: red;
+}
+
+.contact-content .right .contact-page form input,
+.contact-content .right .contact-page form textarea{
+    margin:0 0 20px 0;
+    display: block;
+}
+
+.contact-content .right .contact-page form textarea{
+    width: 565px;
+    height: 200px;
+}
+
+.contact-content .right .contact-page form .text{
+    width: 240px;
+    height: 25px;
+    margin-bottom: 15px;
+}
+
+.contact-content .right .contact-page form .button{
+    padding: 8px 40px;
+    border: 0 none;
+    background-color: #72B626;
     color: #fff;
-    box-shadow: 0 1px 1px 0 #5ca20d;
+    cursor: pointer;
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
     -ms-transition: all .5s;
@@ -700,10 +722,8 @@ div.contact-content .hline p{
     transition: all .5s;
 }
 
-.contact-content .right form .button:hover{
-    background-color: #5ca20d;
-    color: #404040;
-    box-shadow: 0 1px 1px 0 #404040;
+.contact-content .right .contact-page form .button:hover{
+    background-color: #AAA;
     -webkit-transition: all .7s;
     -moz-transition: all .7s;
     -ms-transition: all .7s;
