@@ -13,10 +13,21 @@
 		<div class="hline">
 			<p>استخدام</p>
 		</div>
+		<div class="career">
+			<h5>همکاری با ما</h5>
+			<p>ما در حال ارائه فرصت های بزرگ برای مدیرت پروژه و طراحی وب سایت می باشیم.</p>
+			<a href="#">ثبت نام</a>
+			<div class="badboy"></div>
+		</div>
 	</div>	
 	<div class="right">
 		<div class="hline">
 			<p>روش ما</p>
+		</div>
+		<div class="text">
+			<p>
+				ما با روش نوین بکارگیری...
+			</p>
 		</div>
 	</div>
 	<div class="badboy"></div>

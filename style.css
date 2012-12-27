@@ -796,6 +796,50 @@ div.about-content .right{
     margin-top: 30px;
 }
 
+div.about-content .right .text p{
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+div.about-content .left .career{
+    border: 1px solid #DDD;
+    padding: 30px 45px;
+    background-color: #FAFAFA;
+    margin-top: 15px;
+}
+
+div.about-content .left .career h5{
+    font-size: 20px;
+}
+
+div.about-content .left .career p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+div.about-content .left .career a{
+    float: right;
+    text-align: center;
+    margin-top: 15px;
+    padding: 11px 17px;
+    background-color: #72B626;
+    color: #fff;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+div.about-content .left .career a:hover{
+    background-color: #AAA;
+    -webkit-transition: all .7s;
+    -moz-transition: all .7s;
+    -ms-transition: all .7s;
+    -o-transition: all .7s;
+    transition: all .7s;
+}
+
 div.about-content .right .hline,
 div.about-content .left .hline,
 div.about-content .meet .hline{
