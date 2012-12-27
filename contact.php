@@ -4,7 +4,7 @@
 
 <div class="contact-content">
 	<div class="tit">
-		<p>تماس با ما</p>
+		<h5>تماس با ما</h5>
 	</div>
 	<div class="hline">
 		<div class="boldline"></div>
@@ -14,7 +14,7 @@
 	</div>
 	<div class="right">
 		<div class="hline">
-			<p>فرم تماس</p>
+			<h5>فرم تماس</h5>
 		</div>
 		<div class="contact-page">
 			<form action="mail.php" id="contact" method="post" target="_blank">
@@ -32,13 +32,13 @@
 	<div class="left">
 		<div class="top">
 			<div class="hline">
-				<p>مکان ما</p>
+				<h5>مکان ما</h5>
 			</div>
 			<div class="map"></div>
 		</div>
 		<div class="bot">
 			<div class="hline">
-				<p>پیگیری ما</p>
+				<h5>پیگیری ما</h5>
 			</div>
 			<div id="social" class="tooltips">
 				<a href="#" class="facebook" title="Facebook"></a>

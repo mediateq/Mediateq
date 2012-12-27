@@ -4,14 +4,14 @@
 
 <div class="about-content">
 	<div class="tit">
-		<p>در باره ما</p>
+		<h5>در باره ما</h5>
 	</div>
 	<div class="hline">
 		<div class="boldline"></div>
 	</div>
 	<div class="left">
 		<div class="hline">
-			<p>استخدام</p>
+			<h5>استخدام</h5>
 		</div>
 		<div class="career">
 			<h5>همکاری با ما</h5>
@@ -22,7 +22,7 @@
 	</div>	
 	<div class="right">
 		<div class="hline">
-			<p>روش ما</p>
+			<h5>روش ما</h5>
 		</div>
 		<div class="text">
 			<p>
@@ -33,7 +33,7 @@
 	<div class="badboy"></div>
 	<div class="meet">
 		<div class="hline">
-			<p>اعضای گروه</p>
+			<h5>اعضای گروه</h5>
 		</div>
 		<div class="first">
 			<img src="./images/about-01.png" alt="">

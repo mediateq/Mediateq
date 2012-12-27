@@ -50,7 +50,7 @@
 				<a href="#myAnchor" rel="" id="anchor1" class="anchorLink"></a>
 			</div>
 			<div class="copy">
-				<p>کپی رایت 1391 - تمامی حقوق این سایت متعلق به شرکت..</p>
+				<p>کپی رایت 1391 - تمامی حقوق این سایت متعلق به مِدیا تِک می باشد</p>
 			</div>
 			<div class="badboy"></div>
 		</div>

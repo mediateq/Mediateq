@@ -638,8 +638,7 @@ div.contact-content .tit{
     padding: 15px 0;
 }
 
-div.contact-content .tit p{
-    font-family: 'bmitra';
+div.contact-content .tit h5{
     font-size: 25px;
 }
 
@@ -648,7 +647,6 @@ div.contact-content .txt{
 }
 
 div.contact-content .txt p{
-    font-family: 'bmitra';
     font-size: 19px;
 }
 
@@ -669,11 +667,10 @@ div.contact-content .left .hline{
     height: 20px;
 }
 
-div.contact-content .hline p{
-    font-family: 'bmitra';
+div.contact-content .hline h5{
     font-size: 18px;
     background-color: white;
-    width: 65px;
+    width: 60px;
 }
 
 div.contact-content .left .top .map{
@@ -777,8 +774,7 @@ div.about-content .tit{
     padding: 15px 0;
 }
 
-div.about-content .tit p{
-    font-family: 'bmitra';
+div.about-content .tit h5{
     font-size: 25px;
 }
 
@@ -846,14 +842,13 @@ div.about-content .meet .hline{
     height: 20px;
 }
 
-div.about-content .hline p{
+div.about-content .hline h5{
     background-color: #fff;
     width: 50px;
-    font-family: 'bmitra';
     font-size: 18px;
 }
 
-div.about-content .meet .hline p{
+div.about-content .meet .hline h5{
     width: 75px;
 }
 
