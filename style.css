@@ -229,10 +229,6 @@ header.header .log-so .social-con .socialicon a.dribbble:hover{
 	transition: all 300ms ease-in-out;
 }
 
-header.header .log-so .social-con .contact{
-	margin-top: 30px;
-}
-
 header.header .log-so .social-con .contact ul li{
 	float: left;
 	padding-left: 20px;

@@ -31,6 +31,7 @@
 								<li><a href="#" class="pintrest"></a></li>								
 							</ul>
 						</div>
+						<div class="badboy"></div>
 						<div class="contact">
 							<ul>
 								<li>
