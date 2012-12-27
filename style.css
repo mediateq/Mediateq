@@ -531,9 +531,10 @@ footer.contain .container .first .contact form textarea{
 }
 
 footer.contain .container .first .contact form .button{
-	background-color: #404040;
+	background-color: #72B626;
 	color: #fff;
-	box-shadow: 0 1px 1px 0 #5ca20d;
+    border: 0 none;
+    padding: 4px 9px;
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	-ms-transition: all .5s;
@@ -542,9 +543,7 @@ footer.contain .container .first .contact form .button{
 }
 
 footer.contain .container .first .contact form .button:hover{
-	background-color: #5ca20d;
-	color: #404040;
-	box-shadow: 0 1px 1px 0 #404040;
+	background-color: #AAA;
 	-webkit-transition: all .7s;
 	-moz-transition: all .7s;
 	-ms-transition: all .7s;
