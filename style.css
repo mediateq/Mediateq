@@ -483,11 +483,11 @@ section.banner .recent .text{
 }
 
 /*///////Partner////////*/
-section.banner .partner{
+.partner{
     margin-top: 25px;
 }
 
-section.banner .partner ul li{
+.partner ul li{
 	float: right;
 	width: 190px;
 	min-height: 100px;
@@ -765,10 +765,6 @@ div.contact-content .left .bot .tooltips .vimeo{
     transition: all .7s;
 }
 /************************About Page******************************/
-div.about-content{
-    min-height: 500px;
-}
-
 div.about-content .tit{
     padding: 15px 0;
 }
@@ -876,4 +872,8 @@ div.about-content .meet .first{
 
 div.about-content .meet p{
     margin: 10px 0;
+}
+/************************Services Page******************************/
+div.services-content{
+    min-height: 500px;
 }
