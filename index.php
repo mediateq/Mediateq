@@ -1,7 +1,7 @@
 <?php
 	include('./inc/header.php')
 ?>
-						<section class="banner">
+			<section class="banner">
 				<div class="slideshow">
 					<div id="gallery">
 					    <a class="show">
@@ -106,27 +106,9 @@
 					</div>
 					<div class="badboy"></div>
 				</div>
-				<div class="hline"></div>
-				<div class="partner">
-					<ul>
-						<li>
-							<img src="./images/others/logo-05.png" alt="" />
-						</li>
-						<li>
-							<img src="./images/others/logo-04.png" alt="" />
-						</li>
-						<li>
-							<img src="./images/others/logo-03.png" alt="" />
-						</li>
-						<li>
-							<img src="./images/others/logo-02.png" alt="" />
-						</li>
-						<li>
-							<img src="./images/others/logo-01.png" alt="" />
-						</li>
-					</ul>
-					<div class="badboy"></div>
-				</div>
+	<?php
+	include('./inc/partner.php')
+	?>			
 			</section>
 <?php
 	include('./inc/footer.php')
