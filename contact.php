@@ -3,7 +3,7 @@
 ?>
 
 <div class="contact-content">
-	<div class="tit">
+	<div id="tit-otherpage">
 		<h5>تماس با ما</h5>
 	</div>
 	<div class="hline">

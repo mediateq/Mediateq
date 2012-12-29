@@ -3,7 +3,7 @@
 ?>
 
 <div class="about-content">
-	<div class="tit">
+	<div id="tit-otherpage">
 		<h5>در باره ما</h5>
 	</div>
 	<div class="hline">
