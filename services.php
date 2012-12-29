@@ -2,12 +2,48 @@
 	include('./inc/header.php')
 ?>
 	<div class="services-content">
-		<div class="tit">
+		<div id="tit-otherpage">
 			<h5>خدمات</h5>
 		</div>
 		<div class="hline">
 			<div class="boldline"></div>
 		</div>
+		<div class="services">
+			<div class="right">
+				<div class="hline">
+					<h5>طراحی وب سایت</h5>
+				</div>
+			</div>
+			<div class="left">
+				<div class="hline">
+					<h5>امکانات</h5>
+				</div>
+			</div>
+			<div class="badboy"></div>
+			<div class="right">
+				<div class="hline">
+					<h5>هاست</h5>
+				</div>
+			</div>
+			<div class="left">
+				<div class="hline">
+					<h5>امکانات</h5>
+				</div>
+			</div>
+			<div class="badboy"></div>
+			<div class="right">
+				<div class="hline">
+					<h5>دامین</h5>
+				</div>
+			</div>
+			<div class="left">
+				<div class="hline">
+					<h5>امکانات</h5>
+				</div>
+			</div>
+			<div class="badboy"></div>
+		</div>
+	
 	</div>
 <?php
 	include('./inc/partner.php')

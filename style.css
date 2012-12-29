@@ -92,6 +92,14 @@ div.contain{
 	outline : 1px solid #f99;
 }
 
+#tit-otherpage{
+    padding: 15px 0;
+}
+
+#tit-otherpage h5{
+    font-size: 25px;
+}
+
 /* ---------------------------------Header----------------------------- */
 header.header{
 	min-height: 200px;
@@ -629,14 +637,6 @@ footer.contain .container .anchor a:hover{
 	transition: all .3s;
 }
 /************************Contact Page******************************/
-div.contact-content .tit{
-    padding: 15px 0;
-}
-
-div.contact-content .tit h5{
-    font-size: 25px;
-}
-
 div.contact-content .txt{
     padding: 20px 0;
 }
@@ -761,14 +761,6 @@ div.contact-content .left .bot .tooltips .vimeo{
     transition: all .7s;
 }
 /************************About Page******************************/
-div.about-content .tit{
-    padding: 15px 0;
-}
-
-div.about-content .tit h5{
-    font-size: 25px;
-}
-
 div.about-content .left{
     float: left;
     width: 350px;
@@ -872,4 +864,35 @@ div.about-content .meet p{
 /************************Services Page******************************/
 div.services-content{
     min-height: 500px;
+}
+
+div.services-content .services{
+    margin-top: 30px;
+}
+
+div.services-content .services .left{
+    float: left;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+div.services-content .services .right{
+     float: right;
+     width: 570px;
+     margin-bottom: 30px;
+}
+
+
+div.services-content .services .hline{
+    height: 20px;
+}
+
+div.services-content .services .hline h5{
+    background-color: #fff;
+    width: 45px;
+    font-size: 18px;
+}
+
+div.services-content .services .right:first-child .hline h5{
+    width: 100px;
 }
