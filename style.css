@@ -990,4 +990,24 @@ div.services-content .services .left .tik{
 .blog-content .right .link p{
     font-size: 18px;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-content .right .pages{
+    margin-top: 15px;
+}
+
+.blog-content .right .pages li{
+    float: right;
+    border: 1px solid #DDD;
+    margin-left: 5px;
+}
+
+.blog-content .right .pages a{
+    display: block;
+    padding: 5px 10px;
+}
+
+.blog-content .right .pages a p{
+    display: inline;
 }
