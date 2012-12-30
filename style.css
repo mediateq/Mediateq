@@ -862,10 +862,6 @@ div.about-content .meet p{
     margin: 10px 0;
 }
 /************************Services Page******************************/
-div.services-content{
-    min-height: 500px;
-}
-
 div.services-content .services{
     margin-top: 30px;
 }
@@ -908,4 +904,8 @@ div.services-content .services .left .tik{
     background-image: url('./images/tik.png');
     background-repeat: no-repeat;
     background-position: right center;
+}
+/************************Blog Page******************************/
+.blog-content{
+    min-height: 500px;
 }
