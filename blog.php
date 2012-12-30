@@ -17,9 +17,22 @@
 			<h5><a href="#">سربرگ</a></h5>
 		</div>
 		<div class="detail">
-			<div class="date"></div>
-			<div class="by"></div>
-			<div class="num-of-com"></div>
+			<div class="date">
+				<div class="image">
+					<p>تاریخ:</p>
+				</div>
+			</div>
+			<div class="by">
+				<div class="image">
+					<p>توسط:</p>
+				</div>
+			</div>
+			<div class="num-of-com">
+				<div class="image">
+					<p>تعداد:</p>
+				</div>
+			</div>
+			<div class="badboy"></div>
 		</div>
 		<div class="text">
 			<p>متن مورد نظر</p>

@@ -933,16 +933,58 @@ div.services-content .services .left .tik{
 
 .blog-content .right .title h5{
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .blog-content .right .detail{
+    margin-top: 10px;
+}
 
+.blog-content .right .detail .date,
+.blog-content .right .detail .by,
+.blog-content .right .detail .num-of-com{
+    float: right;
+    width: 200px;
+    min-height: 20px;
+    background-repeat: no-repeat;
+}
+
+.blog-content .right .detail .date .image{
+    background-image: url('./images/glyphicons-mini.png');
+    background-position: -192px -120px;
+    width: 14px;
+    height: 14px;
+}
+
+.blog-content .right .detail .date .image p{
+    margin-right: 20px;
+}
+
+.blog-content .right .detail .by .image{
+    background-image: url('./images/glyphicons-mini.png');
+    background-position: -168px 0;
+    width: 14px;
+    height: 14px;
+}
+
+.blog-content .right .detail .by .image p{
+    margin-right: 20px;
+}
+
+.blog-content .right .detail .num-of-com .image{
+    background-image: url('./images/glyphicons-mini.png');
+    background-position: -240px -120px;
+    width: 14px;
+    height: 14px;
+}
+
+.blog-content .right .detail .num-of-com .image p{
+    margin-right: 20px;
 }
 
 .blog-content .right .text p{
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .blog-content .right .link p{
