@@ -13,12 +13,23 @@
 		<div class="pic">
 			<img src="./images/blog-img-01.jpg" alt="">
 		</div>
-		<div class="title"></div>
-		<div class="detail"></div>
-		<div class="text"></div>
-		<div class="link"></div>
+		<div class="title">
+			<h5><a href="#">سربرگ</a></h5>
+		</div>
+		<div class="detail">
+			<div class="date"></div>
+			<div class="by"></div>
+			<div class="num-of-com"></div>
+		</div>
+		<div class="text">
+			<p>متن مورد نظر</p>
+		</div>
+		<div class="link">
+			<p><a href="#">ادامه مطلب</a></p>
+		</div>
 	</div>
 	<div class="left"></div>
+	<div class="badboy"></div>
 </div>
 
 <?php
