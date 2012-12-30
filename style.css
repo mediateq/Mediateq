@@ -909,3 +909,37 @@ div.services-content .services .left .tik{
 .blog-content{
     min-height: 500px;
 }
+
+.blog-content .right{
+    float: right;
+    width: 700px;
+    margin-top: 30px;
+}
+
+.blog-content .left{
+    float: right;
+    width: 220px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.blog-content .right .pic img{
+    width: 700px;
+    height: 320px;
+}
+
+.blog-content .right .title{
+
+}
+
+.blog-content .right .detail{
+
+}
+
+.blog-content .right .text{
+
+}
+
+.blog-content .right .link{
+
+}
