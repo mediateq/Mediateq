@@ -896,3 +896,16 @@ div.services-content .services .hline h5{
 div.services-content .services .right:first-child .hline h5{
     width: 100px;
 }
+
+div.services-content .services .right p,
+div.services-content .services .left p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 15px;
+}
+
+div.services-content .services .left .tik{
+    background-image: url('./images/tik.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
