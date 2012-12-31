@@ -108,6 +108,16 @@
 			<div class="hline">
 				<h5>برچسب</h5>
 			</div>
+			<h5><a href="#">وبلاگ</a></h5>
+			<h5><a href="#">جاوا</a></h5>
+			<h5><a href="#">ورود پرس</a></h5>
+			<h5><a href="#">زپتو</a></h5>
+			<h5><a href="#">تکنولوژی</a></h5>
+			<h5><a href="#">نرم افزار</a></h5>
+			<h5><a href="#">سخت افزار</a></h5>
+			<h5><a href="#">غیره</a></h5>
+			<h5><a href="#">اخبار جدید</a></h5>
+			<div class="badboy"></div>
 		</div>
 	</div>
 	<div class="badboy"></div>

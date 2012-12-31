@@ -1048,3 +1048,22 @@ div.services-content .services .left .tik{
 .blog-content .left .tag{
     margin-top: 25px;
 }
+
+.blog-content .left .tag a{
+    float: right;
+    display: block;
+    padding: 7px 10px;
+    outline: 1px solid #D8D8D8;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.blog-content .left .tag a:hover{
+    background-color: #5CA20D;
+    outline: 0 none;
+    color: #fff;
+}
+
+.blog-content .left .tag .hline{
+    margin-bottom: 15px;
+}
