@@ -88,7 +88,7 @@
 			<h5>جستجو</h5>
 		</div>
 		<div class="serach">
-			<input type="search" placeholder="جستجو">
+			<input type="search">
 			<div class="badboy"></div>
 		</div>
 		<div class="cat">

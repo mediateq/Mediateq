@@ -1020,10 +1020,11 @@ div.services-content .services .left .tik{
 
 .blog-content .left .serach input{
     float: right;
+    width: 82%;
     border: 1px solid #D8D8D8;
     margin-top: 10px;
     outline: 0 none;
-    padding: 8px 21px;
+    padding: 8px 19px;
     background-image: url('./images/search-ico-alt.png');
     background-repeat: no-repeat;
     background-position: 200px center;
