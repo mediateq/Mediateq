@@ -83,7 +83,26 @@
 		<div class="badboy"></div>
 
 	</div>
-	<div class="left"></div>
+	<div class="left">
+		<div class="hline">
+			<h5>جستجو</h5>
+		</div>
+		<div class="serach">
+			<input type="search" placeholder="جستجو">
+			<div class="badboy"></div>
+		</div>
+		
+		<div class="cat">
+			<div class="hline">
+				<h5>گروه ها</h5>
+			</div>
+		</div>
+		<div class="tag">
+			<div class="hline">
+				<h5>برچسب</h5>
+			</div>
+		</div>
+	</div>
 	<div class="badboy"></div>
 </div>
 

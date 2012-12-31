@@ -907,10 +907,6 @@ div.services-content .services .left .tik{
     background-position: right center;
 }
 /************************Blog Page******************************/
-.blog-content{
-    min-height: 500px;
-}
-
 .blog-content .right{
     float: right;
     width: 700px;
@@ -1010,4 +1006,29 @@ div.services-content .services .left .tik{
 
 .blog-content .right .pages a p{
     display: inline;
+}
+
+.blog-content .left .hline{
+    height: 20px;
+}
+
+.blog-content .left .hline h5{
+    background-color: #fff;
+    width: 50px;
+    font-size: 18px;
+}
+
+.blog-content .left .serach input{
+    float: right;
+    border: 1px solid #D8D8D8;
+    margin-top: 10px;
+    outline: 0 none;
+    padding: 8px 21px;
+    background-image: url('./images/search-ico-alt.png');
+    background-repeat: no-repeat;
+    background-position: 200px center;
+}
+
+.blog-content .left .cat{
+    margin-top: 25px;
 }
