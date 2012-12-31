@@ -1032,3 +1032,19 @@ div.services-content .services .left .tik{
 .blog-content .left .cat{
     margin-top: 25px;
 }
+
+.blog-content .left .cat ul{
+    float: right;
+}
+
+.blog-content .left .cat ul li a{
+    display: block;
+    padding: 5px 10px;
+    background-image: url('./images/links-list-arrow-02.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.blog-content .left .tag{
+    margin-top: 25px;
+}

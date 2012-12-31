@@ -91,11 +91,18 @@
 			<input type="search" placeholder="جستجو">
 			<div class="badboy"></div>
 		</div>
-		
 		<div class="cat">
 			<div class="hline">
 				<h5>گروه ها</h5>
 			</div>
+			<ul>
+				<li><h5><a href="#">تکنولوژی</a></h5></li>
+				<li><h5><a href="#">سخت افزار</a></h5></li>
+				<li><h5><a href="#">نرم افزار</a></h5></li>
+				<li><h5><a href="#">اخبار جدید</a></h5></li>
+				<li><h5><a href="#">غیره</a></h5></li>
+			</ul>
+			<div class="badboy"></div>
 		</div>
 		<div class="tag">
 			<div class="hline">
