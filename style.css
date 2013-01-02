@@ -1172,3 +1172,7 @@ div.services-content .services .left .tik{
     -o-transition: all 0.4s;
     transition: all 0.4s;
 }
+/************************Portfolio Page******************************/
+.portfolio-content{
+    min-height: 500px;
+}
