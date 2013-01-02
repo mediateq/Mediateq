@@ -1068,3 +1068,7 @@ div.services-content .services .left .tik{
 .blog-content .left .tag .hline{
     margin-bottom: 15px;
 }
+/************************Gallery Page******************************/
+.gallery-content{
+    min-height: 500px;
+}
