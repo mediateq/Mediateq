@@ -10,10 +10,18 @@
 		<div class="boldline"></div>
 	</div>
 	<div class="gallery">
-		<div class="first"></div>
-		<div class="second"></div>
-		<div class="third"></div>
-		<div class="forth"></div>
+		<div class="first">
+			<img src="./images/blog-img-01.jpg" alt="">
+		</div>
+		<div class="second">
+			<img src="./images/blog-img-01.jpg" alt="">
+		</div>
+		<div class="third">
+			<img src="./images/blog-img-01.jpg" alt="">
+		</div>
+		<div class="forth">
+			<img src="./images/blog-img-01.jpg" alt="">
+		</div>
 		<div class="badboy"></div>
 	</div>
 </div>

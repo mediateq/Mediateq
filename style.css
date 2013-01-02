@@ -1073,14 +1073,26 @@ div.services-content .services .left .tik{
     min-height: 500px;
 }
 
+.gallery-content .gallery{
+    margin-top: 30px;
+}
+
 .gallery-content .gallery .first,
 .gallery-content .gallery .second,
 .gallery-content .gallery .third,
 .gallery-content .gallery .forth{
     float: right;
-    width: 227px;
+    width: 220px;
     min-height: 200px;
-    margin-right: 14px;
+    margin-right: 23px;
+}
+
+.gallery-content .gallery .first img,
+.gallery-content .gallery .second img,
+.gallery-content .gallery .third img,
+.gallery-content .gallery .forth img{
+    width: 220px;
+    height: 139px;
 }
 
 .gallery-content .gallery .first{
