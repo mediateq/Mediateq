@@ -10,7 +10,12 @@
 		<div class="boldline"></div>
 	</div>
 	<div class="portfolio">
-		<div class="right"></div>		
+		<div class="right">
+			<div class="pic">
+				<a href="#"><img src="./images/blog-img-01.jpg" alt=""></a>
+				<div class="effect"></div>
+			</div>
+		</div>		
 		<div class="left"></div>
 		<div class="badboy"></div>
 	</div>
