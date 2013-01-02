@@ -1231,3 +1231,20 @@ div.services-content .services .left .tik{
     -o-transition: all 0.4s;
     transition: all 0.4s;
 }
+
+.portfolio-content .portfolio p{
+    margin: 10px 0;
+}
+
+.portfolio-content .portfolio .title p{
+    font-size: 18px;
+}
+
+.portfolio-content .portfolio .text p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.portfolio-content .portfolio .pic{
+    position: relative;
+}

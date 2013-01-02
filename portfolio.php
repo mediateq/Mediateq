@@ -15,9 +15,43 @@
 				<a href="#"><img src="./images/blog-img-01.jpg" alt=""></a>
 				<div class="effect"></div>
 			</div>
+			<div class="title"><p>کار شرکت...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات کار</p></div>
 		</div>		
-		<div class="left"></div>
+		<div class="left">
+			<div class="pic">
+				<a href="#"><img src="./images/blog-img-01.jpg" alt=""></a>
+				<div class="effect"></div>
+			</div>
+			<div class="title"><p>کار شرکت...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات کار</p></div>
+		</div>
 		<div class="badboy"></div>
+
+
+		<div class="right">
+			<div class="pic">
+				<a href="#"><img src="./images/blog-img-01.jpg" alt=""></a>
+				<div class="effect"></div>
+			</div>
+			<div class="title"><p>کار شرکت...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات کار</p></div>
+		</div>		
+		<div class="left">
+			<div class="pic">
+				<a href="#"><img src="./images/blog-img-01.jpg" alt=""></a>
+				<div class="effect"></div>
+			</div>
+			<div class="title"><p>کار شرکت...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات کار</p></div>
+		</div>
+		<div class="badboy"></div>
+
+
 	</div>
 </div>
 
