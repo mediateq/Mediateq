@@ -9,6 +9,13 @@
 	<div class="hline">
 		<div class="boldline"></div>
 	</div>
+	<div class="gallery">
+		<div class="first"></div>
+		<div class="second"></div>
+		<div class="third"></div>
+		<div class="forth"></div>
+		<div class="badboy"></div>
+	</div>
 </div>
 
 <?php

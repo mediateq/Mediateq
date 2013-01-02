@@ -1072,3 +1072,17 @@ div.services-content .services .left .tik{
 .gallery-content{
     min-height: 500px;
 }
+
+.gallery-content .gallery .first,
+.gallery-content .gallery .second,
+.gallery-content .gallery .third,
+.gallery-content .gallery .forth{
+    float: right;
+    width: 227px;
+    min-height: 200px;
+    margin-right: 14px;
+}
+
+.gallery-content .gallery .first{
+    margin-right: 0;
+}
