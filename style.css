@@ -927,6 +927,40 @@ div.services-content .services .left .tik{
     height: 320px;
 }
 
+.blog-content .pic{
+    position: relative;
+}
+
+.blog-content .pic .effect{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 700px;
+    height: 320px;
+    background-image: url('./images/overlay-icon-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
+.blog-content .pic .effect:hover{
+    opacity: 0.5;
+    background-color: #111;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
 .blog-content .right .title h5{
     font-size: 20px;
     margin-top: 10px;

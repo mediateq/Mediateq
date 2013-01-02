@@ -11,7 +11,8 @@
 	</div>
 	<div class="right">
 		<div class="pic">
-			<img src="./images/blog-img-01.jpg" alt="">
+			<a href="#" title=""><img src="./images/blog-img-01.jpg" alt=""></a>
+			<div class="effect"></div>
 		</div>
 		<div class="title">
 			<h5><a href="#">سربرگ</a></h5>
@@ -41,8 +42,11 @@
 			<p><a href="#">ادامه مطلب...</a></p>
 		</div>
 
+
+
 		<div class="pic">
-			<img src="./images/blog-img-01.jpg" alt="">
+			<a href="#" title=""><img src="./images/blog-img-01.jpg" alt=""></a>
+			<div class="effect"></div>
 		</div>
 		<div class="title">
 			<h5><a href="#">سربرگ</a></h5>
@@ -71,6 +75,8 @@
 		<div class="link">
 			<p><a href="#">ادامه مطلب...</a></p>
 		</div>
+
+
 
 		<div class="hline"></div>
 		<ul class="pages">
