@@ -9,7 +9,11 @@
 	<div class="hline">
 		<div class="boldline"></div>
 	</div>
-
+	<div class="portfolio">
+		<div class="right"></div>		
+		<div class="left"></div>
+		<div class="badboy"></div>
+	</div>
 </div>
 
 <?php
