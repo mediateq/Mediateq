@@ -12,15 +12,52 @@
 	<div class="gallery">
 		<div class="first">
 			<img src="./images/blog-img-01.jpg" alt="">
+			<div class="title"><p>عکس شماره ...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات عکس</p></div>
 		</div>
 		<div class="second">
 			<img src="./images/blog-img-01.jpg" alt="">
+			<div class="title"><p>عکس شماره ...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات عکس</p></div>
 		</div>
 		<div class="third">
 			<img src="./images/blog-img-01.jpg" alt="">
+			<div class="title"><p>عکس شماره ...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات عکس</p></div>
 		</div>
 		<div class="forth">
 			<img src="./images/blog-img-01.jpg" alt="">
+			<div class="title"><p>عکس شماره ...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات عکس</p></div>
+		</div>
+		<div class="badboy"></div>
+				<div class="first">
+			<img src="./images/blog-img-01.jpg" alt="">
+			<div class="title"><p>عکس شماره ...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات عکس</p></div>
+		</div>
+		<div class="second">
+			<img src="./images/blog-img-01.jpg" alt="">
+			<div class="title"><p>عکس شماره ...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات عکس</p></div>
+		</div>
+		<div class="third">
+			<img src="./images/blog-img-01.jpg" alt="">
+			<div class="title"><p>عکس شماره ...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات عکس</p></div>
+		</div>
+		<div class="forth">
+			<img src="./images/blog-img-01.jpg" alt="">
+			<div class="title"><p>عکس شماره ...</p></div>
+			<div class="hline"></div>
+			<div class="text"><p>توضیحات عکس</p></div>
 		</div>
 		<div class="badboy"></div>
 	</div>
