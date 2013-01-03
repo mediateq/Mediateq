@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="./style.css" />
 	<script type="text/javascript" src="./js/zepto.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.min.js"></script>
-	<!-- <script type="text/javascript" src="./js/script.js"></script> -->
+	<script type="text/javascript" src="./js/script.js"></script>
 	<!--[if lt IE 9]>
 		<script src="./js/html5shiv.js"></script>
 	<![endif]-->
@@ -53,11 +53,13 @@
 					<div class="menu">
 						<nav>
 							<menu>
-								<li><p><a href="#">صفحه اصلی</a></p></li>	
-								<li><p><a href="#">درباره ما</a></p></li>
-								<li><p><a href="#">کارهای ما</a></p></li>
-								<li><p><a href="#">گالری تصاویر</a></p></li>
-								<li><p><a href="#">تماس با ما</a></p></li>
+								<li><p><a href="index.php">صفحه اصلی</a></p></li>	
+								<li><p><a href="about.php">درباره ما</a></p></li>
+								<li><p><a href="portfolio.php">کارهای ما</a></p></li>
+								<li><p><a href="gallery.php">گالری تصاویر</a></p></li>
+								<li><p><a href="blog.php">وبلاگ</a></p></li>
+								<li><p><a href="services.php">خدمات</a></p></li>		
+								<li><p><a href="contact.php">تماس با ما</a></p></li>
 							</menu>							
 						</nav>
 						<div class="searchbox">
