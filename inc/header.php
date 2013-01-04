@@ -2,14 +2,14 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="./1styles.css" />
-	<link rel="stylesheet" type="text/css" href="./style.css" />
-	<script type="text/javascript" src="./js/zepto.min.js"></script>
-	<script type="text/javascript" src="./js/jquery.min.js"></script>
-	<script type="text/javascript" src="./js/script.js"></script>
+	<title><?php bloginfo('name'); wp_title(); ?></title>
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/1styles.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/style.css" />
+	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/zepto.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/script.js"></script>
 	<!--[if lt IE 9]>
-		<script src="./js/html5shiv.js"></script>
+		<script src="<?php bloginfo('template_url') ?>/js/html5shiv.js"></script>
 	<![endif]-->
 </head>
 <body>

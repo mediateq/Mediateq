@@ -1,5 +1,5 @@
 <?php
-	include('./inc/header.php')
+	get_template_part('./inc/header');
 ?>
 			<section class="banner">
 				<div class="slideshow">
@@ -107,9 +107,9 @@
 					<div class="badboy"></div>
 				</div>
 	<?php
-	include('./inc/partner.php')
+		get_template_part('./inc/partner');
 	?>			
 			</section>
 <?php
-	include('./inc/footer.php')
+	get_template_part('./inc/footer');
 ?>
