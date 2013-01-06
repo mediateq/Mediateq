@@ -52,15 +52,26 @@
 				<div class="menu-part">
 					<div class="menu">
 						<nav>
-							<menu>
-								<li><p><a href="index.php">صفحه اصلی</a></p></li>	
-								<li><p><a href="about.php">درباره ما</a></p></li>
-								<li><p><a href="portfolio.php">کارهای ما</a></p></li>
-								<li><p><a href="gallery.php">گالری تصاویر</a></p></li>
-								<li><p><a href="blog.php">وبلاگ</a></p></li>
-								<li><p><a href="services.php">خدمات</a></p></li>		
-								<li><p><a href="contact.php">تماس با ما</a></p></li>
-							</menu>							
+							<?php
+								wp_nav_menu(array(
+									'theme_location'  => 'mainmenu',
+									'menu'            => '', 
+									'container'       => false, 
+									'container_class' => '', 
+									'container_id'    => '',
+									'menu_class'      => '', 
+									'menu_id'         => '',
+									'echo'            => true,
+									'fallback_cb'     => false,
+									'before'          => '<p>',
+									'after'           => '</p>',
+									'link_before'     => '',
+									'link_after'      => '',
+									'items_wrap'      => '<menu>%3$s<li></li></menu>',
+									'depth'           => 0,
+									'walker'          => '',
+								));
+							?>							
 						</nav>
 						<div class="searchbox">
 							<form action="http://www.google.com/search" method="get" target="_blank" accept-charset="utf-8">
