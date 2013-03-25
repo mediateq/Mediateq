@@ -36,7 +36,7 @@
 							<ul>
 								<li>
 									<span class="postzip"></span>
-									<h5><a href="mailto:info@mediateq.ir" target="_blank">info [at] mediateq [dot] ir</a></h5>
+									<h5><a href="mailto:info@mediateq.ir" target="_blank">info<span class="at"></span>mediateq.ir</a></h5>
 								</li>
 								<li>
 									<span class="tel"></span>
