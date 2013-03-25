@@ -28,6 +28,10 @@ body{
 	background-position: center;
 }
 
+.ltr{
+	direction: ltr;
+}
+
 a:active,
 a:visited,
 a:link { 
@@ -330,7 +334,7 @@ header.header .log-so .social-con .contact .tel{
 header.header .log-so .social-con .contact li p{
 	white-space: nowrap;
 	font-family: arial;
-    margin-left: 12px;
+    margin-left: 15px;
 	font-size: 13px;
 }
 

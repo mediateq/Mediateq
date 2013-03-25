@@ -40,7 +40,7 @@
 								</li>
 								<li>
 									<span class="tel"></span>
-									<p>8833 814 (936)98+</p> 
+									<p class="ltr">+98(936) 814 8833</p> 
 								</li>
 							</ul>
 							<div class="badboy"></div>
