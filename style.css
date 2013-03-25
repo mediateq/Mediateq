@@ -11,9 +11,6 @@ Tags: dark, light, white, black, gray, one-column, two-columns, left-sidebar, ri
 Text Domain: Mediateq
 */
 
-/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
--------------------------------------------------------------- */
-
 @font-face {
     font-family: 'bmitra';
     src: url('./fonts/BMitra.eot');
@@ -164,6 +161,10 @@ header.header .log-so .logo{
 
 header.header .log-so .logo img{
 	float: left;
+}
+
+header.header .log-so .logo a p{
+	text-indent: -10000px;
 }
 
 header.header .log-so .social-con{
