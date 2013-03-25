@@ -8,6 +8,18 @@
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/zepto.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/script.js"></script>
+	<script>
+		  (function() {
+		    var cx = '002646456999169240394:iokkbvidzyg';
+		    var gcse = document.createElement('script');
+		    gcse.type = 'text/javascript';
+		    gcse.async = true;
+		    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+		        '//www.google.com/cse/cse.js?cx=' + cx;
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(gcse, s);
+		  })();
+	</script>
 	<!--[if lt IE 9]>
 		<script src="<?php bloginfo('template_url') ?>/js/html5shiv.js"></script>
 	<![endif]-->
@@ -73,13 +85,10 @@
 								));
 							?>							
 						</nav>
-						<div class="searchbox">
-							<form action="http://www.google.com/search" method="get" target="_blank" accept-charset="utf-8">
-								<input type="hidden" name="sitesearch" value="www.mediateq.ir" />
-								<input type="text" class="search" name="as_q" autocomplete="off" />
-							</form>
-						</div>
-						<div class="badboy"></div>
-					</div>	
+					</div>
+					<div class="searchbox">
+						<gcse:searchbox-only></gcse:searchbox-only>
+					</div>
+					<div class="badboy"></div>	
 				</div>
 			</header>
