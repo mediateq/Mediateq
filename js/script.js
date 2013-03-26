@@ -32,7 +32,7 @@ function gallery() {
      
     $('#gallery .caption').animate({opacity: 0.0}, { queue:false, duration:0 }).animate({height: '1px'}, { queue:true, duration:300 }); 
      
-    $('#gallery .caption').animate({opacity: 0.7},100 ).animate({height: '100px'},500 );
+    $('#gallery .caption').animate({opacity: 0.7},100 ).animate({height: '70px'},500 );
      
     $('#gallery .content').html(caption);        
 }
