@@ -170,7 +170,7 @@ header.header .log-so .logo img{
 }
 
 header.header .log-so .logo a p{
-	text-indent: -10000px;
+	text-indent: 10000px;
 }
 
 header.header .log-so .social-con{
@@ -487,9 +487,37 @@ section.banner .welcome .third{
 	margin: 22px 13px;
 }
 
+section.banner .welcome .first span{
+	display: inline-block;
+	float: right;
+	width: 48px;
+	height: 48px;
+	background: url('./images/glyphicons.png') -144px -779px no-repeat;
+}
+
+section.banner .welcome .second span{
+	display: inline-block;
+	float: right;
+	width: 48px;
+	height: 48px;
+	background: url('./images/glyphicons.png') -432px -57px no-repeat;
+}
+
+section.banner .welcome .third span{
+	display: inline-block;
+	float: right;
+	width: 48px;
+	height: 48px;
+	background: url('./images/glyphicons.png') -288px -395px no-repeat;
+}
+
 section.banner .welcome .tit{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-size: 20px;
+}
+
+section.banner .welcome p{
+	margin-right: 50px;
 }
 
 /*///////Recent////////*/

@@ -37,6 +37,7 @@
 	</div>
 	<div class="welcome">
 		<div class="first">
+			<span></span>
 			<div class="tit">
 				<p>سربرگ</p>
 			</div>
@@ -45,6 +46,7 @@
 			</p>
 		</div>
 		<div class="second">
+			<span></span>
 			<div class="tit">
 				<p>سربرگ</p>
 			</div>
@@ -53,6 +55,7 @@
 			</p>
 		</div>
 		<div class="third">
+			<span></span>
 			<div class="tit">
 				<p>سربرگ</p>
 			</div>
