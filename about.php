@@ -1,8 +1,15 @@
 <?php
-	include('./inc/header.php')
+	/*
+		Template Name: About us
+	*/
+	get_template_part('./inc/header');
 ?>
 
 <div class="about-content">
+	<?php 
+		if(have_posts()){
+			the_post();
+	 ?>
 	<div id="tit-otherpage">
 		<h5>در باره ما</h5>
 	</div>
@@ -25,9 +32,7 @@
 			<h5>روش ما</h5>
 		</div>
 		<div class="text">
-			<p>
-				ما با روش نوین بکارگیری...
-			</p>
+			<?php the_content(); ?>
 		</div>
 	</div>
 	<div class="badboy"></div>
@@ -35,31 +40,48 @@
 		<div class="hline">
 			<h5>اعضای گروه</h5>
 		</div>
-		<div class="first">
-			<img src="./images/about-01.png" alt="">
-			<div class="name"><p>مجتبی امجدی</p></div>
-			<div class="post"><p>طراح سایت</p></div>
-			<div class="hline"></div>
-			<div class="text"><p>شرح واقعه...!</p></div>
-		</div>
-		<div class="second">
-			<img src="./images/about-01.png" alt="">
-			<div class="name"><p>مجتبی امجدی</p></div>
-			<div class="post"><p>طراح سایت</p></div>
-			<div class="hline"></div>
-			<div class="text"><p>شرح واقعه...!</p></div>
-		</div>
-		<div class="third">
-			<img src="./images/about-01.png" alt="">
-			<div class="name"><p>مجتبی امجدی</p></div>
-			<div class="post"><p>طراح سایت</p></div>
-			<div class="hline"></div>
-			<div class="text"><p>شرح واقعه...!</p></div>
-		</div>
+		<ul>
+			<?php
+				$slide_attach= array(
+					'numberposts' => '3',
+					'orderby '=> 'menu_order',  
+					'order'=> 'ASC',  
+					'post_mime_type' => 'image', 
+					'post_parent' => $post->ID, 
+					'post_status' => null, 
+					'post_type' => 'attachment'
+				);
+
+				$images= get_children($slide_attach);
+
+				if ($images){
+
+					foreach ($images as $img) {
+
+						$img_src= wp_get_attachment_image_src($img->ID,'large');
+
+						$name = get_the_title( $img->ID );
+						$post = $img->post_excerpt;
+						$detail = $img->post_content;
+
+						echo "<li>
+								<img src=\"$img_src[0]\" alt=\"$name\" />
+								<div class='name'><p> $name </p></div>
+								<div class='post'><p> $post </p></div>
+								<div class='hline'></div>
+								<div class='text'><p> $detail </p></div>
+							  </li>";
+					}
+				}
+			?>
+		</ul>
 		<div class="badboy"></div>
 	</div>
+	<?php
+		}
+	?>
 </div>
 
 <?php
-	include('./inc/footer.php')
+	get_template_part('./inc/footer');
 ?>

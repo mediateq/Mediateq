@@ -914,9 +914,7 @@ div.about-content .meet{
     min-height: 550px
 }
 
-div.about-content .meet .first,
-div.about-content .meet .second,
-div.about-content .meet .third{
+div.about-content .meet li{
     float: right;
     width: 300px;
     min-height: 350px;
@@ -924,13 +922,13 @@ div.about-content .meet .third{
     margin-top: 20px;
 }
 
+div.about-content .meet li:first-child{
+    margin-right: 0;
+}
+
 div.about-content .meet img{
     width: 300px;
     height: 300px;
-}
-
-div.about-content .meet .first{
-    margin-right: 0;
 }
 
 div.about-content .meet p{
