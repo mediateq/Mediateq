@@ -483,8 +483,12 @@ section.banner .welcome .second,
 section.banner .welcome .third{
 	float: right;
 	width: 290px;
-	min-height: 150px;
-	margin: 22px 13px;
+	min-height: 130px;
+	margin: 22px 0 0 40px;
+}
+
+section.banner .welcome .third{
+	margin-left: 0;
 }
 
 section.banner .welcome .first span{
@@ -492,7 +496,7 @@ section.banner .welcome .first span{
 	float: right;
 	width: 48px;
 	height: 48px;
-	background: url('./images/glyphicons.png') -144px -779px no-repeat;
+	background: url('./images/glyphicons.png') -279px -395px no-repeat;
 }
 
 section.banner .welcome .second span{
@@ -508,7 +512,7 @@ section.banner .welcome .third span{
 	float: right;
 	width: 48px;
 	height: 48px;
-	background: url('./images/glyphicons.png') -288px -395px no-repeat;
+	background: url('./images/glyphicons.png') -144px -779px no-repeat;
 }
 
 section.banner .welcome .tit{
@@ -517,7 +521,7 @@ section.banner .welcome .tit{
 }
 
 section.banner .welcome p{
-	margin-right: 50px;
+	margin-right: 48px;
 }
 
 /*///////Recent////////*/

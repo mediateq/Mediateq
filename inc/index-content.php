@@ -69,7 +69,7 @@
 	<div class="recent">
 		<div class="first">
 			<div class="pic">
-				<img src="./images/others/3.jpg" alt="" />
+				<img src="<?php bloginfo('template_url') ?>/images/recent/3.jpg" alt="" />
 			</div>
 			<div class="tit">
 				<p>سربرگ</p>
@@ -83,7 +83,7 @@
 		</div>
 		<div class="second">
 			<div class="pic">
-				<img src="./images/others/4.jpg" alt="" />
+				<img src="<?php bloginfo('template_url') ?>/images/recent/4.jpg" alt="" />
 			</div>
 			<div class="tit">
 				<p>سربرگ</p>
@@ -97,7 +97,7 @@
 		</div>
 		<div class="third">
 			<div class="pic">
-				<img src="./images/others/2.jpg" alt="" />
+				<img src="<?php bloginfo('template_url') ?>/images/recent/2.jpg" alt="" />
 			</div>
 			<div class="tit">
 				<p>سربرگ</p>
@@ -111,7 +111,7 @@
 		</div>
 		<div class="forth">
 			<div class="pic">
-				<img src="./images/others/1.jpg" alt="" />
+				<img src="<?php bloginfo('template_url') ?>/images/recent/1.jpg" alt="" />
 			</div>
 			<div class="tit">
 				<p>سربرگ</p>
