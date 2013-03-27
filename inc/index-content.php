@@ -70,8 +70,10 @@
 		<ul>
 			<li>
 				<div class="pic">
-					<a href="#"><img src="<?php bloginfo('template_url') ?>/images/recent/1.jpg" alt="" /></a>
-					<div class="effect"></div>
+					<a href="#">
+						<img src="<?php bloginfo('template_url') ?>/images/recent/1.jpg" alt="" />
+						<div class="effect"></div>
+					</a>
 				</div>
 				<div class="tit">
 					<p>سربرگ</p>
@@ -85,8 +87,10 @@
 			</li>
 			<li>
 				<div class="pic">
-					<a href="#"><img src="<?php bloginfo('template_url') ?>/images/recent/2.jpg" alt="" /></a>
-					<div class="effect"></div>
+					<a href="#">
+						<img src="<?php bloginfo('template_url') ?>/images/recent/2.jpg" alt="" />
+						<div class="effect"></div>
+					</a>
 				</div>
 				<div class="tit">
 					<p>سربرگ</p>
@@ -100,8 +104,10 @@
 			</li>
 			<li>
 				<div class="pic">
-					<a href="#"><img src="<?php bloginfo('template_url') ?>/images/recent/3.jpg" alt="" /></a>
-					<div class="effect"></div>
+					<a href="#">
+						<img src="<?php bloginfo('template_url') ?>/images/recent/3.jpg" alt="" />
+						<div class="effect"></div>
+					</a>
 				</div>
 				<div class="tit">
 					<p>سربرگ</p>
@@ -115,8 +121,10 @@
 			</li>
 			<li>
 				<div class="pic">
-					<a href="#"><img src="<?php bloginfo('template_url') ?>/images/recent/4.jpg" alt="" /></a>
-					<div class="effect"></div>
+					<a href="#">
+						<img src="<?php bloginfo('template_url') ?>/images/recent/4.jpg" alt="" />
+						<div class="effect"></div>
+					</a>
 				</div>
 				<div class="tit">
 					<p>سربرگ</p>
