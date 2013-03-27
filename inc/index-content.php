@@ -67,62 +67,68 @@
 	</div>
 	<div class="hline"></div>
 	<div class="recent">
-		<div class="first">
-			<div class="pic">
-				<img src="<?php bloginfo('template_url') ?>/images/recent/3.jpg" alt="" />
-			</div>
-			<div class="tit">
-				<p>سربرگ</p>
-			</div>
-			<div class="hlines"></div>
-			<div class="text">
-				<p>
-					متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
-				</p>
-			</div>
-		</div>
-		<div class="second">
-			<div class="pic">
-				<img src="<?php bloginfo('template_url') ?>/images/recent/4.jpg" alt="" />
-			</div>
-			<div class="tit">
-				<p>سربرگ</p>
-			</div>
-			<div class="hlines"></div>
-			<div class="text">
-				<p>
-					متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
-				</p>
-			</div>
-		</div>
-		<div class="third">
-			<div class="pic">
-				<img src="<?php bloginfo('template_url') ?>/images/recent/2.jpg" alt="" />
-			</div>
-			<div class="tit">
-				<p>سربرگ</p>
-			</div>
-			<div class="hlines"></div>
-			<div class="text">
-				<p>
-					متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
-				</p>
-			</div>
-		</div>
-		<div class="forth">
-			<div class="pic">
-				<img src="<?php bloginfo('template_url') ?>/images/recent/1.jpg" alt="" />
-			</div>
-			<div class="tit">
-				<p>سربرگ</p>
-			</div>
-			<div class="hlines"></div>
-			<div class="text">
-				<p>
-					متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
-				</p>
-			</div>
-		</div>
+		<ul>
+			<li>
+				<div class="pic">
+					<a href="#"><img src="<?php bloginfo('template_url') ?>/images/recent/1.jpg" alt="" /></a>
+					<div class="effect"></div>
+				</div>
+				<div class="tit">
+					<p>سربرگ</p>
+				</div>
+				<div class="hlines"></div>
+				<div class="text">
+					<p>
+						متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="pic">
+					<a href="#"><img src="<?php bloginfo('template_url') ?>/images/recent/2.jpg" alt="" /></a>
+					<div class="effect"></div>
+				</div>
+				<div class="tit">
+					<p>سربرگ</p>
+				</div>
+				<div class="hlines"></div>
+				<div class="text">
+					<p>
+						متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="pic">
+					<a href="#"><img src="<?php bloginfo('template_url') ?>/images/recent/3.jpg" alt="" /></a>
+					<div class="effect"></div>
+				</div>
+				<div class="tit">
+					<p>سربرگ</p>
+				</div>
+				<div class="hlines"></div>
+				<div class="text">
+					<p>
+						متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
+					</p>
+				</div>
+			</li>
+			<li>
+				<div class="pic">
+					<a href="#"><img src="<?php bloginfo('template_url') ?>/images/recent/4.jpg" alt="" /></a>
+					<div class="effect"></div>
+				</div>
+				<div class="tit">
+					<p>سربرگ</p>
+				</div>
+				<div class="hlines"></div>
+				<div class="text">
+					<p>
+						متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
+					</p>
+				</div>
+			</li>
+		</ul>
 		<div class="badboy"></div>
 	</div>	
 </section>

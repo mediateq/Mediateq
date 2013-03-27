@@ -133,21 +133,21 @@ div.contain{
     background-image: url('./images/overlay-icon-01.png');
     background-repeat: no-repeat;
     background-position: center;
-    -webkit-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    -ms-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    transition: all 0.6s;
+    -webkit-transition: background 0.6s;
+    -moz-transition: background 0.6s;
+    -ms-transition: background 0.6s;
+    -o-transition: background 0.6s;
+    transition: background 0.6s;
 }
 
 .pic .effect:hover{
     opacity: 0.5;
     background-color: #111;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    -ms-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    transition: all 0.4s;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+    -ms-transition: background 0.4s;
+    -o-transition: background 0.4s;
+    transition: background 0.4s;
 }
 /* ---------------------------------Header----------------------------- */
 header.header{
@@ -529,10 +529,7 @@ section.banner .recent{
     margin-top: 25px;
 }
 
-section.banner .recent .first,
-section.banner .recent .second,
-section.banner .recent .third,
-section.banner .recent .forth{
+section.banner .recent li{
 	float: right;
 	width: 222px;
 	min-height: 290px;
@@ -540,8 +537,14 @@ section.banner .recent .forth{
 	margin-bottom: 25px;
 }
 
-section.banner .recent .first{
+section.banner .recent li:first-child{
 	margin-right: 0;
+}
+
+section.banner .recent .pic{
+	width: 222px;
+	height: 150px;
+	direction: ltr;
 }
 
 section.banner .recent .pic img{
