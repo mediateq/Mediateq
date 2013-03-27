@@ -41,7 +41,17 @@
 					<p>درباره ما</p>
 				</div>
 				<div class="text">
-					<p>شرکت ................. ............... ........................... ........................</p>
+					<p>
+						<?php
+							$page_id = '33';
+							$page = get_page($page_id);
+							$link = get_permalink( $page );
+ 							$content = apply_filters('the_content', $page->post_content);
+ 							$content = substr($content, 0, 400);
+							echo "<a href=\"$link\"> $content... </a>";
+						?>
+						
+					</p>
 				</div>
 			</div>
 			<div class="badboy"></div>
