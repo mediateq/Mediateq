@@ -41,7 +41,14 @@
 					<p>درباره ما</p>
 				</div>
 				<div class="text">
-					<p>شرکت ................. ............... ........................... ........................</p>
+					<?php
+						$page_id = 33;
+						$page = get_page($page_id);
+						$link = get_permalink( $page );
+						$content = apply_filters('the_content', $page->post_content);
+						$content = substr($content, 0, 400);
+						echo "<a href=\"$link\">$content...</a>";
+					?>
 				</div>
 			</div>
 			<div class="badboy"></div>
@@ -50,7 +57,7 @@
 				<a href="#myAnchor" rel="" id="anchor1" class="anchorLink"></a>
 			</div>
 			<div class="copy">
-				<p>کپی رایت 1391 - تمامی حقوق این سایت متعلق به مِدیا تِک می باشد</p>
+				<p>کپی رایت 1391 - تمامی حقوق این سایت متعلق به مِدیا تِک می باشد.</p>
 			</div>
 			<div class="badboy"></div>
 		</div>

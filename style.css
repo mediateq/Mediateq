@@ -674,6 +674,10 @@ footer.contain .container .forth .hlinefoot p{
 	width: 60px;
 }
 
+footer.contain .container .forth .text a{
+	color: #fff;
+}
+
 footer.contain .container .hfoot{
 	margin-bottom: 0;
 	height: 2px;
@@ -853,6 +857,7 @@ div.about-content .right{
 div.about-content .right .text p{
     font-size: 19px;
     margin-top: 15px;
+    line-height: 1.5;
 }
 
 div.about-content .left .career{
