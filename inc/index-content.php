@@ -3,7 +3,7 @@
 		<div id="gallery">
 			<?php
 				$slide_attach= array(
-					'numberposts' => '-1',
+					'numberposts' => '5',
 					'orderby '=> 'menu_order',  
 					'order'=> 'ASC',  
 					'post_mime_type' => 'image', 
