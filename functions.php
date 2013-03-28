@@ -30,49 +30,14 @@ function project_init(){
 	'show_ui' => true,
 	'show_in_menu' => true,
 	'query_var' => true,
-	'rewrite' => true,
+	'rewrite' => array('slug' => 'project'),
 	'capability_type' => 'post',
 	'has_archive' => true,
 	'hierarchical' => false,
 	'menu_position' => 10,
 	'menu_icon' => get_bloginfo('template_url') . '/images/projecticon.png',
-	'supports' => array('title','editor','author','revisions','post-formats'),
+	'supports' => array('title','editor','author','revisions','post-formats','thumbnail'),
 );
 
 	register_post_type('project', $args);
-}
-
-add_shortcode('project', 'all_project');
-
-function all_project(){
-	$project = new WP_Query(array(
-	'post_type' => 'project'
-));
-
-	$html = "<ul>";
-
-	while($project->have_posts()){
-		$project->the_post();
-
-		$title   = get_the_title();
-		$content = get_the_content();
-		$link = get_permalink();
-		$pic = get_the_post_thumbnail();
-
-		$html 	.= "<li>
-						<div class='pic'>
-							<a href=\"$link\"> 
-								$pic 
-								<div class='effect'></div>
-							</a>
-						</div>
-						<div class='title'><p> $title </p></div>
-						<div class='hline'></div>
-						<div class='text'> $content </div>
-					</li>";
-	}
-
-	$html 	.= "</ul>";
-				
-	return $html;
 }

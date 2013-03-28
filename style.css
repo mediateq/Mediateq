@@ -1200,7 +1200,8 @@ div.services-content .services .left .tik{
     float: right;
     width: 460px;
     min-height: 320px;
-    margin-right: 10px;
+    margin-right: 9px;
+    margin-top: 30px;
 }
 
 .project-content .project img{
