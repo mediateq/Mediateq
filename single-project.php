@@ -18,15 +18,14 @@
 	</div>
 	<div class="portfolio">
 		<ul>
+			<?php
+				$pic = get_the_post_thumbnail();
+				
+			?>
 			<li>
 				<div class="pic">
-					<a href="#"><img src="./images/blog-img-01.jpg" alt="">
-					<div class="effect"></div>
-					</a>
+					$pic
 				</div>
-				<div class="title"><p>کار شرکت...</p></div>
-				<div class="hline"></div>
-				<div class="text"><p>توضیحات کار</p></div>
 			</li>
 		</ul>
 		<div class="badboy"></div>
