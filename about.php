@@ -11,7 +11,7 @@
 			the_post();
 	 ?>
 	<div id="tit-otherpage">
-		<h5>در باره ما</h5>
+		<h5><?php the_title(); ?></h5>
 	</div>
 	<div class="hline">
 		<div class="boldline"></div>
