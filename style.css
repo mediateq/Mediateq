@@ -1191,46 +1191,88 @@ div.services-content .services .left .tik{
     font-size: 16px;
     margin-bottom: 30px;
 }
-/************************Portfolio Page******************************/
-.portfolio-content{
+/************************Project Page******************************/
+.project-content{
     min-height: 500px;
 }
 
-.portfolio-content .portfolio{
-    margin-top: 30px;
-}
-
-.portfolio-content .portfolio li{
+.project-content .project li{
     float: right;
     width: 460px;
     min-height: 320px;
     margin-right: 10px;
 }
 
-.portfolio-content .portfolio img{
+.project-content .project img{
     width: 460px;
     height: 290px;
 }
 
-.portfolio-content .pic{
+.project-content .project .pic{
     width: 460px;
     height: 290px;
 }
 
-.portfolio-content .portfolio p{
+.project-content .project p{
     margin: 10px 0;
 }
 
-.portfolio-content .portfolio .title p{
+.project-content .project .title p{
     font-size: 18px;
 }
 
-.portfolio-content .portfolio .text p{
+.project-content .project .text p{
     font-size: 16px;
     margin-bottom: 30px;
 }
 
-.portfolio-content .portfolio .pic{
+.project-content .project .pic{
     position: relative;
 }
-/************************Google Search******************************/
+/************************Single project******************************/
+.project-content .single-project{
+    margin-top: 30px;
+}
+
+.project-content .single-project img{
+	width: 950px;
+	height: 400px;
+}
+
+.project-content .single-project p{
+    margin-top: 10px;
+}
+
+.project-content .single-project .right{
+	width: 150px;
+}
+
+.project-content .single-project .right .title p{
+    font-size: 20px;
+}
+
+.project-content .single-project .right a{
+	display: block;
+	width: 100px;
+	height: 20px;
+	padding: 8px 0;
+	background-color: #72b626;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.project-content .single-project .right a:hover{
+	background-color: #aaa;
+}
+
+.project-content .single-project .detail{
+	margin-top: 10px;
+	margin-right: 150px;
+	padding-bottom: 50px;
+}
+
+.project-content .single-project .detail .text p{
+    font-size: 17px;
+    line-height: 1.5;
+}

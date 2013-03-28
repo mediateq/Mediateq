@@ -2,6 +2,8 @@
 	
 	add_theme_support('menus');
 
+	add_theme_support('post-thumbnails');
+
 	register_nav_menu('mainmenu' , 'Main Menu');
 //////////////////////////// Portfolio page ////////////////////////////////
 add_action('init','project_init');
@@ -32,9 +34,9 @@ function project_init(){
 	'capability_type' => 'post',
 	'has_archive' => true,
 	'hierarchical' => false,
-	'menu_position' => 5,
+	'menu_position' => 10,
 	'menu_icon' => get_bloginfo('template_url') . '/images/projecticon.png',
-	'supports' => array('title','editor','thumbnail','excerpt','comments'),
+	'supports' => array('title','editor','author','revisions','post-formats'),
 );
 
 	register_post_type('project', $args);

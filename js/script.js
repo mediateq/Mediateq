@@ -37,10 +37,6 @@ function gallery() {
     $('#gallery .content').html(caption);        
 }
 
-$(document).ready(function() {         
-    slideShow();
-});
-
 // contact validate
 function validateText(str,len){
     return str.length >= len;

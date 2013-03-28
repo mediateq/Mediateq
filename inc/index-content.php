@@ -1,4 +1,9 @@
 <section class="banner">
+	<script type="text/javascript">
+		$(document).ready(function() {         
+		    slideShow();
+		});
+	</script>
 	<div class="slideshow">
 		<div id="gallery">
 			<?php
