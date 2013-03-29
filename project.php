@@ -14,8 +14,7 @@
 	</div>
 	<div class="project">
 		<ul>
-			<?php   
-				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+			<?php
 				query_posts( 'post_type=project&posts_per_page=4&paged=' . $paged);
 				while(have_posts()){
 					the_post();
@@ -41,9 +40,16 @@
 	</div>
 	<div class='pagelink'>
 		<?php 
-			// posts_nav_link(' or ', 'You can go back to the previous page', 'you can go forward to the next page');
-			previous_posts_link('صفحه قبل',0);
-			next_posts_link('صفحه بعد',0);
+			$big = 999999999;
+			$args = array(
+						'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+						'format' => '?paged=%#%',
+						'current' => max( 1, get_query_var('paged') ),
+						'total' => $wp_query->max_num_pages,
+						'prev_text'    => ('«'),
+						'next_text'    => ('»')
+					);
+			echo paginate_links( $args );
 			wp_reset_query();
 		?>
 	</div>
