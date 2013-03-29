@@ -27,14 +27,40 @@
 			</div>
 			<div class="third">
 				<div class="hlinefoot">
-					<p>لینک های مفید</p>
+					<p>کارهای ما</p>
 				</div>
-				<div class="link">
-					<h5><a href="#">لینک 1</a></h5>
-					<h5><a href="#">لینک 2</a></h5>
-					<h5><a href="#">لینک 3</a></h5>
-					<h5><a href="#">لینک 4</a></h5>
-				</div>
+				<?php $args = array(
+					    'numberposts' => 2,
+					    'offset' => 0,
+					    'category' => 0,
+					    'orderby' => 'post_date',
+					    'order' => 'DESC',
+					    'include' => '',
+					    'exclude' => '',
+					    'meta_key' => '',
+					    'meta_value' =>'',
+					    'post_type' => 'project',
+					    'post_status' => 'draft, publish, future, pending, private',
+					    'suppress_filters' => true 
+					    ); 
+
+						$recent_posts = wp_get_recent_posts( $args );
+
+						foreach( $recent_posts as $recent ){
+
+							$url     = get_permalink($recent["ID"]);
+							$title   = $recent["post_title"];
+							$content = substr($recent["post_content"], 0, 100);
+							$pict    = get_the_post_thumbnail($recent["ID"], "medium");
+
+							echo "<div class='title'>
+	                               	<h5 class='recent-work'><a href=\"$url\"> $title </a></h5>
+								  </div>
+								  <div class='text'>
+									<p class='recent-work'> $content... </p>
+								  </div>";
+						}
+					?>
 			</div>
 			<div class="forth">
 				<div class="hlinefoot">
@@ -42,7 +68,7 @@
 				</div>
 				<div class="text">
 					<?php
-						$page_id = 33;
+						$page_id = 16;
 						$page = get_page($page_id);
 						$link = get_permalink( $page );
 						$content = apply_filters('the_content', $page->post_content);

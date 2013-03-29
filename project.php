@@ -28,10 +28,13 @@
 				</div>
 				<div class='title'><p> <?php the_title(); ?> </p></div>
 				<div class='hline'></div>
-				<div class='text'><a href="<?php the_permalink(); ?>"><?php the_content(); ?></a></div>
+				<div class='text'>
+					<?php global $more; $more = 0; the_content('ادامه...'); ?>
+				</div>
 			</li>
 			<?php
 				}
+				wp_reset_query();
 			?>
 		</ul>
 	<div class='badboy'></div>

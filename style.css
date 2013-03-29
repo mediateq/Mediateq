@@ -639,22 +639,32 @@ footer.contain .container .forth .text p{
 
 footer.contain .container .third a{
 	color: #aaa;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 	
-footer.contain .container .third a:hover{
-	color: #5CA20D;
+footer.contain .container a:hover{
+	color: #DDD;
 }
 
 footer.contain .container .third h5{
 	margin-bottom: 15px;
 }
 
+footer.contain .container .third h5.recent-work{
+	margin-bottom: 5px;
+}
+
+footer.contain .container .third p.recent-work{
+	margin-bottom: 15px;
+	margin-top: 0;
+	line-height: 1.5;
+}
+
 footer.contain .container p{
 	color: #fff;
 	background-color: #303030;
-	font-size: 19px;
+	font-size: 18px;
 	margin-top: 25px;
 }
 
@@ -667,7 +677,7 @@ footer.contain .container .second .hlinefoot p{
 }
 
 footer.contain .container .third .hlinefoot p{
-	width: 95px;
+	width: 65px;
 }
 
 footer.contain .container .forth .hlinefoot p{
