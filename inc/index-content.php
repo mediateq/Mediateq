@@ -17,11 +17,11 @@
 					'post_type' => 'attachment'
 				);
 
-				$images= get_children($slide_attach);
+				$imge= get_children($slide_attach);
 
-				if ($images){
+				if ($imge){
 
-					foreach ($images as $img) {
+					foreach ($imge as $img) {
 
 						$img_src= wp_get_attachment_image_src($img->ID,'large');
 

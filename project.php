@@ -15,7 +15,8 @@
 	<div class="project">
 		<ul>
 			<?php   
-				query_posts( 'post_type=project');
+				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+				query_posts( 'post_type=project&posts_per_page=4&paged=' . $paged);
 				while(have_posts()){
 					the_post();
 			?>
@@ -29,15 +30,22 @@
 				<div class='title'><p> <?php the_title(); ?> </p></div>
 				<div class='hline'></div>
 				<div class='text'>
-					<?php global $more; $more = 0; the_content('ادامه...'); ?>
+					<?php global $more; $more = 0; the_content('[ادامه...]'); ?>
 				</div>
 			</li>
 			<?php
 				}
-				wp_reset_query();
 			?>
 		</ul>
 	<div class='badboy'></div>
+	</div>
+	<div class='pagelink'>
+		<?php 
+			// posts_nav_link(' or ', 'You can go back to the previous page', 'you can go forward to the next page');
+			previous_posts_link('صفحه قبل',0);
+			next_posts_link('صفحه بعد',0);
+			wp_reset_query();
+		?>
 	</div>
 </div>
 

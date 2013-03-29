@@ -5,6 +5,8 @@
 	add_theme_support('post-thumbnails');
 
 	register_nav_menu('mainmenu' , 'Main Menu');
+
+	ini_set( 'mysql.trace_mode', 0 );
 //////////////////////////// Portfolio page ////////////////////////////////
 add_action('init','project_init');
 
