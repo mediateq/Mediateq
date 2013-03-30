@@ -1165,18 +1165,11 @@ div.services-content .services .left .tik{
     margin-top: 30px;
 }
 
-.gallery-content .gallery .first,
-.gallery-content .gallery .second,
-.gallery-content .gallery .third,
-.gallery-content .gallery .forth{
+.gallery-content .gallery li{
     float: right;
     width: 220px;
-    min-height: 200px;
-    margin-right: 23px;
-}
-
-.gallery-content .gallery .first{
-    margin-right: 0;
+    min-height: 270px;
+    margin-right: 14px;
 }
 
 .gallery-content .gallery img{
@@ -1189,6 +1182,10 @@ div.services-content .services .left .tik{
     height: 139px;
 }
 
+.gallery-content .gallery .pic .effect{
+	background-image: url('./images/overlay-icon-02.png');
+}
+
 .gallery-content .gallery p{
     margin: 10px 0;
 }
@@ -1198,7 +1195,7 @@ div.services-content .services .left .tik{
 }
 
 .gallery-content .gallery .text p{
-    font-size: 16px;
+    font-size: 15px;
     margin-bottom: 30px;
 }
 /************************Project Page******************************/

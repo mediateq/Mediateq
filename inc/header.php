@@ -4,9 +4,11 @@
 	<meta charset="UTF-8">
 	<title><?php bloginfo('name'); wp_title(); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/1styles.css" />
+	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/prettyphoto.css" />
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/style.css" />
-	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/zepto.min.js"></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/zepto.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/jquery.prettyphoto.js"></script>
 	<script type="text/javascript" src="<?php bloginfo('template_url') ?>/js/script.js"></script>
 	<script>
 		  (function() {
