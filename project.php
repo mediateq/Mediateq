@@ -15,6 +15,7 @@
 	<div class="project">
 		<ul>
 			<?php
+				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				query_posts( 'post_type=project&posts_per_page=4&paged=' . $paged);
 				while(have_posts()){
 					the_post();
