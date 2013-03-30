@@ -36,7 +36,7 @@ function project_init(){
 	'hierarchical' => false,
 	'menu_position' => 10,
 	'menu_icon' => get_bloginfo('template_url') . '/images/projecticon.png',
-	'supports' => array('title','editor','author','revisions','post-formats','thumbnail'),
+	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields'),
 );
 
 	register_post_type('project', $args);

@@ -22,7 +22,7 @@
 			<li>
 				<div class='pic'>
 					<a href="<?php the_permalink(); ?>"> 
-						<?php $link= the_post_thumbnail(); ?> 
+						<?php the_post_thumbnail(); ?> 
 						<div class='effect'></div>
 					</a>
 				</div>

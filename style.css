@@ -893,20 +893,20 @@ div.about-content .left .career a{
     padding: 11px 17px;
     background-color: #72B626;
     color: #fff;
-    -webkit-transition: all .5s;
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -ms-transition: background-color .5s;
+    -o-transition: background-color .5s;
+    transition: background-color .5s;
 }
 
 div.about-content .left .career a:hover{
     background-color: #AAA;
-    -webkit-transition: all .7s;
-    -moz-transition: all .7s;
-    -ms-transition: all .7s;
-    -o-transition: all .7s;
-    transition: all .7s;
+    -webkit-transition: background-color .7s;
+    -moz-transition: background-color .7s;
+    -ms-transition: background-color .7s;
+    -o-transition: background-color .7s;
+    transition: background-color .7s;
 }
 
 div.about-content .right .hline,
@@ -1305,10 +1305,20 @@ div.services-content .services .left .tik{
 	color: #fff;
 	text-align: center;
 	margin-top: 10px;
+	-webkit-transition: background-color .5s;
+    -moz-transition: background-color .5s;
+    -ms-transition: background-color .5s;
+    -o-transition: background-color .5s;
+    transition: background-color .5s;
 }
 
 .project-content .single-project .right a:hover{
 	background-color: #aaa;
+	-webkit-transition: background-color .7s;
+    -moz-transition: background-color .7s;
+    -ms-transition: background-color .7s;
+    -o-transition: background-color .7s;
+    transition: background-color .7s;
 }
 
 .project-content .single-project .detail{
