@@ -1,16 +1,23 @@
 <?php
-	include('./inc/header.php')
+	/*
+		Template Name: Contact
+	*/
+	get_template_part('./inc/header');
 ?>
 
 <div class="contact-content">
+	<?php 
+		if(have_posts()){
+			the_post();
+	 ?>
 	<div id="tit-otherpage">
-		<h5>تماس با ما</h5>
+		<h5><?php the_title(); ?></h5>
 	</div>
 	<div class="hline">
 		<div class="boldline"></div>
 	</div>
 	<div class="txt">
-		<p>شما می توانید از طریق فرم زیر با ما در تماس باشید. همچنین آدرس و شماره های تماس ما در زیر قید شده است.</p>
+		<?php the_content(); ?>
 	</div>
 	<div class="right">
 		<div class="hline">
@@ -34,7 +41,9 @@
 			<div class="hline">
 				<h5>مکان ما</h5>
 			</div>
-			<div class="map"></div>
+			<div class="map">
+				<iframe width="350" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps/ms?msa=0&amp;msid=210699599557021519142.0004d93c5fa44fec878c0&amp;hl=en&amp;ie=UTF8&amp;t=m&amp;ll=36.31331,59.562614&amp;spn=0.004841,0.00751&amp;z=16&amp;output=embed"></iframe>
+			</div>
 		</div>
 		<div class="bot">
 			<div class="hline">
@@ -50,9 +59,11 @@
 		</div>
 	</div>
 	<div class="badboy"></div>
-	
+	<?php
+		}
+	?>
 </div>
 
 <?php
-	include('./inc/footer.php')
+	get_template_part('./inc/footer')
 ?>

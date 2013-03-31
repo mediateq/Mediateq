@@ -824,6 +824,7 @@ div.contact-content .hline h5{
 
 div.contact-content .left .top .map{
     min-height: 280px;
+    margin: 20px 0 13px;
 }
 
 div.contact-content .left .bot .tooltips{
@@ -865,7 +866,7 @@ div.contact-content .left .bot .tooltips .vimeo{
 }
 
 .contact-content .right .contact-page{
-    margin: 35px 0;
+    margin: 20px 0 45px;
 }
 
 .contact-content .right .contact-page form p{
