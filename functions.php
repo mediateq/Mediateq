@@ -77,3 +77,39 @@ function gallery_init(){
 
 	register_post_type('gallery', $args);
 }
+//////////////////////////// Services page ////////////////////////////////
+add_action('init','services_init');
+
+function services_init(){
+	$labels = array(
+	'name' => _x('خدمات','post type general name'),
+	'singular_name' => _x('خدمت','post type singular name'),
+	'add_new' => _x('اضافه نمودن خدمت' , 'Services'),
+	'add_new_item' => __('اضافه نمودن خدمت'),
+	'edit_item' => __('اصلاح خدمت'),
+	'new_item' => __('خدمت جدبد'),
+	'view_item' => __('مشاهده خدمت'),
+	'search_items' => __('جستجوی خدمت'),
+	'not_found' => __('هیچ خدمتی یافت نشد'),
+	'not_found_in_trash' => __('هیچ خدمتی در زباله دان یافت نشد'),
+	'parent_item_colon' => '',
+	'menu_name' => 'خدمات'
+);
+	$args = array(
+	'labels' => $labels,
+	'public' => true,
+	'publicly_queryable' => true,
+	'show_ui' => true,
+	'show_in_menu' => true,
+	'query_var' => true,
+	'rewrite' => array('slug' => 'services'),
+	'capability_type' => 'post',
+	'has_archive' => true,
+	'hierarchical' => false,
+	'menu_position' => 10,
+	'menu_icon' => get_bloginfo('template_url') . '/images/servicesicon.png',
+	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields'),
+);
+
+	register_post_type('services', $args);
+}
