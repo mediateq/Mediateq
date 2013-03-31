@@ -699,7 +699,7 @@ footer.contain .container .third a.recent-work{
 footer.contain .container p{
 	color: #fff;
 	background-color: #303030;
-	font-size: 18px;
+	font-size: 19px;
 	margin-top: 25px;
 }
 
@@ -1038,12 +1038,8 @@ div.services-content .services .hline{
 
 div.services-content .services .hline h5{
     background-color: #fff;
-    width: 45px;
+    width: 50px;
     font-size: 18px;
-}
-
-div.services-content .services .right:first-child .hline h5{
-    width: 100px;
 }
 
 div.services-content .services .right p,
@@ -1053,7 +1049,7 @@ div.services-content .services .left p{
     margin: 15px 15px;
 }
 
-div.services-content .services .left .tik{
+div.services-content .services .left li{
     background-image: url('./images/tik.png');
     background-repeat: no-repeat;
     background-position: right center;
