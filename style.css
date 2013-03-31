@@ -680,18 +680,20 @@ footer.contain .container a:hover{
 	color: #DDD;
 }
 
-footer.contain .container .third h5{
-	margin-bottom: 15px;
-}
-
-footer.contain .container .third h5.recent-work{
-	margin-bottom: 5px;
+footer.contain .container .third li a{
+	background: url('./images/links-list-arrow-02.png') right no-repeat;
+	display: block;
+	padding-right: 12px;
 }
 
 footer.contain .container .third p.recent-work{
-	margin-bottom: 15px;
+	margin-bottom: 17px;
 	margin-top: 0;
-	line-height: 1.5;
+	
+}
+
+footer.contain .container .third a.recent-work{
+	font-size: 15px;
 }
 
 footer.contain .container p{
@@ -745,6 +747,10 @@ footer.contain .container .forth .hlinefoot p{
 
 footer.contain .container .forth .text a{
 	color: #fff;
+}
+
+footer.contain .container .forth a.footer-about{
+	font-size: 17px;
 }
 
 footer.contain .container .hfoot{
