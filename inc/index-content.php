@@ -70,77 +70,52 @@
 		</div>
 		<div class="badboy"></div>
 	</div>
-	<div class="hline"></div>
+	<div class="hline hline-recent">
+		<h5>فعالیت های اخیر</h5>
+	</div>
 	<div class="recent">
 		<ul>
-			<li>
-				<div class="pic">
-					<a href="#">
-						<img src="<?php bloginfo('template_url') ?>/images/recent/1.jpg" alt="" />
-						<div class="effect"></div>
-					</a>
-				</div>
-				<div class="tit">
-					<p>سربرگ</p>
-				</div>
-				<div class="hlines"></div>
-				<div class="text">
-					<p>
-						متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
-					</p>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="#">
-						<img src="<?php bloginfo('template_url') ?>/images/recent/2.jpg" alt="" />
-						<div class="effect"></div>
-					</a>
-				</div>
-				<div class="tit">
-					<p>سربرگ</p>
-				</div>
-				<div class="hlines"></div>
-				<div class="text">
-					<p>
-						متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
-					</p>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="#">
-						<img src="<?php bloginfo('template_url') ?>/images/recent/3.jpg" alt="" />
-						<div class="effect"></div>
-					</a>
-				</div>
-				<div class="tit">
-					<p>سربرگ</p>
-				</div>
-				<div class="hlines"></div>
-				<div class="text">
-					<p>
-						متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
-					</p>
-				</div>
-			</li>
-			<li>
-				<div class="pic">
-					<a href="#">
-						<img src="<?php bloginfo('template_url') ?>/images/recent/4.jpg" alt="" />
-						<div class="effect"></div>
-					</a>
-				</div>
-				<div class="tit">
-					<p>سربرگ</p>
-				</div>
-				<div class="hlines"></div>
-				<div class="text">
-					<p>
-						متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...متن مورد نظر...
-					</p>
-				</div>
-			</li>
+			<?php $args = array(
+					    'numberposts' => 4,
+					    'offset' => 0,
+					    'category' => 0,
+					    'orderby' => 'post_date',
+					    'order' => 'DESC',
+					    'include' => '',
+					    'exclude' => '',
+					    'meta_key' => '',
+					    'meta_value' =>'',
+					    'post_type' => 'project',
+					    'post_status' => 'draft, publish, future, pending, private',
+					    'suppress_filters' => true 
+					    ); 
+
+				$recent_posts = wp_get_recent_posts( $args );
+
+				foreach( $recent_posts as $recent ){
+
+					$url     = get_permalink($recent["ID"]);
+					$title   = $recent["post_title"];
+					$content = substr($recent["post_content"], 0, 250);
+					$pict    = get_the_post_thumbnail($recent["ID"], "medium");
+
+					echo "<li>
+							<div class='pic'>
+								<a href=\"$url\">
+									$pict
+									<div class='effect'></div>
+								</a>
+							</div>
+							<div class='tit'>
+								<p>$title</p>
+							</div>
+							<div class='hlines'></div>
+							<div class='text'>
+								<p>$content</p>
+							</div>
+						</li>";
+				}
+			?>
 		</ul>
 		<div class="badboy"></div>
 	</div>	

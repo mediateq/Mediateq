@@ -558,6 +558,16 @@ section.banner .welcome p{
 }
 
 /*///////Recent////////*/
+section.banner .hline-recent{
+	height: 20px;
+}
+
+section.banner .hline-recent h5{
+	font-size: 19px;
+	background-color: white;
+	width: 100px;
+}
+
 section.banner .recent{
     margin-top: 25px;
 }
@@ -565,7 +575,6 @@ section.banner .recent{
 section.banner .recent li{
 	float: right;
 	width: 222px;
-	min-height: 290px;
 	margin-right: 20px;
 	margin-bottom: 25px;
 }
