@@ -113,3 +113,39 @@ function services_init(){
 
 	register_post_type('services', $args);
 }
+//////////////////////////// Blog page ////////////////////////////////
+add_action('init','blog_init');
+
+function blog_init(){
+	$labels = array(
+	'name' => _x('وبلاگ','post type general name'),
+	'singular_name' => _x('مطلب','post type singular name'),
+	'add_new' => _x('اضافه نمودن مطلب' , 'Blog'),
+	'add_new_item' => __('اضافه نمودن مطلب'),
+	'edit_item' => __('اصلاح مطلب'),
+	'new_item' => __('مطلب جدبد'),
+	'view_item' => __('مشاهده مطلب'),
+	'search_items' => __('جستجوی مطلب'),
+	'not_found' => __('هیچ مطلبی یافت نشد'),
+	'not_found_in_trash' => __('هیچ مطلبی در زباله دان یافت نشد'),
+	'parent_item_colon' => '',
+	'menu_name' => 'وبلاگ'
+);
+	$args = array(
+	'labels' => $labels,
+	'public' => true,
+	'publicly_queryable' => true,
+	'show_ui' => true,
+	'show_in_menu' => true,
+	'query_var' => true,
+	'rewrite' => array('slug' => 'blog'),
+	'capability_type' => 'post',
+	'has_archive' => true,
+	'hierarchical' => false,
+	'menu_position' => 20,
+	'menu_icon' => get_bloginfo('template_url') . '/images/blogicon.png',
+	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields','comments'),
+);
+
+	register_post_type('blog', $args);
+}
