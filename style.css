@@ -152,35 +152,22 @@ div.contain{
 
 .pagelink{
 	text-align: right;
-	font-family: 'bmitra','tahoma';
+	font-family: 'bmitra';
 	padding-bottom: 25px;
 }
 
 .pagelink a,
 .pagelink span{
 	display: inline-block;
-	padding: 5px 7px;
-	background-color: #5CA20D;
-	color: #fff;
+	padding: 5px 10px;
+	border: 1px solid #DDD;
+	color: #111;
 	text-align: center;
-	webkit-transition: background-color .5s;
-	-moz-transition: background-color .5s;
-	-ms-transition: background-color .5s;
-	-o-transition: background-color .5s;
-	transition: background-color .5s;
-}
-
-.pagelink a:hover{
-	background-color: #AAA;
-	-webkit-transition: background-color .7s;
-	-moz-transition: background-color .7s;
-	-ms-transition: background-color .7s;
-	-o-transition: background-color .7s;
-	transition: background-color .7s;
 }
 
 .pagelink span.current{
-	color: #000;
+	background-color: #5CA20D;
+	color: #fff;
 }
 /* ---------------------------------Header----------------------------- */
 header.header{
