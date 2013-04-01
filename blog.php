@@ -39,7 +39,7 @@
 		<div class="detail">
 			<div class="date">
 				<div class="image"></div>
-				<p>تاریخ: <?php the_date(); ?></p>
+				<p>تاریخ: <?php the_date('j F  Y'); ?></p>
 			</div>
 			<div class="by">
 				<div class="image"></div>
@@ -47,7 +47,7 @@
 			</div>
 			<div class="num-of-com">
 				<div class="image"></div>
-				<p>تعداد: <?php comments_number( $zero = 0, $one = 1); ?></p>
+				<p>تعداد دیدگاه: <?php comments_number( $zero = 0, $one = 1, $more='%'); ?></p>
 			</div>
 			<div class="badboy"></div>
 		</div>
