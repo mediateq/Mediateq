@@ -176,3 +176,13 @@ function add_custom_taxonomies() {
 }
 
 add_action( 'init', 'add_custom_taxonomies', 0 );
+//////////////////////////// Pageination for taxonomy ////////////////////////////////
+function my_modify_posts_per_page() {
+    add_filter( 'option_posts_per_page', 'my_option_posts_per_page' );
+}
+
+function my_option_posts_per_page( $value ) {
+    return 1;
+}
+
+add_action( 'init', 'my_modify_posts_per_page', 0);

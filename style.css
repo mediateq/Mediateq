@@ -1215,12 +1215,22 @@ div.services-content .services .left li{
     margin-left: 5px;
     margin-bottom: 5px;
     font-family: 'bmitra';
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
 }
 
 .blog-content .left .tag a:hover{
     background-color: #5CA20D;
     outline: 0 none;
     color: #fff;
+    -webkit-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    -ms-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
+    transition: background-color 0.4s;
 }
 
 .blog-content .left .tag .hline{
