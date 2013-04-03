@@ -16,8 +16,11 @@
 	<?php
 		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 		query_posts( 'post_type=blog&posts_per_page=3&paged=' . $paged);
+		
+		$i = 0;
 		while(have_posts()){
 			the_post();
+			$i++;
 	?>
 
 	<div class="right">
@@ -56,13 +59,15 @@
 		</div>
 	</div>
 
-<?php get_template_part('./inc/left-sidebar'); ?>
+<?php 
+	if ($i == 1) 
+	get_template_part('./inc/left-sidebar'); 
+?>
+<div class="badboy"></div>
 
 	<?php
 		}
 	?>
-
-	<div class="badboy"></div>
 
 <?php get_template_part('./inc/page-link'); ?>
 

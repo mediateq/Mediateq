@@ -116,6 +116,10 @@ div.contain{
     font-size: 25px;
 }
 
+#tit-otherpage h5 span{
+	color: #aaa;
+}
+
 .pic{
     position: relative;
 }

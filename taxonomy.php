@@ -5,7 +5,7 @@
 
 <div class="blog-content">
 	<div id="tit-otherpage">
-		<h5><?php echo apply_filters( 'the_title', $term->name ); ?></h5>
+		<h5>وبلاگ<span> / <?php echo apply_filters( 'the_title', $term->name ); ?></h5></span>
 	</div>
 	<div class="hline">
 		<div class="boldline"></div>
@@ -15,8 +15,11 @@
 		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 		global $wp_query;
 		query_posts( array_merge( $wp_query->query, array( 'posts_per_page' => 3 ) ) );
+
+		$i = 0;
 		while(have_posts()){
 			the_post();
+			$i++;
 	?>
 
 	<div class="right">
@@ -55,12 +58,15 @@
 		</div>
 	</div>
 
-<?php get_template_part('./inc/left-sidebar'); ?>
+<?php 
+	if ($i == 1) 
+	get_template_part('./inc/left-sidebar'); 
+?>
+<div class="badboy"></div>
 
 	<?php
 		}
 	?>
-	<div class="badboy"></div>
 
 <?php get_template_part('./inc/page-link'); ?>
 
