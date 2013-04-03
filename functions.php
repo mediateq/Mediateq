@@ -33,7 +33,7 @@ function project_init(){
 	'rewrite' => true,
 	'capability_type' => 'post',
 	'has_archive' => true,
-	'hierarchical' => false,
+	'hierarchical' => true,
 	'menu_position' => 20,
 	'menu_icon' => get_bloginfo('template_url') . '/images/projecticon.png',
 	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields'),
@@ -69,7 +69,7 @@ function gallery_init(){
 	'rewrite' => true,
 	'capability_type' => 'post',
 	'has_archive' => true,
-	'hierarchical' => false,
+	'hierarchical' => true,
 	'menu_position' => 20,
 	'menu_icon' => get_bloginfo('template_url') . '/images/galleryicon.png',
 	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields'),
@@ -105,7 +105,7 @@ function services_init(){
 	'rewrite' => true,
 	'capability_type' => 'post',
 	'has_archive' => true,
-	'hierarchical' => false,
+	'hierarchical' => true,
 	'menu_position' => 20,
 	'menu_icon' => get_bloginfo('template_url') . '/images/servicesicon.png',
 	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields'),
@@ -141,7 +141,7 @@ function blog_init(){
 	'rewrite' => true,
 	'capability_type' => 'post',
 	'has_archive' => true,
-	'hierarchical' => false,
+	'hierarchical' => true,
 	'menu_position' => 20,
 	'menu_icon' => get_bloginfo('template_url') . '/images/blogicon.png',
 	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields','comments','trackbacks'),
@@ -149,3 +149,30 @@ function blog_init(){
 
 	register_post_type('blog', $args);
 }
+
+function add_custom_taxonomies() {
+	register_taxonomy('blogs', 'blog', array(
+		'labels' => array(
+			'name' => _x( 'دسته بندی مطالب', 'taxonomy general name' ),
+			'singular_name' => _x( 'دسته بندی مطلب', 'taxonomy singular name' ),
+			'search_items' =>  __( 'جستجوی مطلب' ),
+			'all_items' => __( 'همه مطالب' ),
+			'parent_item' => __( 'Parent Location' ),
+			'parent_item_colon' => __( 'Parent Location:' ),
+			'edit_item' => __( 'ویرایش مطلب' ),
+			'update_item' => __( 'بروزرسانی مطلب' ),
+			'add_new_item' => __( 'اضافه نمودن گروه' ),
+			'new_item_name' => __( 'اسم مطلب جدید' ),
+			'menu_name' => __( 'دسته بندی مطالب' ),
+		),
+		'query_var' => true,
+		'hierarchical' => true,
+		'rewrite' => array(
+			'slug' => 'blog', 
+			'with_front' => true, 
+			'hierarchical' => true 
+		),
+	));
+}
+
+add_action( 'init', 'add_custom_taxonomies', 0 );
