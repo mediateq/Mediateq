@@ -8,15 +8,16 @@
 				$blog_cat = wp_list_categories( array(
 				  'taxonomy' => 'blogs',
 				  'orderby' => 'count',
-				  'show_count' => 0,
+				  'order' => 'DESC',
+				  'show_count' => 1,
 				  'pad_counts' => 0,
 				  'hierarchical' => 1,
 				  'echo' => 0,
-				  'title_li' => ''
+				  'title_li' => '',
 				) );
 
 				if ( $blog_cat )
-					echo '<ul class="blog-list">' . $blog_cat . '</ul>';
+					echo "<ul class='blog-list'> $blog_cat  </ul>";
 			?>
 		</div>
 

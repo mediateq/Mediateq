@@ -1187,13 +1187,14 @@ div.services-content .services .left li{
     float: right;
 }
 
-.blog .category .cat ul li a{
-    display: block;
+.blog .category .cat ul li{
+	display: block;
     padding: 5px 10px;
     background-image: url('./images/links-list-arrow-02.png');
     background-repeat: no-repeat;
     background-position: right center;
     font-family: 'bmitra';
+    text-align: right;
 }
 
 .blog .category .postcat{
