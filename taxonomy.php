@@ -4,7 +4,7 @@
 ?>
 
 <div id="tit-otherpage">
-	<h5>وبلاگ<span> / گروه <?php echo apply_filters( 'the_title', $term->name ); ?></h5></span>
+	<h5>وبلاگ<span> / <?php echo apply_filters( 'the_title', $term->name ); ?></h5></span>
 </div>
 <div class="hline">
 	<div class="boldline"></div>
