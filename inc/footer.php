@@ -4,15 +4,45 @@
 		<div class="container">
 			<div class="first">
 				<div class="hlinefoot">
-					<p>تماس با ما</p>
+					<p>وبلاگ</p>
 				</div>
-				<div class="contact">
-					<form action="mail.php" id="contact" method="post" target="_blank">
-						<input type="text"  class="text" name="name" id="name" placeholder="نام" autocomplete="off" />
-						<input type="text" class="text" name="email" id="email" placeholder="ایمیل" autocomplete="off" />
-						<textarea name="message" id="message" cols="25" rows="5" placeholder="پیام"></textarea>
-						<input type="submit" class="button" id="submit" name="submit" value="ارسال" />
-					</form>
+				<div class="footer-blog">
+					<ul>
+						<?php 
+							$args = array(
+							    'numberposts' => 4,
+							    'offset' => 0,
+							    'category' => 0,
+							    'orderby' => 'post_date',
+							    'order' => 'DESC',
+							    'include' => '',
+							    'exclude' => '',
+							    'meta_key' => '',
+							    'meta_value' =>'',
+							    'post_type' => 'blog',
+							    'post_status' => 'draft, publish, future, pending, private',
+							    'suppress_filters' => true 
+							    ); 
+
+							$recent_posts = wp_get_recent_posts( $args );
+
+							foreach( $recent_posts as $recent ){
+
+								$url     = get_permalink($recent["ID"]);
+								$title   = $recent["post_title"];
+								$date    = $recent["post_date"];
+								$date    = apply_filters($date,get_the_date('j F  Y , H:i'));
+								$content = substr($recent["post_content"], 0, 100);
+								$pict    = get_the_post_thumbnail($recent["ID"], "medium");
+
+								echo "<li>
+										<a class='recent-blog' href=\"$url\">$title</a>
+									  </li>
+									  <div class='badboy'></div>
+									  <p class='date'>$date</p>";
+							}
+						?>
+					</ul>
 				<div class="badboy"></div>
 				</div>
 			</div>
@@ -21,8 +51,9 @@
 					<p>گالری تصاویر</p>
 				</div>
 				<ul>
-					<?php $args = array(
-						    'numberposts' => 9,
+					<?php 
+						$args = array(
+						    'numberposts' => 7,
 						    'offset' => 0,
 						    'category' => 0,
 						    'orderby' => 'post_date',
@@ -58,8 +89,9 @@
 					<p>کارهای ما</p>
 				</div>
 				<ul>
-					<?php $args = array(
-						    'numberposts' => 7,
+					<?php 
+						$args = array(
+						    'numberposts' => 6,
 						    'offset' => 0,
 						    'category' => 0,
 						    'orderby' => 'post_date',
@@ -83,8 +115,9 @@
 							$pict    = get_the_post_thumbnail($recent["ID"], "medium");
 
 							echo "<li>
-									<p class='recent-work'><a class='recent-work' href=\"$url\">$title</a></p>
-								  </li>";
+									<a class='recent-work' href=\"$url\">$title</a>
+								  </li>
+								  <div class='badboy'></div>";
 						}
 					?>
 				</ul>
