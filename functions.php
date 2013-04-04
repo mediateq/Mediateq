@@ -156,7 +156,7 @@ function add_custom_taxonomies() {
 			'name' => _x( 'دسته بندی مطالب', 'taxonomy general name' ),
 			'singular_name' => _x( 'دسته بندی مطلب', 'taxonomy singular name' ),
 			'search_items' =>  __( 'جستجوی مطلب' ),
-			'all_items' => __( 'همه مطالب' ),
+			'all_items' => __( 'همه گروه ها' ),
 			'parent_item' => __( 'Parent Location' ),
 			'parent_item_colon' => __( 'Parent Location:' ),
 			'edit_item' => __( 'ویرایش مطلب' ),
