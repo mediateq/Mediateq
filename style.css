@@ -1070,6 +1070,7 @@ div.services-content .services .left li{
 	float: left;
     width: 220px;
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 
 .blog .blog-content .posts .pic img{
@@ -1206,6 +1207,27 @@ div.services-content .services .left li{
     background-repeat: no-repeat;
     background-position: right center;
     font-family: 'bmitra';
+}
+
+.blog .category .postcat{
+	margin-top: 20px;
+}
+
+.blog .category .postcat ul{
+    float: right;
+}
+
+.blog .category .postcat ul li{
+	font-family: 'bmitra';
+	margin-bottom: 5px;
+}
+
+.blog .category .postcat ul li a{
+    display: block;
+    padding: 5px 10px;
+    background-image: url('./images/links-list-arrow-02.png');
+    background-repeat: no-repeat;
+    background-position: right center;
 }
 
 .blog .category .tag{

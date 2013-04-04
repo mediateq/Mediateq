@@ -3,7 +3,7 @@
 ?>
 
 <div id="tit-otherpage">
-	<h5><?php the_title(); ?></h5>
+	<h5>وبلاگ<span> / <?php the_title(); ?></span></h5>
 </div>
 <div class="hline">
 	<div class="boldline"></div>
@@ -61,7 +61,7 @@
 	</div>
 
 	<?php get_template_part('./inc/left-sidebar'); ?>
-	
+
 </div>
 
 <?php

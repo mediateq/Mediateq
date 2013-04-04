@@ -10,7 +10,7 @@
 			$meta = get_post_custom();
 	?>
 	<div id="tit-otherpage">
-		<h5><?php the_title(); ?></h5>
+		<h5>کارهای ما<span> / <?php the_title(); ?></span></h5>
 	</div>
 	<div class="hline">
 		<div class="boldline"></div>

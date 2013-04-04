@@ -15,8 +15,8 @@
 				  'title_li' => ''
 				) );
 
-			if ( $blog_cat )
-				echo '<ul class="blog-list">' . $blog_cat . '</ul>';
+				if ( $blog_cat )
+					echo '<ul class="blog-list">' . $blog_cat . '</ul>';
 			?>
 		</div>
 
@@ -49,6 +49,34 @@
 			<?php 
 				endif; 
 			?>
+		</div>
+
+		<div class="badboy"></div>
+
+		<div class="postcat">
+			<div class="hline">
+				<h5>مطالب</h5>
+			</div>
+			<ul>
+				<?php
+					$args = array(
+						'sort_column'  => 'post_modified',
+						'sort_order'   => 'DESC',
+						'depth'        => 0,
+						'show_date'    => 'modified',
+						'date_format'  => 'j F  Y , H:i',
+						'title_li'     => '',
+						'echo'         => 1,
+						'number' 	   => 8,
+						'post_type'    => 'blog',
+					    'post_status'  => 'publish' 
+					);
+					$posts = wp_list_pages( $args );
+
+					echo $posts;
+				?>
+			</ul>
+			
 		</div>
 
 </div>
