@@ -36,7 +36,7 @@
 				    'number' => 0,  
 				    'format' => 'flat',
 				    'orderby' => 'count', 
-				    'order' => 'RAND',
+				    'order' => 'ASC',
 				    'link' => 'view',
 				) );
 
