@@ -31,8 +31,8 @@
 				$blog_tag = wp_tag_cloud( array(
 					'taxonomy' => 'blogs',
 					'echo' => 0,
-					'smallest' => 14, 
-				    'largest' => 20,
+					'smallest' => 12, 
+				    'largest' => 22,
 				    'unit' => 'px', 
 				    'number' => 0,  
 				    'format' => 'flat',
