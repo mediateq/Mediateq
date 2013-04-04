@@ -132,7 +132,7 @@
 						$page = get_page($page_id);
 						$link = get_permalink( $page );
 						$content = apply_filters('the_content', $page->post_content);
-						$content = substr($content, 0, 400);
+						$content = substr($content, 0, 550);
 						echo "<a class='footer-about' href=\"$link\">$content...</a>";
 					?>
 				</div>
