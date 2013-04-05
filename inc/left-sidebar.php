@@ -61,20 +61,23 @@
 			<ul>
 				<?php
 					$args = array(
-						'sort_column'  => 'post_modified',
-						'sort_order'   => 'DESC',
-						'depth'        => 0,
-						'show_date'    => 'modified',
-						'date_format'  => 'j F  Y , H:i',
-						'title_li'     => '',
-						'echo'         => 1,
-						'number' 	   => 8,
-						'post_type'    => 'blog',
-					    'post_status'  => 'publish' 
-					);
-					$posts = wp_list_pages( $args );
+							'posts_per_page'  => 8,
+							'orderby'         => 'modified',
+							'order'           => 'DESC',
+							'post_type'       => 'blog',
+							'post_status'     => 'publish',
+							'suppress_filters' => true 
+						);
+					$posts = get_posts( $args );
 
-					echo $posts;
+					foreach( $posts as $post ) {	
+						
+						$url = get_permalink();
+						$title = get_the_title();
+						$date = get_the_modified_date('j F  Y , H:i');
+
+						echo "<li><a href=\"$url\"> $title </a> $date </li>";
+					}
 				?>
 			</ul>
 			
