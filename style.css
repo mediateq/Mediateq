@@ -502,41 +502,35 @@ section.banner .slideshow #gallery .caption .content h3{
 }
 
 /*///////welcome////////*/
-section.banner .welcome .first,
-section.banner .welcome .second,
-section.banner .welcome .third{
+section.banner .welcome li{
 	float: right;
 	width: 290px;
 	min-height: 130px;
-	margin: 22px 0 0 40px;
+	margin: 22px 0 0 26px;
 }
 
-section.banner .welcome .third{
-	margin-left: 0;
-}
-
-section.banner .welcome .first span{
+section.banner .welcome span.pic1{
 	display: inline-block;
 	float: right;
 	width: 48px;
-	height: 48px;
-	background: url('./images/glyphicons.png') -288px -392px no-repeat;
+	height: 28px;
+	background: url('./images/glyphicons.png') -288px -396px no-repeat;
 }
 
-section.banner .welcome .second span{
+section.banner .welcome span.pic2{
 	display: inline-block;
 	float: right;
 	width: 48px;
-	height: 48px;
-	background: url('./images/glyphicons.png') -432px -57px no-repeat;
+	height: 24px;
+	background: url('./images/glyphicons.png') -432px -60px no-repeat;
 }
 
-section.banner .welcome .third span{
+section.banner .welcome span.pic3{
 	display: inline-block;
 	float: right;
 	width: 48px;
-	height: 48px;
-	background: url('./images/glyphicons.png') -144px -777px no-repeat;
+	height: 27px;
+	background: url('./images/glyphicons.png') -144px -780px no-repeat;
 }
 
 section.banner .welcome .tit{
