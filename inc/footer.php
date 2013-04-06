@@ -130,7 +130,7 @@
 			<div class="badboy"></div>
 			<div class="hlinefoot hfoot"></div>
 			<div class="anchor">
-				<a href="#myAnchor" rel="" id="anchor1" class="anchorLink"></a>
+				<a href="#top" id="anchor1" class="anchorLink"></a>
 			</div>
 			<div class="copy">
 				<p>کپی رایت 1391 - تمامی حقوق این سایت متعلق به مِدیا تِک می باشد.</p>

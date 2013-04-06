@@ -27,7 +27,7 @@
 	<![endif]-->
 </head>
 <body>
-	<a name="myAnchor" id="myAnchor"></a>
+	<a name="myAnchor" id="top"></a>
 	<div class="contain">
 		<div class="container">
 			<header class="header">
