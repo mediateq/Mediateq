@@ -506,13 +506,18 @@ section.banner .welcome li{
 	float: right;
 	width: 290px;
 	min-height: 130px;
-	margin: 22px 0 0 26px;
+	margin-top: 22px;
+	margin-right: 40px;
+}
+
+section.banner .welcome li:first-child{
+	margin-right: 0;
 }
 
 section.banner .welcome span.pic1{
 	display: inline-block;
 	float: right;
-	width: 48px;
+	width: 38px;
 	height: 28px;
 	background: url('./images/glyphicons.png') -288px -396px no-repeat;
 }
@@ -520,7 +525,7 @@ section.banner .welcome span.pic1{
 section.banner .welcome span.pic2{
 	display: inline-block;
 	float: right;
-	width: 48px;
+	width: 38px;
 	height: 24px;
 	background: url('./images/glyphicons.png') -432px -60px no-repeat;
 }
@@ -528,7 +533,7 @@ section.banner .welcome span.pic2{
 section.banner .welcome span.pic3{
 	display: inline-block;
 	float: right;
-	width: 48px;
+	width: 38px;
 	height: 27px;
 	background: url('./images/glyphicons.png') -144px -780px no-repeat;
 }
@@ -539,7 +544,7 @@ section.banner .welcome .tit{
 }
 
 section.banner .welcome p{
-	margin-right: 48px;
+	margin-right: 40px;
 }
 
 /*///////Recent////////*/
