@@ -23,7 +23,14 @@
 			<li>
 				<div class='pic'>
 					<a href="<?php the_permalink(); ?>"> 
-						<?php the_post_thumbnail(); ?> 
+						<?php 
+							$title = get_the_title();
+							$attr = array(
+								'class'	=> "image",
+								'alt'	=> $title,
+					    	);
+						  	echo get_the_post_thumbnail( $page->ID, 'large',  $attr) ; 
+						?> 
 						<div class='effect'></div>
 					</a>
 				</div>
