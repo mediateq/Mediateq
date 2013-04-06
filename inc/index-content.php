@@ -88,7 +88,7 @@
 					    'meta_key' => '',
 					    'meta_value' =>'',
 					    'post_type' => 'project',
-					    'post_status' => 'draft, publish, future, pending, private',
+					    'post_status' => 'publish',
 					    'suppress_filters' => true 
 					    ); 
 
@@ -99,7 +99,7 @@
 					$url     = get_permalink($recent["ID"]);
 					$title   = $recent["post_title"];
 					$content = substr($recent["post_content"], 0, 250);
-					$pict    = get_the_post_thumbnail($recent["ID"], "medium");
+					$pict    = get_the_post_thumbnail($recent["ID"], "medium" , "alt=$title");
 
 					echo "<li>
 							<div class='pic'>
@@ -113,7 +113,7 @@
 							</div>
 							<div class='hlines'></div>
 							<div class='text'>
-								<p>$content</p>
+								<p>$content...</p>
 							</div>
 						</li>";
 				}

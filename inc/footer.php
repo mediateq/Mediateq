@@ -65,7 +65,7 @@
 								$url = wp_get_attachment_url( get_post_thumbnail_id($recent["ID"]) );
 								$title   = $recent["post_title"];
 								$content = substr($recent["post_content"], 0, 100);
-								$pict    = get_the_post_thumbnail($recent["ID"], "medium");
+								$pict    = get_the_post_thumbnail($recent["ID"], "medium", "alt=$title");
 
 								echo "<li>
 										<a href=\"$url\" title=\"$title\"  rel='prettyphoto[gallery1]'> $pict </a>
