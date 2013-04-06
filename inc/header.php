@@ -38,10 +38,10 @@
 					<div class="social-con">
 						<div class="socialicon">
 							<ul>
-								<li><a href="#" class="facebook"></a></li>
-								<li><a href="#" class="twitter"></a></li>
-								<li><a href="#" class="googleplus"></a></li>
-								<li><a href="#" class="dribbble"></a></li>							
+								<li><a href="https://www.facebook.com/Mediateq.ir" class="facebook"></a></li>
+								<li><a href="http://twitter.com/mediateqco" class="twitter"></a></li>
+								<li><a href="https://plus.google.com/u/0/103700325036876027169/posts" class="googleplus"></a></li>
+								<li><a href="http://dribbble.com/mediateqco" class="dribbble"></a></li>							
 							</ul>
 						</div>
 						<div class="badboy"></div>
