@@ -40,9 +40,8 @@
 							<ul>
 								<li><a href="#" class="facebook"></a></li>
 								<li><a href="#" class="twitter"></a></li>
-								<li><a href="#" class="dribbble"></a></li>
-								<li><a href="#" class="linkedin"></a></li>
-								<li><a href="#" class="pintrest"></a></li>								
+								<li><a href="#" class="googleplus"></a></li>
+								<li><a href="#" class="dribbble"></a></li>							
 							</ul>
 						</div>
 						<div class="badboy"></div>

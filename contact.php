@@ -51,10 +51,9 @@
 			</div>
 			<div id="social" class="tooltips">
 				<a href="#" class="facebook" title="Facebook"></a>
-				<a href="#" class="evernote" title="Evernote"></a>
-				<a href="#" class="linkedln" title="Linkedln"></a>
+				<a href="#" class="twitter" title="Twitter"></a>
 				<a href="#" class="google" title="Google plus"></a>
-				<a href="#" class="vimeo" title="Vimeo"></a>
+				<a href="#" class="dribbble" title="Dribbble"></a>
 			</div>
 		</div>
 	</div>
