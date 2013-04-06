@@ -8,32 +8,22 @@
 				</div>
 				<div class="footer-blog">
 					<ul>
-						<?php 
+						<?php
 							$args = array(
-							    'numberposts' => 4,
-							    'offset' => 0,
-							    'category' => 0,
-							    'orderby' => 'post_date',
-							    'order' => 'DESC',
-							    'include' => '',
-							    'exclude' => '',
-							    'meta_key' => '',
-							    'meta_value' =>'',
-							    'post_type' => 'blog',
-							    'post_status' => 'draft, publish, future, pending, private',
-							    'suppress_filters' => true 
-							    ); 
+									'posts_per_page'  => 4,
+									'orderby'         => 'modified',
+									'order'           => 'DESC',
+									'post_type'       => 'blog',
+									'post_status'     => 'publish',
+									'suppress_filters' => true 
+								);
+							$posts = get_posts( $args );
 
-							$recent_posts = wp_get_recent_posts( $args );
-
-							foreach( $recent_posts as $recent ){
-
-								$url     = get_permalink($recent["ID"]);
-								$title   = $recent["post_title"];
-								$date    = $recent["post_date"];
-								$date    = apply_filters($date,get_the_date('j F  Y , H:i'));
-								$content = substr($recent["post_content"], 0, 100);
-								$pict    = get_the_post_thumbnail($recent["ID"], "medium");
+							foreach( $posts as $post ) {	
+								
+								$url = get_permalink();
+								$title = get_the_title();
+								$date = get_the_modified_date('j F  Y , H:i');
 
 								echo "<li>
 										<a class='recent-blog' href=\"$url\">$title</a>
