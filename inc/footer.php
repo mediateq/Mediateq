@@ -53,7 +53,7 @@
 						    'meta_key' => '',
 						    'meta_value' =>'',
 						    'post_type' => 'gallery',
-						    'post_status' => 'draft, publish, future, pending, private',
+						    'post_status' => 'publish',
 						    'suppress_filters' => true 
 						    ); 
 
@@ -91,7 +91,7 @@
 						    'meta_key' => '',
 						    'meta_value' =>'',
 						    'post_type' => 'project',
-						    'post_status' => 'draft, publish, future, pending, private',
+						    'post_status' => 'publish',
 						    'suppress_filters' => true 
 						    ); 
 
