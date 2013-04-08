@@ -54,6 +54,7 @@
 				<a href="http://twitter.com/mediateqco" class="twitter" title="Twitter"></a>
 				<a href="https://plus.google.com/u/0/103700325036876027169/posts" class="google" title="Google plus"></a>
 				<a href="http://dribbble.com/mediateqco" class="dribbble" title="Dribbble"></a>
+				<a href="https://github.com/mediateq" class="github" title="Github"></a>
 			</div>
 		</div>
 	</div>

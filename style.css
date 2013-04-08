@@ -276,44 +276,6 @@ header.header .log-so .social-con .socialicon a.googleplus:hover{
 	transition: all 300ms ease-in-out;
 }
 
-header.header .log-so .social-con .socialicon .linkedin{
-	background: url('./images/linkedin.png') 0 0 no-repeat;
-	-webkit-transition: all 300ms ease-in-out;
-	-moz-transition: all 300ms ease-in-out;
-	-ms-transition: all 300ms ease-in-out;
-	-o-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out;
-}
-
-header.header .log-so .social-con .socialicon a.linkedin:hover{
-	background: url('./images/linkedin.png') no-repeat;
-	background-position:0 -38px;
-	-webkit-transition: all 300ms ease-in-out;
-	-moz-transition: all 300ms ease-in-out;
-	-ms-transition: all 300ms ease-in-out;
-	-o-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out;
-}
-
-header.header .log-so .social-con .socialicon .pintrest{
-	background: url('./images/pintrest.png') 0 0 no-repeat;
-	-webkit-transition: all 300ms ease-in-out;
-	-moz-transition: all 300ms ease-in-out;
-	-ms-transition: all 300ms ease-in-out;
-	-o-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out;
-}
-
-header.header .log-so .social-con .socialicon a.pintrest:hover{
-	background: url('./images/pintrest.png') no-repeat;
-	background-position:0 -38px;
-	-webkit-transition: all 300ms ease-in-out;
-	-moz-transition: all 300ms ease-in-out;
-	-ms-transition: all 300ms ease-in-out;
-	-o-transition: all 300ms ease-in-out;
-	transition: all 300ms ease-in-out;
-}
-
 header.header .log-so .social-con .socialicon .dribbble{
 	background: url('./images/dribbble.png') 0 0 no-repeat;
 	-webkit-transition: all 300ms ease-in-out;
@@ -325,6 +287,25 @@ header.header .log-so .social-con .socialicon .dribbble{
 
 header.header .log-so .social-con .socialicon a.dribbble:hover{
 	background: url('./images/dribbble.png') no-repeat;
+	background-position:0 -38px;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+header.header .log-so .social-con .socialicon .github{
+	background: url('./images/github.png') 0 0 no-repeat;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+header.header .log-so .social-con .socialicon a.github:hover{
+	background: url('./images/github.png') no-repeat;
 	background-position:0 -38px;
 	-webkit-transition: all 300ms ease-in-out;
 	-moz-transition: all 300ms ease-in-out;
@@ -839,7 +820,8 @@ div.contact-content .left .bot .tooltips{
 div.contact-content .left .bot .tooltips .facebook,
 div.contact-content .left .bot .tooltips .twitter,
 div.contact-content .left .bot .tooltips .google,
-div.contact-content .left .bot .tooltips .dribbble{
+div.contact-content .left .bot .tooltips .dribbble,
+div.contact-content .left .bot .tooltips .github{
     float: right;
     width: 28px;
     height: 28px;
@@ -863,6 +845,10 @@ div.contact-content .left .bot .tooltips .google{
 
 div.contact-content .left .bot .tooltips .dribbble{
     background-image: url('./images/dribbble.png');
+}
+
+div.contact-content .left .bot .tooltips .github{
+    background-image: url('./images/github.png');
 }
 
 .contact-content .right .contact-page{
