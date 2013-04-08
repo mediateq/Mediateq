@@ -73,7 +73,7 @@
 		<div class="badboy"></div>
 	</div>
 	<div class="hline hline-recent">
-		<h5>فعالیت های اخیر</h5>
+		<h5>پروژه های اخیر</h5>
 	</div>
 	<div class="recent">
 		<ul>
