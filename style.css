@@ -752,11 +752,11 @@ footer.contain .container .copy p{
 	color: #aaa;
 }
 
-footer.contain .container .anchor{
+footer.contain .container #scroll-top-top{
 	float: left;
 }
 
-footer.contain .container .anchor a{
+footer.contain .container #scroll-top-top a{
 	display: block;
 	background-color: #5ca20d;
 	padding: 16px 18px; 
@@ -770,7 +770,7 @@ footer.contain .container .anchor a{
 	transition: all .5s;
 }
 
-footer.contain .container .anchor a:hover{
+footer.contain .container #scroll-top-top a:hover{
 	background-color: #aaa;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;

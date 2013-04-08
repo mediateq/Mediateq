@@ -118,7 +118,7 @@
 				</div>
 				<div class="text">
 					<?php
-						$page_id = 16;
+						$page_id = 9;
 						$page = get_page($page_id);
 						$link = get_permalink( $page );
 						$content = apply_filters('the_content', $page->post_content);
@@ -129,9 +129,11 @@
 			</div>
 			<div class="badboy"></div>
 			<div class="hlinefoot hfoot"></div>
-			<div class="anchor">
-				<a href="#top" id="anchor1" class="anchorLink"></a>
+
+			<div id="scroll-top-top">
+				<a href="#"></a>
 			</div>
+
 			<div class="copy">
 				<p>کپی رایت 1391 - تمامی حقوق این سایت متعلق به مِدیا تِک می باشد.</p>
 			</div>

@@ -28,7 +28,6 @@
 	<link rel="Shortcut Icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" />
 </head>
 <body>
-	<a name="myAnchor" id="top"></a>
 	<div class="contain">
 		<div class="container">
 			<header class="header">
