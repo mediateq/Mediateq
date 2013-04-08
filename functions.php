@@ -34,7 +34,7 @@ function project_init(){
 	'capability_type' => 'post',
 	'has_archive' => true,
 	'hierarchical' => true,
-	'menu_position' => 20,
+	'menu_position' => 25,
 	'menu_icon' => get_bloginfo('template_url') . '/images/projecticon.png',
 	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields'),
 );
@@ -70,7 +70,7 @@ function gallery_init(){
 	'capability_type' => 'post',
 	'has_archive' => true,
 	'hierarchical' => true,
-	'menu_position' => 20,
+	'menu_position' => 25,
 	'menu_icon' => get_bloginfo('template_url') . '/images/galleryicon.png',
 	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields'),
 );
@@ -106,7 +106,7 @@ function services_init(){
 	'capability_type' => 'post',
 	'has_archive' => true,
 	'hierarchical' => true,
-	'menu_position' => 20,
+	'menu_position' => 25,
 	'menu_icon' => get_bloginfo('template_url') . '/images/servicesicon.png',
 	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields'),
 );
@@ -142,7 +142,7 @@ function blog_init(){
 	'capability_type' => 'post',
 	'has_archive' => true,
 	'hierarchical' => true,
-	'menu_position' => 20,
+	'menu_position' => 25,
 	'menu_icon' => get_bloginfo('template_url') . '/images/blogicon.png',
 	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields','comments','trackbacks'),
 );
