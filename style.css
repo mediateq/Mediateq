@@ -195,6 +195,7 @@ header.header .log-so .logo img{
 
 header.header .log-so .logo a p{
 	text-indent: 10000px;
+	overflow: hidden;
 }
 
 header.header .log-so .social-con{
@@ -362,6 +363,7 @@ header.header .log-so .social-con .contact li p{
 	font-family: arial;
     margin-left: 15px;
 	font-size: 13px;
+	text-align: left;
 }
 
 header.header .log-so .social-con .contact li h5{
