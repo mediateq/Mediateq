@@ -25,6 +25,7 @@
 	<!--[if lt IE 9]>
 		<script src="<?php bloginfo('template_url') ?>/js/html5shiv.js"></script>
 	<![endif]-->
+	<link rel="Shortcut Icon" href="<?php bloginfo('template_url'); ?>/favicon.ico" />
 </head>
 <body>
 	<a name="myAnchor" id="top"></a>
