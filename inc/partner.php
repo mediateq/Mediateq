@@ -2,19 +2,29 @@
 <div class="partner">
 	<ul>
 		<li>
-			<img src="<?php bloginfo('template_url') ?>/images/partners/logo-05.png" alt="mates" />
+			<a href="https://github.com/features/projects" title="Github" target="_blank">
+				<img src="<?php bloginfo('template_url') ?>/images/partners/github-logo.jpg" alt="Github" />
+			</a>
 		</li>
 		<li>
-			<img src="<?php bloginfo('template_url') ?>/images/partners/logo-04.png" alt="coffee" />
+			<a href="http://www.w3.org/" title="W3C" target="_blank">
+				<img src="<?php bloginfo('template_url') ?>/images/partners/w3c-logo.jpg" alt="W3C" />
+			</a>
 		</li>
 		<li>
-			<img src="<?php bloginfo('template_url') ?>/images/partners/logo-03.png" alt="hexagon" />
+			<a href="http://php.net/" title="PHP" target="_blank">
+				<img src="<?php bloginfo('template_url') ?>/images/partners/php-logo.jpg" alt="PHP" />
+			</a>
 		</li>
 		<li>
-			<img src="<?php bloginfo('template_url') ?>/images/partners/logo-02.png" alt="king" />
+			<a href="http://jquery.com/" title="Jquery" target="_blank">
+				<img src="<?php bloginfo('template_url') ?>/images/partners/jquery_logo.jpg" alt="Jquery" />
+			</a>
 		</li>
 		<li>
-			<img src="<?php bloginfo('template_url') ?>/images/partners/logo-01.png" alt="cubico" />
+			<a href="http://zeptojs.com/" title="Zepto" target="_blank">
+				<img src="<?php bloginfo('template_url') ?>/images/partners/zepto-logo.jpg" alt="cubico" />
+			</a>
 		</li>
 	</ul>
 	<div class="badboy"></div>

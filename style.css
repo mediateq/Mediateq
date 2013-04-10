@@ -601,11 +601,16 @@ section.banner .recent .text{
 }
 
 .partner ul li{
-	float: right;
+	float: left;
 	width: 190px;
 	min-height: 100px;
 	outline: 1px solid #e5e5e5;
 	margin-bottom: 25px;
+}
+
+.partner ul li img{
+	width: 187px;
+	height: 95px;
 }
 
 /* ---------------------------------Footer----------------------------- */
