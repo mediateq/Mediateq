@@ -3,16 +3,16 @@ function slideShow() {
  
     $('#gallery a').css({opacity: 0.0});
      
-    $('#gallery a:first').css({opacity: 1.0});
+    $('#gallery a.show').css({opacity: 1.0});
      
     $('#gallery .caption').css({opacity: 0.7});
 
     $('#gallery .caption').css({width: $('#gallery a').find('img').css('width')});
      
-    $('#gallery .content').html($('#gallery a:first').find('img').attr('rel'))
+    $('#gallery .content').html($('#gallery a.show').find('img').attr('rel'))
     .animate({opacity: 0.7}, 400);
      
-    setInterval('gallery()',6000);
+    setInterval('gallery()',12000);
 }
  
 function gallery() { 
