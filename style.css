@@ -1099,9 +1099,10 @@ div.services-content .services .left li{
 
 .blog .blog-content .posts .detail .date,
 .blog .blog-content .posts .detail .by,
-.blog .blog-content .posts .detail .num-of-com{
+.blog .blog-content .posts .detail .num-of-com,
+.blog .blog-content .posts .detail .resource{
     float: right;
-    width: 200px;
+    width: 170px;
     min-height: 20px;
     background-repeat: no-repeat;
 }
@@ -1143,6 +1144,23 @@ div.services-content .services .left li{
 
 .blog .blog-content .posts .detail .num-of-com .image p{
     margin-right: 20px;
+}
+
+.blog .blog-content .posts .detail .resource .image{
+	display: inline-block;
+	float: right;
+    background-image: url('./images/glyphicons-mini.png');
+    background-position: -48px -47px;
+    width: 14px;
+    height: 14px;
+}
+
+.blog .blog-content .posts .detail .resource .image p{
+    margin-right: 20px;
+}
+
+.blog .blog-content .posts .detail .resource p a{
+	font-family: serif;
 }
 
 .blog .blog-content .posts .text p{

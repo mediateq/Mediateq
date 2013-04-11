@@ -21,6 +21,8 @@
 
 			while(have_posts()){
 				the_post();
+
+				$meta = get_post_custom();
 		?>
 
 		<div class="posts">
@@ -52,6 +54,17 @@
 					<div class="image"></div>
 					<p>تعداد دیدگاه: <?php comments_number( $zero = 0, $one = 1, $more='%'); ?></p>
 				</div>
+				<?php
+					if( count($meta['resource'])>0 ){
+						$res = $meta['resource'][0];
+				?>
+				<div class="resource">
+					<div class="image"></div>
+					<p>منبع: <?php echo "<a href=\"http://$res\" target='_blank'> $res </a>" ?></p>
+				</div>
+				<?php
+					}
+				?>
 				<div class="badboy"></div>
 			</div>
 			<div class="text">
