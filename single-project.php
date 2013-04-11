@@ -35,9 +35,17 @@
 			<?php
 				if( count($meta['link'])>0 ){
 					$url = $meta['link'][0];
-				}
 			?>
 			<p><a href="<?php echo "http://$url" ?>" target='_blank'>باز کردن پروژه</a></p>
+			<?php
+				}else{
+					$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
+					$title = get_the_title();
+			?>
+					<p><a href="<?php echo $url; ?>" rel='prettyphoto[gallery2]' target='_blank' title="<?php echo $title; ?>">باز کردن پروژه</a></p>
+			<?php
+				}
+			?>
 		</div>
 		<div class="badboy"></div>
 	</div>
@@ -46,6 +54,17 @@
 	?>
 </div>
 
+
+
 <?php
 	get_template_part('./inc/footer');
 ?>
+
+<script type="text/javascript">
+	  $(document).ready(function(){
+	    $("a[rel^='prettyphoto[gallery2]']").prettyPhoto({
+	    	autoplay_slideshow: false,
+	    	show_title: false,
+	    });
+	  });
+</script>
