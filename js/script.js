@@ -138,10 +138,12 @@ function validateEmail(str){
 
 
 // Anchor link for scroll
-$(function(){
-    $('#scroll-top-top a').click(function(){
-        $('html, body').animate({scrollTop:0}, 500);
-    })
-    return false;
+(function($){
+    $(function(){
+        $('#scroll-top-top a').click(function(){
+            $('html, body').animate({scrollTop:0}, 500);
+        })
+        return false;
+    });
 })(jQuery);
 
