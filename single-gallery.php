@@ -48,14 +48,16 @@
 <?php get_template_part('./inc/page-link'); ?>
 
 </div>
-	<script type="text/javascript">
-		  $(document).ready(function(){
-		    $("a[rel^='prettyphoto']").prettyPhoto({
-		    	autoplay_slideshow: true,
-		    	show_title: false,
-		    });
-		  });
-	</script>
+	
 <?php
 	get_template_part('./inc/footer');;
 ?>
+
+<script type="text/javascript">
+	  $(document).ready(function(){
+	    $("a[rel^='prettyphoto']").prettyPhoto({
+	    	autoplay_slideshow: true,
+	    	show_title: false,
+	    });
+	  });
+</script>
