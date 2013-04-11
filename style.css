@@ -1488,3 +1488,18 @@ div.comment #respond form .leavecomment-hline h5{
     line-height: 1.5;
     text-align: justify;
 }
+
+.project-content .single-project .detail .options{
+	direction: ltr;
+}
+
+.project-content .single-project .detail .options ul{
+	margin-top: 25px;
+}
+
+.project-content .single-project .detail .options li{
+	margin: 10px 0;
+	width: 0;
+	background: url('./images/glyphicons-mini.png') -93px -71px no-repeat;
+	padding-left: 25px;
+}
