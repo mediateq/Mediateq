@@ -582,6 +582,11 @@ section.banner .recent li:first-child{
 	margin-right: 0;
 }
 
+section.banner .recent li .text p{
+	line-height: 18px;
+	text-align: justify;
+}
+
 section.banner .recent .pic{
 	width: 222px;
 	height: 150px;
