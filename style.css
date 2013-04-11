@@ -1419,6 +1419,7 @@ div.comment #respond form .leavecomment-hline h5{
 .project-content .project .text p{
     font-size: 16px;
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 .project-content .project .pic{
@@ -1429,8 +1430,12 @@ div.comment #respond form .leavecomment-hline h5{
     margin-top: 30px;
 }
 
+.project-content .single-project .pic{
+	float: right;
+}
+
 .project-content .single-project img{
-	width: 950px;
+	width: 550px;
 	height: 400px;
 }
 
@@ -1440,6 +1445,7 @@ div.comment #respond form .leavecomment-hline h5{
 
 .project-content .single-project .right{
 	width: 150px;
+	margin-bottom: 25px;
 }
 
 .project-content .single-project .right .title p{
@@ -1473,11 +1479,12 @@ div.comment #respond form .leavecomment-hline h5{
 
 .project-content .single-project .detail{
 	margin-top: 10px;
-	margin-right: 150px;
+	margin-right: 580px;
 	padding-bottom: 50px;
 }
 
 .project-content .single-project .detail .text p{
     font-size: 17px;
     line-height: 1.5;
+    text-align: justify;
 }
