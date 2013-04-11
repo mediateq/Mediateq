@@ -41,6 +41,33 @@ function project_init(){
 
 	register_post_type('project', $args);
 }
+
+function add_custom_taxonomies_project() {
+	register_taxonomy('projects', 'project', array(
+		'labels' => array(
+			'name' => _x( 'دسته بندی پروژه ها', 'taxonomy general name' ),
+			'singular_name' => _x( 'دسته بندی پروژه', 'taxonomy singular name' ),
+			'search_items' =>  __( 'جستجوی پروژه' ),
+			'all_items' => __( 'همه گروه ها' ),
+			'parent_item' => __( 'Parent Location' ),
+			'parent_item_colon' => __( 'Parent Location:' ),
+			'edit_item' => __( 'ویرایش پروژه' ),
+			'update_item' => __( 'بروزرسانی پروژه' ),
+			'add_new_item' => __( 'اضافه نمودن پروژه' ),
+			'new_item_name' => __( 'اسم پروژه جدید' ),
+			'menu_name' => __( 'دسته بندی پروژه ها' ),
+		),
+		'query_var' => true,
+		'hierarchical' => true,
+		'rewrite' => array(
+			'slug' => 'project', 
+			'with_front' => true, 
+			'hierarchical' => true 
+		),
+	));
+}
+
+add_action( 'init', 'add_custom_taxonomies_project', 0 );
 //////////////////////////// Gallery page ////////////////////////////////
 add_action('init','gallery_init');
 
@@ -150,7 +177,7 @@ function blog_init(){
 	register_post_type('blog', $args);
 }
 
-function add_custom_taxonomies() {
+function add_custom_taxonomies_blog() {
 	register_taxonomy('blogs', 'blog', array(
 		'labels' => array(
 			'name' => _x( 'دسته بندی مطالب', 'taxonomy general name' ),
@@ -175,7 +202,7 @@ function add_custom_taxonomies() {
 	));
 }
 
-add_action( 'init', 'add_custom_taxonomies', 0 );
+add_action( 'init', 'add_custom_taxonomies_blog', 0 );
 //////////////////////////// Pageination for taxonomy ////////////////////////////////
 function my_modify_posts_per_page() {
     add_filter( 'option_posts_per_page', 'my_option_posts_per_page' );
