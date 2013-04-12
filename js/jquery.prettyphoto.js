@@ -41,10 +41,10 @@
 								<div class="pp_content"> \
 									<div class="pp_loaderIcon"></div> \
 									<div class="pp_fade"> \
-										<a href="#" class="pp_expand" title="Expand the image">Expand</a> \
+										<a href="#" class="pp_expand" title="Expand the image"></a> \
 										<div class="pp_hoverContainer"> \
-											<a class="pp_next" href="#">next</a> \
-											<a class="pp_previous" href="#">previous</a> \
+											<a class="pp_next" href="#"></a> \
+											<a class="pp_previous" href="#"></a> \
 										</div> \
 										<div id="pp_full_res"></div> \
 										<div class="pp_details"> \
