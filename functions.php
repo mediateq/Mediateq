@@ -30,7 +30,7 @@ function project_init(){
 	'show_ui' => true,
 	'show_in_menu' => true,
 	'query_var' => true,
-	'rewrite' => true,
+	'rewrite' => false,
 	'capability_type' => 'post',
 	'has_archive' => true,
 	'hierarchical' => true,
@@ -61,7 +61,7 @@ function add_custom_taxonomies_project() {
 		'hierarchical' => true,
 		'rewrite' => array(
 			'slug' => 'project', 
-			'with_front' => true, 
+			'with_front' => false, 
 			'hierarchical' => true 
 		),
 	));
@@ -93,7 +93,7 @@ function gallery_init(){
 	'show_ui' => true,
 	'show_in_menu' => true,
 	'query_var' => true,
-	'rewrite' => true,
+	'rewrite' => false,
 	'capability_type' => 'post',
 	'has_archive' => true,
 	'hierarchical' => true,
@@ -129,7 +129,7 @@ function services_init(){
 	'show_ui' => true,
 	'show_in_menu' => true,
 	'query_var' => true,
-	'rewrite' => true,
+	'rewrite' => false,
 	'capability_type' => 'post',
 	'has_archive' => true,
 	'hierarchical' => true,
@@ -165,7 +165,7 @@ function blog_init(){
 	'show_ui' => true,
 	'show_in_menu' => true,
 	'query_var' => true,
-	'rewrite' => true,
+	'rewrite' => false,
 	'capability_type' => 'post',
 	'has_archive' => true,
 	'hierarchical' => true,
@@ -196,7 +196,7 @@ function add_custom_taxonomies_blog() {
 		'hierarchical' => true,
 		'rewrite' => array(
 			'slug' => 'blog', 
-			'with_front' => true, 
+			'with_front' => false, 
 			'hierarchical' => true 
 		),
 	));
