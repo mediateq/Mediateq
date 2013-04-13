@@ -114,18 +114,43 @@
 			</div>
 			<div class="forth">
 				<div class="hlinefoot">
-					<p>درباره ما</p>
+					<p>برترین ها</p>
 				</div>
-				<div class="text">
-					<?php
-						$page_id = 9;
-						$page = get_page($page_id);
-						$link = get_permalink( $page );
-						$content = apply_filters('the_content', $page->post_content);
-						$content = substr($content, 0, 550);
-						echo "<a class='footer-about' href=\"$link\">$content...</a>";
+				<ul>
+					<?php 
+						$args = array(
+						    'numberposts' => 7,
+						    'offset' => 0,
+						    'category' => 0,
+						    'orderby' => 'post_date',
+						    'order' => 'DESC',
+						    'include' => '',
+						    'exclude' => '',
+						    'meta_key' => '',
+						    'meta_value' =>'',
+						    'post_type' => 'best',
+						    'post_status' => 'publish',
+						    'suppress_filters' => true 
+						    ); 
+
+							$recent_posts = wp_get_recent_posts( $args );
+						
+							foreach( $recent_posts as $recent ){
+
+								$link = get_post_meta($recent["ID"], "link", true);
+								// $url = get_permalink($recent["ID"]);
+								// $url = wp_get_attachment_url( get_post_thumbnail_id($recent["ID"]) );
+								$title = $recent["post_title"];
+								$content = substr($recent["post_content"], 0, 100);
+								$pict = get_the_post_thumbnail($recent["ID"], "medium", "alt=$title");
+
+								echo "<li>
+										<a href=\"$link\" title=\"$title\" target='_blank' > $pict </a>
+									</li>";
+							}
+						
 					?>
-				</div>
+				</ul>
 			</div>
 			<div class="badboy"></div>
 			<div class="hlinefoot hfoot"></div>
