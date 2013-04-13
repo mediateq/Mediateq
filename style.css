@@ -1419,6 +1419,54 @@ div.comment #respond form .leavecomment-hline h5{
     font-size: 15px;
     margin-bottom: 30px;
 }
+/************************Best website Page******************************/
+.best-content .best{
+    margin-top: 30px;
+}
+
+.best-content .best ul{
+	margin-left: 14px;
+}
+
+.best-content .best li{
+    float: left;
+    width: 220px;
+    min-height: 270px;
+    margin-right: 14px;
+}
+
+.best-content .best img{
+    width: 220px;
+    height: 139px;
+}
+
+.best-content .best .pic{
+    width: 220px;
+    height: 139px;
+}
+
+.best-content .best .pic .effect{
+	background-image: url('./images/overlay-icon-01.png');
+}
+
+.best-content .best p{
+    margin: 10px 0;
+    text-align: left;
+    font-family: serif;
+}
+
+.best-content .best .title p{
+    font-size: 18px;
+}
+
+.best-content .best .text{
+	direction: ltr;
+}
+
+.best-content .best .text p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
 /************************Project Page******************************/
 .project-content{
     min-height: 500px;

@@ -11,7 +11,7 @@ add_action('init','project_init');
 function project_init(){
 	$labels = array(
 	'name' => _x('پروژه ها','post type general name'),
-	'singular_name' => _x('پروژه','post type singular name'),
+	'singular_name' => _x('پروژه جدید','post type singular name'),
 	'add_new' => _x('اضافه نمودن پروژه' , 'Project'),
 	'add_new_item' => __('اضافه نمودن پروژه'),
 	'edit_item' => __('اصلاح پروژه'),
@@ -74,7 +74,7 @@ add_action('init','gallery_init');
 function gallery_init(){
 	$labels = array(
 	'name' => _x('عکس ها','post type general name'),
-	'singular_name' => _x('عکس','post type singular name'),
+	'singular_name' => _x('عکس جدید','post type singular name'),
 	'add_new' => _x('اضافه نمودن عکس' , 'Gallery'),
 	'add_new_item' => __('اضافه نمودن عکس'),
 	'edit_item' => __('اصلاح عکس'),
@@ -104,13 +104,49 @@ function gallery_init(){
 
 	register_post_type('gallery', $args);
 }
+//////////////////////////// Best website page ////////////////////////////////
+add_action('init','best_init');
+
+function best_init(){
+	$labels = array(
+	'name' => _x('سایتهای برتر','post type general name'),
+	'singular_name' => _x('سایت برتر','post type singular name'),
+	'add_new' => _x('اضافه نمودن سایت' , 'Best'),
+	'add_new_item' => __('اضافه نمودن سایت'),
+	'edit_item' => __('اصلاح سایت'),
+	'new_item' => __('سایت جدبد'),
+	'view_item' => __('مشاهده سایت'),
+	'search_items' => __('جستجوی سایت'),
+	'not_found' => __('هیچ سایتی یافت نشد'),
+	'not_found_in_trash' => __('هیچ سایتی در زباله دان یافت نشد'),
+	'parent_item_colon' => '',
+	'menu_name' => 'سایتهای برتر'
+);
+	$args = array(
+	'labels' => $labels,
+	'public' => true,
+	'publicly_queryable' => true,
+	'show_ui' => true,
+	'show_in_menu' => true,
+	'query_var' => true,
+	'rewrite' => false,
+	'capability_type' => 'post',
+	'has_archive' => true,
+	'hierarchical' => true,
+	'menu_position' => 25,
+	'menu_icon' => get_bloginfo('template_url') . '/images/besticon.png',
+	'supports' => array('title','editor','author','revisions','post-formats','thumbnail','custom-fields'),
+);
+
+	register_post_type('best', $args);
+}
 //////////////////////////// Services page ////////////////////////////////
 add_action('init','services_init');
 
 function services_init(){
 	$labels = array(
 	'name' => _x('خدمات','post type general name'),
-	'singular_name' => _x('خدمت','post type singular name'),
+	'singular_name' => _x('خدمت جدید','post type singular name'),
 	'add_new' => _x('اضافه نمودن خدمت' , 'Services'),
 	'add_new_item' => __('اضافه نمودن خدمت'),
 	'edit_item' => __('اصلاح خدمت'),
@@ -146,7 +182,7 @@ add_action('init','blog_init');
 function blog_init(){
 	$labels = array(
 	'name' => _x('وبلاگ','post type general name'),
-	'singular_name' => _x('مطلب','post type singular name'),
+	'singular_name' => _x('مطلب جدید','post type singular name'),
 	'add_new' => _x('اضافه نمودن مطلب' , 'Blog'),
 	'add_new_item' => __('اضافه نمودن مطلب'),
 	'edit_item' => __('اصلاح مطلب'),
