@@ -96,9 +96,11 @@
 
 				foreach( $recent_posts as $recent ){
 
+					$cont = $recent["post_content"];
+					$pos = strpos($cont, '<!--more-->');
+					$content = substr($recent["post_content"], 0, $pos);
 					$url     = get_permalink($recent["ID"]);
 					$title   = $recent["post_title"];
-					$content = substr($recent["post_content"], 0, 250);
 					$pict    = get_the_post_thumbnail($recent["ID"], "medium" , "alt=$title");
 
 					echo "<li>
