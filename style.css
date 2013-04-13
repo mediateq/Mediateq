@@ -628,14 +628,9 @@ section.banner .recent .text{
 /* ---------------------------------Footer----------------------------- */
 footer.contain{
 	width: 950px;
-	min-height: 323px;
 	margin: 0px auto 50px;
 	padding: 0 40px 0;
 	background-color: #303030;
-}
-
-footer.contain .container{
-	min-height: 323px;
 }
 
 footer.contain .container .first,

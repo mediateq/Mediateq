@@ -43,7 +43,7 @@
 				if( count($meta['link'])>0 ){
 					$url = $meta['link'][0];
 			?>
-			<p><a href="<?php echo "http://$url" ?>" target='_blank'>باز کردن پروژه</a></p>
+			<p><a href="<?php echo "$url" ?>" target='_blank'>باز کردن پروژه</a></p>
 			<?php
 				}else{
 					$url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) );
