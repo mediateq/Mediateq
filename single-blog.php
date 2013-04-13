@@ -3,7 +3,7 @@
 ?>
 
 <div id="tit-otherpage">
-	<h5>وبلاگ<span> / <?php the_title(); ?></span></h5>
+	<h5><?php echo get_the_title('13'); ?><span> / <?php the_title(); ?></span></h5>
 </div>
 <div class="hline">
 	<div class="boldline"></div>
