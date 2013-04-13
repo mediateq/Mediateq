@@ -1410,7 +1410,7 @@ div.comment #respond form .leavecomment-hline h5{
 .gallery-content .gallery li{
     float: right;
     width: 220px;
-    min-height: 270px;
+    height: 270px;
     margin-right: 14px;
 }
 
@@ -1452,7 +1452,7 @@ div.comment #respond form .leavecomment-hline h5{
 .best-content .best li{
     float: left;
     width: 220px;
-    min-height: 270px;
+    height: 270px;
     margin-right: 14px;
 }
 
@@ -1496,7 +1496,7 @@ div.comment #respond form .leavecomment-hline h5{
 .project-content .project li{
     float: right;
     width: 460px;
-    min-height: 320px;
+    height: 390px;
     margin-right: 9px;
     margin-top: 30px;
 }
@@ -1523,7 +1523,7 @@ div.comment #respond form .leavecomment-hline h5{
     font-size: 16px;
     margin-bottom: 30px;
     line-height: 1.5;
-    text-align: justify;
+    text-align: right;
 }
 
 .project-content .project .pic{
