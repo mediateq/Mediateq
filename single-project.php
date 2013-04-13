@@ -29,24 +29,11 @@
 		<div class='detail'>
 			<div class='text'> <?php the_content(); ?> </div>
 			<div class="options">
-				<?php
-					$project_cat = wp_list_categories( 
-						array(
-						  'show_option_all' => '',
-						  'taxonomy' => 'projects',
-						  'orderby' => 'name',
-						  'order' => 'ACS',
-						  'show_count' => 0,
-						  'pad_counts' => 0,
-						  'hierarchical' => 1,
-						  'echo' => 0,
-						  'title_li' => '',
-						  'style' => 'list',
-						) );
-
-					if ( $project_cat )
-						echo "<ul class='project-list'> $project_cat </ul>";
-				?>				
+				<ul>					
+					<?php
+						echo get_the_term_list( $post->ID, 'projects', '<li>', '</li><li>', '</li>');
+					?>	
+				</ul>			
 			</div>
 		</div>
 		<div class='badboy'></div>
