@@ -39,6 +39,7 @@
 						  <div class='badboy'></div>";
 				}
 			?>
+		</div>
 	</div>
 	<div class="welcome">
 		<ul>
