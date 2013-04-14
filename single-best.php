@@ -23,7 +23,7 @@
 
 					$meta = get_post_custom();
 			?>
-			<li class="<?php if($i%4==0) echo "factor-four" ?>">
+			<li <?php if($i%4==0) echo "class='factor-four'" ?>>
 				<div class='pic'>
 					<?php 
 						if( count($meta['link'])>0 ){

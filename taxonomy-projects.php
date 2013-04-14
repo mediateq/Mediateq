@@ -21,7 +21,7 @@
 				while(have_posts()){
 					the_post();
 			?>
-			<li class="<?php if($i & 1) echo "odd" ?>">
+			<li <?php if($i & 1) echo "class='odd'" ?>>
 				<div class='pic'>
 					<a href="<?php the_permalink(); ?>"> 
 						<?php 

@@ -21,7 +21,7 @@
 				while(have_posts()){
 					the_post();
 			?>
-			<li class="<?php if($i%4==0) echo "factor-four" ?>">
+			<li <?php if($i%4==0) echo "class='factor-four'" ?>>
 				<div class='pic'>
 					<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 					<a href="<?php echo $url ?>" rel='prettyphoto[gallery1]' title="<?php the_title(); ?>">
