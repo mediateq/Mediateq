@@ -17,10 +17,11 @@
 			<?php
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				query_posts( 'post_type=project&posts_per_page=4&paged=' . $paged);
+				$i=0;
 				while(have_posts()){
 					the_post();
 			?>
-			<li>
+			<li class="<?php if($i & 1) echo "odd" ?>">
 				<div class='pic'>
 					<a href="<?php the_permalink(); ?>"> 
 						<?php 
@@ -41,6 +42,7 @@
 				</div>
 			</li>
 			<?php
+				$i++;
 				}
 			?>
 		</ul>

@@ -16,12 +16,12 @@
 			<?php
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				global $wp_query;
-				query_posts( array_merge( $wp_query->query, array( 'posts_per_page' => 3 ) ) );
-
+				query_posts( array_merge( $wp_query->query, array( 'posts_per_page' => 4 ) ) );
+				$i=0;
 				while(have_posts()){
 					the_post();
 			?>
-			<li>
+			<li class="<?php if($i & 1) echo "odd" ?>">
 				<div class='pic'>
 					<a href="<?php the_permalink(); ?>"> 
 						<?php 
@@ -42,6 +42,7 @@
 				</div>
 			</li>
 			<?php
+				$i++;
 				}
 			?>
 		</ul>

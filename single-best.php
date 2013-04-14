@@ -17,12 +17,13 @@
 			<?php
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				query_posts( 'post_type=best&posts_per_page=12&paged=' . $paged);
+				$i=1;
 				while(have_posts()){
 					the_post();
 
 					$meta = get_post_custom();
 			?>
-			<li>
+			<li class="<?php if($i%4==0) echo "factor-four" ?>">
 				<div class='pic'>
 					<?php 
 						if( count($meta['link'])>0 ){
@@ -48,6 +49,7 @@
 				<div class='text'><?php the_content(); ?></div>
 			</li>
 			<?php
+				$i++;
 				}
 			?>
 		</ul>

@@ -17,10 +17,11 @@
 			<?php
 				$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 				query_posts( 'post_type=gallery&posts_per_page=12&paged=' . $paged);
+				$i=1;
 				while(have_posts()){
 					the_post();
 			?>
-			<li>
+			<li class="<?php if($i%4==0) echo "factor-four" ?>">
 				<div class='pic'>
 					<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); ?>
 					<a href="<?php echo $url ?>" rel='prettyphoto[gallery1]' title="<?php the_title(); ?>">
@@ -39,6 +40,7 @@
 				<div class='text'><?php the_content(); ?></div>
 			</li>
 			<?php
+				$i++;
 				}
 			?>
 		</ul>
