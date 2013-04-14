@@ -24,15 +24,16 @@
 			<h5>فرم تماس</h5>
 		</div>
 		<div class="contact-page">
-			<form action="mail.php" id="contact" method="post" target="_blank">
+			<form action="<?php bloginfo('template_url') ?>/mail.php" id="contact" method="post" target="ifrm">
 				<p><span>*</span> نام:</p>
-				<input type="text"  class="text" name="name" id="name" autocomplete="off" />
+				<input type="text"  class="text" name="name" id="name"/>
 				<p><span>*</span> ایمیل:</p>
-				<input type="text" class="text" name="email" id="email" autocomplete="off" />
+				<input type="text" class="text ltr" name="email" id="email" placeholder="email@example.com"/>
 				<p><span>*</span> پیام:</p>
-				<textarea name="message" id="message" cols="25" rows="5" ></textarea>
+				<textarea name="txt" id="message" cols="25" rows="5" ></textarea>
 				<input type="submit" class="button" id="submit" name="submit" value="ارسال" />
 			</form>
+			<iframe id='ifrm' name='ifrm' src="" frameborder="0" scrolling="no"></iframe>
 			<div class="badboy"></div>
 		</div>
 	</div>

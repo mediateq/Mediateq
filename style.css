@@ -904,6 +904,10 @@ div.contact-content .left .bot .tooltips .github{
     color: red;
 }
 
+.contact-content .right .contact-page .form iframe{
+	opacity: 0;
+}
+
 .contact-content .right .contact-page form input,
 .contact-content .right .contact-page form textarea{
     margin:0 0 20px 0;
