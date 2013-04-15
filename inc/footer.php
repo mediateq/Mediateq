@@ -161,17 +161,27 @@
 
 			<div class="copy">
 				<p>کپی رایت 1391 - تمامی حقوق این سایت متعلق به مِدیا تِک می باشد.</p>
+				<!-- Begin ToolsIR.com counter code -->
+				<div style="display:none;">
+					<script type="text/javascript" src="http://counter.toolsir.com/secure.js"></script>
+					<script type="text/javascript">
+					  var _torder = '&pic=1';
+					  var _turl = 'http://mediateq.ir';
+					  _tCounter (_torder,_turl);
+					</script>
+				</div>
+				<!-- End ToolsIR.com counter code -->
 			</div>
 			<div class="badboy"></div>
 		</div>
-		<script type="text/javascript">
-			  $(document).ready(function(){
-			    $("a[rel^='prettyphoto']").prettyPhoto({
-			    	autoplay_slideshow: true,
-			    	show_title: false,
-			    });
-			  });
-		</script>
 	</footer>
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	    $("a[rel^='prettyphoto']").prettyPhoto({
+	    	autoplay_slideshow: true,
+	    	show_title: false,
+	    });
+	  });
+	</script>
 </body>
 </html>
