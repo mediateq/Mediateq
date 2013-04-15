@@ -60,7 +60,7 @@
 				?>
 				<div class="resource">
 					<div class="image"></div>
-					<p>منبع: <?php echo "<a href=\"http://$res\" target='_blank'> $res </a>" ?></p>
+					<p>منبع: <?php echo " $res " ?></p>
 				</div>
 				<?php
 					}
