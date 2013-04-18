@@ -4,7 +4,7 @@
 ?>
 
 <div id="tit-otherpage">
-	<h5><?php echo get_the_title('14'); ?><span> / <?php echo apply_filters( 'the_title', $term->name ); ?></h5></span>
+	<h5><?php echo get_the_title('20'); ?><span> / <?php echo apply_filters( 'the_title', $term->name ); ?></h5></span>
 </div>
 <div class="hline">
 	<div class="boldline"></div>

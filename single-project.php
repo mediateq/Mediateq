@@ -10,7 +10,7 @@
 			$meta = get_post_custom();
 	?>
 	<div id="tit-otherpage">
-		<h5><?php echo get_the_title('14'); ?><span> / <?php the_title(); ?></span></h5>
+		<h5><?php echo get_the_title('20'); ?><span> / <?php the_title(); ?></span></h5>
 	</div>
 	<div class="hline">
 		<div class="boldline"></div>
