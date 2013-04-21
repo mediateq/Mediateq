@@ -114,10 +114,6 @@
 							<div class='tit'>
 								<p>$title</p>
 							</div>
-							<div class='hlines'></div>
-							<div class='text'>
-								<p>$content...</p>
-							</div>
 						</li>";
 				}
 			?>
